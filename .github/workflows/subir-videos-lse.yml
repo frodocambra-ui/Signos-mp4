@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar gdown
-        run: pip install gdown
+        run: pip install "gdown==5.2.0"
 
       - name: Descargar 14 MP4
         run: |
@@ -48,9 +48,8 @@ jobs:
           dest.mkdir(exist_ok=True)
           for name, fid in videos.items():
               out = dest / name
-              url = f"https://drive.google.com/uc?id={fid}"
               print("Bajando", name)
-              gdown.download(url, str(out), quiet=False, fuzzy=True)
+              gdown.download(id=fid, output=str(out), quiet=False)
               size = out.stat().st_size if out.exists() else 0
               print(" ", name, size)
               if size < 10000:
