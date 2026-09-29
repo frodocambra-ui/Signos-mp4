@@ -1,0 +1,72 @@
+name: Sync videos from Drive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install gdown
+        run: pip install "gdown==5.2.0"
+
+      - name: Download 14 videos into videos/
+        run: |
+          mkdir -p videos
+          python - <<'PY'
+          import gdown
+          from pathlib import Path
+
+          videos = {
+              "hola.mp4": "1Zeb8q7J-bB-QOSYWDyZAZWocGkLMEML7",
+              "buenos-dias.mp4": "1WBKiXklHrf5JgJng_VbPulICDawzS7Dg",
+              "buenas-tardes.mp4": "1NaZPcCCY3a-ZTmGqmf2FEJH80SayKL26",
+              "buenas-noches.mp4": "1HMNS2nsMIdkI-k4GEqvA_Vmc4QI3JK_z",
+              "que-tal.mp4": "1yQEVhJsrXKiy-fxw7kioeuoBar_9-Nxq",
+              "bien.mp4": "11Z6PqDTVKB679UegcR6CapIAN0z0G0-K",
+              "mal.mp4": "1nx3HszX4KKGizuK7DEDwUvl222nTOIDr",
+              "regular.mp4": "1G2Y0FldlexmqLmGhpVpdhFr79HIfuClG",
+              "como-te-llamas.mp4": "1Tthv0Od_dE_e4Kti008fAP5If3eSBQhk",
+              "me-llamo.mp4": "1la83NDMY6ZJxZmEdE2u-z9JjWRJKFEUz",
+              "encantada.mp4": "1rsXkzKm3rCfalN1ljrCHiBZ7gTJgYXWO",
+              "bienvenida.mp4": "1vIOcym7SODSclOAmcug244fP8D729es9",
+              "perdon.mp4": "1F_NeaExikUNEat12U1EeLW07RDb8NhXq",
+              "por-favor.mp4": "1sOlHGuhENGhM6gUMd5w2tTru5zXDYTyX",
+          }
+
+          dest = Path("videos")
+          dest.mkdir(exist_ok=True)
+          for name, fid in videos.items():
+              out = dest / name
+              print("Bajando", name, fid)
+              gdown.download(id=fid, output=str(out), quiet=False)
+              size = out.stat().st_size if out.exists() else 0
+              print("OK", name, size)
+              if size < 10000:
+                  raise SystemExit(
+                      f"Fallo al bajar {name}. Comparte el archivo o la carpeta en Drive con enlace (lector)."
+                  )
+          PY
+
+      - name: Commit videos to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videos/*.mp4
+          if git diff --cached --quiet; then
+            echo "Nada nuevo"
+          else
+            git commit -m "Añade 14 vídeos LSE sin audio"
+            git push
+          fi
