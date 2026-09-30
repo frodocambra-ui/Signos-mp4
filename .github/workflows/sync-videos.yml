@@ -12,61 +12,67 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install gdown
         run: pip install "gdown==5.2.0"
-
-      - name: Download 14 videos into videos/
+      - name: Download videos into videos/
         run: |
           mkdir -p videos
           python - <<'PY'
           import gdown
           from pathlib import Path
-
           videos = {
-              "hola.mp4": "1Zeb8q7J-bB-QOSYWDyZAZWocGkLMEML7",
-              "buenos-dias.mp4": "1WBKiXklHrf5JgJng_VbPulICDawzS7Dg",
-              "buenas-tardes.mp4": "1NaZPcCCY3a-ZTmGqmf2FEJH80SayKL26",
-              "buenas-noches.mp4": "1HMNS2nsMIdkI-k4GEqvA_Vmc4QI3JK_z",
-              "que-tal.mp4": "1yQEVhJsrXKiy-fxw7kioeuoBar_9-Nxq",
-              "bien.mp4": "11Z6PqDTVKB679UegcR6CapIAN0z0G0-K",
-              "mal.mp4": "1nx3HszX4KKGizuK7DEDwUvl222nTOIDr",
-              "regular.mp4": "1G2Y0FldlexmqLmGhpVpdhFr79HIfuClG",
-              "como-te-llamas.mp4": "1Tthv0Od_dE_e4Kti008fAP5If3eSBQhk",
-              "me-llamo.mp4": "1la83NDMY6ZJxZmEdE2u-z9JjWRJKFEUz",
-              "encantada.mp4": "1rsXkzKm3rCfalN1ljrCHiBZ7gTJgYXWO",
-              "bienvenida.mp4": "1vIOcym7SODSclOAmcug244fP8D729es9",
-              "perdon.mp4": "1F_NeaExikUNEat12U1EeLW07RDb8NhXq",
-              "por-favor.mp4": "1sOlHGuhENGhM6gUMd5w2tTru5zXDYTyX",
+              "hola.mp4": "17rG9NOX-oYYhKcv16M2I37EJtemf1JCt",
+              "buenos-dias.mp4": "18dkdpA88vaNR8T_J13IOmku5YEvzIqFe",
+              "buenas-tardes.mp4": "1nRHSbFSUpbGhc88I9TdQ6qvwLFXIX0Ot",
+              "buenas-noches.mp4": "1vHFbxCrUya3yPvvwZm5Iher_njOh2rXj",
+              "que-tal.mp4": "1SOIdeYuxSZ3P7p5noA6JXYnLFRmx-RYM",
+              "bien.mp4": "1Y17yv7Fe7z59MNxnghCOtVMnQPgHiyje",
+              "mal.mp4": "1uV5jnCpLkGQ5uoOq6WvWd9XI5NANpsOW",
+              "regular.mp4": "1KDv2-S1zD1vZBZO4Jonb4nKn06TFPGME",
+              "como-te-llamas.mp4": "1x6WGT7LoWFGNynuesK1zwQateaH7EML0",
+              "me-llamo.mp4": "1ZvEZogNQWBCRBlC8RvHsKHxpy38Q_sFQ",
+              "encantada.mp4": "1FjW_S_-7IDpvKL4lXISdh2GJGK3C53ra",
+              "bienvenida.mp4": "1a4w9zW1l8KAsJaSfwQOSBiw8sAjdLfUE",
+              "perdon.mp4": "1gNeIPFnjv05uUN2z2jxVvC2_GEN_HrBi",
+              "por-favor.mp4": "1wGFzearXJ7EBvGjgo0zGHk6IZN5pcDPR",
+              "lunes.mp4": "10-TExNs7S9uh_jvryMRLf3as3BRm1jlH",
+              "martes.mp4": "131PGBCwtH04YLCoo0qqZcNXSnKNCSzJm",
+              "miercoles.mp4": "1a7QFFNZeg9OFLhHA084Zhxm6Z3olBQCy",
+              "jueves.mp4": "1k_N3KEaAVg5c1v9SKsjfSJLnVy1fXWyc",
+              "viernes.mp4": "1c01C0lRkC3fLeIkCPIR4CJsjfMBnxiJ_",
+              "sabado.mp4": "1a2wWiJ-qEZKHFnq3l0T9DESeUiATBETp",
+              "domingo.mp4": "1JIdqcUtIzStUyG6DxIfDnawvHkiu-tHb",
+              "enero.mp4": "1gEVY-dpy8rW29Pza-UkFi-i6s1aGH9cX",
+              "febrero.mp4": "1DJayUa6T9fh7Uzz-dNwJz4Iy8LAOWgOz",
+              "marzo.mp4": "1eqTEcgwf_9nJJnNtAtEcx0qd0Y5oDRPB",
+              "abril.mp4": "1_FliD9nX2ZLzn5GM7oDAAB3yG3kP80IS",
+              "mayo.mp4": "1nTpgPaBCjj3SnjRBvH4fbDDCMNkZT-7U",
+              "junio.mp4": "19xsthMfLmMRtleiD7T0UlabAEWbml1Ri",
+              "julio.mp4": "1mSHt8NKwRHd9l8W7XFqclpd7jaAn6n4M",
+              "agosto.mp4": "1u-uT4LEw8QlrWuZGLTCQldKjf1-XXvUG",
+              "septiembre.mp4": "1OwfEFIh3-QrxZopW1ldY27T-gBCL19lI",
+              "octubre.mp4": "18NJyzdr9j2OrrBv38K5IJ3O1Y527jM0w",
+              "noviembre.mp4": "1C2d-y2v41RcJbmDE_xBxUh67vk19GBLJ",
+              "diciembre.mp4": "1qFmLfPptV1_kppcL0xkfDtvp-TfVBAcg",
           }
-
           dest = Path("videos")
           dest.mkdir(exist_ok=True)
           for name, fid in videos.items():
               out = dest / name
-              print("Bajando", name, fid)
+              print("Bajando", name)
               gdown.download(id=fid, output=str(out), quiet=False)
               size = out.stat().st_size if out.exists() else 0
               print("OK", name, size)
               if size < 10000:
-                  raise SystemExit(
-                      f"Fallo al bajar {name}. Comparte el archivo o la carpeta en Drive con enlace (lector)."
-                  )
+                  raise SystemExit("Fallo al bajar " + name)
           PY
-
       - name: Commit videos to the repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add videos/*.mp4
-          if git diff --cached --quiet; then
-            echo "Nada nuevo"
-          else
-            git commit -m "Añade 14 vídeos LSE sin audio"
-            git push
-          fi
+          if git diff --cached --quiet; then echo Nada nuevo; else git commit -m "Sincroniza videos LSE desde Drive" && git push; fi
