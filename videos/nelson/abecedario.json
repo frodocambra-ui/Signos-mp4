@@ -1,5 +1,5 @@
 {
-  "aviso": "Abecedario de Nelson, modo niños. No son palabras. No mezclar con videos/ de Susana. La ñ es enie.mp4.",
+  "aviso": "Abecedario de Nelson, modo niños, con voz. No son palabras. No mezclar con videos/ de Susana, que siguen sin sonido. La ñ es enie.mp4.",
   "tipo": "abecedario",
   "personaje": "nelson",
   "modo": "ninos",
@@ -33,5 +33,6 @@
     "y",
     "z",
     "enie"
-  ]
+  ],
+  "audio": "dice el nombre de la letra"
 }
