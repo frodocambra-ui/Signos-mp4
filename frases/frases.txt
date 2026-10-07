@@ -1,0 +1,23 @@
+# Frases comunes de SignoLand montadas con los vídeos de Susana (carpeta videos/).
+# Formato:  nombre-del-archivo: palabra1, palabra2, ...
+# Las palabras van en orden LSE y deben existir como videos/<palabra>.mp4.
+# Si cambias esta lista, GitHub vuelve a montar los vídeos de frases/ solo.
+hola-que-tal: hola, que-tal
+encantada-de-conocerte: conocer, encantada
+que-tal-el-fin-de-semana: fin-de-semana, que-tal
+no-entiendo-repite-por-favor: no-entiendo, repite, por-favor
+mas-despacio-por-favor: mas-despacio, por-favor
+otra-vez-por-favor: otra-vez, por-favor
+escribelo-por-favor: escribir, por-favor
+ayuda-por-favor: ayuda, por-favor
+llama-al-medico-por-favor: medico, llamar, por-favor
+quiero-ir-al-hospital: hospital, ir, querer
+busco-una-farmacia: farmacia, buscar
+estoy-enfermo-tengo-fiebre: enfermo, fiebre
+quiero-ir-al-bano: bano, ir, querer
+quiero-agua-por-favor: agua, querer, por-favor
+estoy-cansado-quiero-dormir: cansado, dormir, querer
+voy-a-trabajar: trabajar, ir
+mandame-un-whatsapp: whatsapp, enviar
+avisa-a-la-familia: familia, avisar
+llama-por-telefono: telefono, llamar

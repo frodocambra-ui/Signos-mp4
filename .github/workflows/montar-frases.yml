@@ -1,0 +1,38 @@
+name: Montar frases con los vídeos de Susana
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "frases/frases.txt"
+      - "frases/montar-frases.sh"
+      - ".github/workflows/montar-frases.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Montar los vídeos de frases/
+        run: bash frases/montar-frases.sh
+
+      - name: Guardar en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frases/*.mp4
+          if git diff --cached --quiet; then
+            echo "Nada nuevo"
+          else
+            git commit -m "Montar vídeos de frases/ con los vídeos de Susana"
+            git push
+          fi
