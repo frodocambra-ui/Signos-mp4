@@ -52,3 +52,36 @@ voy-a-la-escuela: escuela, ir
 no-entiendo-al-profesor: profesor, no-entiendo
 quiero-ver-la-television: television, ver, querer
 escribeme-un-email: email, escribir
+# Frases largas (tanda 3): dos ideas juntas, solo con palabras que ya están en videos/.
+tengo-fiebre-quiero-ir-al-hospital: fiebre, hospital, ir, querer
+tengo-fiebre-y-dolor-quiero-ir-al-medico: fiebre, dolor, medico, ir, querer
+tengo-fiebre-llama-al-medico: fiebre, medico, llamar
+mi-hija-tiene-fiebre-quiero-ir-al-hospital: hija, fiebre, hospital, ir, querer
+mi-hijo-esta-enfermo-tiene-fiebre: hijo, enfermo, fiebre
+tengo-dolor-quiero-una-pastilla-por-favor: dolor, pastilla, querer, por-favor
+tengo-dolor-busco-una-farmacia: dolor, farmacia, buscar
+tengo-una-herida-quiero-una-venda: herida, venda, querer
+tengo-la-tension-mal-llama-al-medico: tension, mal, medico, llamar
+estoy-mal-avisa-a-la-familia: mal, familia, avisar
+tengo-miedo-ayuda-por-favor: miedo, ayuda, por-favor
+estoy-nervioso-quiero-hablar-con-el-medico: nervioso, medico, hablar, querer
+quiero-ver-a-la-enfermera-por-favor: enfermera, ver, querer, por-favor
+tengo-frio-quiero-el-abrigo: frio, abrigo, querer
+tengo-calor-quiero-agua: calor, agua, querer
+tengo-hambre-quiero-pan: hambre, pan, querer
+tengo-sed-quiero-un-zumo-de-naranja: sed, zumo, naranja, querer
+la-comida-esta-bien-me-gusta: comida, bien, gustar
+tengo-sueno-quiero-dormir-buenas-noches: sueno, dormir, querer, buenas-noches
+estoy-cansado-me-voy-a-casa: cansado, casa, ir
+hola-buenos-dias-como-te-llamas: hola, buenos-dias, como-te-llamas
+hola-me-llamo-encantada-de-conocerte: hola, me-llamo, conocer, encantada
+perdon-no-entiendo-escribelo-por-favor: perdon, no-entiendo, escribir, por-favor
+no-entiendo-mas-despacio-por-favor: no-entiendo, mas-despacio, por-favor
+no-entiendo-al-profesor-repite-por-favor: profesor, no-entiendo, repite, por-favor
+tengo-audifono-mas-despacio-por-favor: audifono, mas-despacio, por-favor
+estoy-triste-quiero-ver-a-mi-madre: triste, madre, ver, querer
+estoy-feliz-vivo-con-mi-familia: familia, vivir, feliz
+el-viernes-voy-al-medico: viernes, medico, ir
+el-sabado-voy-a-casa-del-abuelo: sabado, abuelo, casa, ir
+me-gusta-trabajar-en-la-oficina: oficina, trabajar, gustar
+mandame-un-whatsapp-al-movil: movil, whatsapp, enviar
