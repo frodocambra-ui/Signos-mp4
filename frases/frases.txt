@@ -85,3 +85,41 @@ el-viernes-voy-al-medico: viernes, medico, ir
 el-sabado-voy-a-casa-del-abuelo: sabado, abuelo, casa, ir
 me-gusta-trabajar-en-la-oficina: oficina, trabajar, gustar
 mandame-un-whatsapp-al-movil: movil, whatsapp, enviar
+# Variantes femenino/plural (tanda 4): mismos vídeos de Susana que la frase original, para que la app reconozca femenino y plural.
+bienvenido: bienvenida
+bienvenidos: bienvenida
+bienvenidas: bienvenida
+bienvenido-a-casa: casa, bienvenida
+bienvenidos-a-casa: casa, bienvenida
+bienvenidas-a-casa: casa, bienvenida
+encantados-de-conocerte: conocer, encantada
+encantadas-de-conocerte: conocer, encantada
+estoy-enferma-tengo-fiebre: enfermo, fiebre
+estamos-enfermos-tenemos-fiebre: enfermo, fiebre
+estamos-enfermas-tenemos-fiebre: enfermo, fiebre
+estoy-cansada-quiero-dormir: cansado, dormir, querer
+estamos-cansados-queremos-dormir: cansado, dormir, querer
+estamos-cansadas-queremos-dormir: cansado, dormir, querer
+estoy-triste-y-cansada: triste, cansado
+estamos-tristes-y-cansados: triste, cansado
+estamos-tristes-y-cansadas: triste, cansado
+estoy-nerviosa-tengo-miedo: nervioso, miedo
+estamos-nerviosos-tenemos-miedo: nervioso, miedo
+estamos-nerviosas-tenemos-miedo: nervioso, miedo
+estoy-cansada-me-voy-a-casa: cansado, casa, ir
+estamos-cansados-nos-vamos-a-casa: cansado, casa, ir
+estamos-cansadas-nos-vamos-a-casa: cansado, casa, ir
+estoy-nerviosa-quiero-hablar-con-el-medico: nervioso, medico, hablar, querer
+mi-padre-esta-enfermo: padre, enfermo
+mi-madre-esta-en-el-hospital: madre, hospital
+mi-hijo-tiene-fiebre-quiero-ir-al-hospital: hijo, fiebre, hospital, ir, querer
+mi-hija-esta-enferma-tiene-fiebre: hija, enfermo, fiebre
+estoy-triste-quiero-ver-a-mi-padre: triste, padre, ver, querer
+el-domingo-voy-a-casa-del-abuelo: domingo, abuelo, casa, ir
+el-sabado-voy-a-casa-de-la-abuela: sabado, abuela, casa, ir
+no-entiendo-a-la-profesora: profesor, no-entiendo
+no-entiendo-a-la-profesora-repite-por-favor: profesor, no-entiendo, repite, por-favor
+quiero-ver-al-enfermero-por-favor: enfermera, ver, querer, por-favor
+llama-a-la-medica-por-favor: medico, llamar, por-favor
+tengo-fiebre-llama-a-la-medica: fiebre, medico, llamar
+tengo-la-tension-mal-llama-a-la-medica: tension, mal, medico, llamar
