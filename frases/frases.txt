@@ -21,3 +21,34 @@ voy-a-trabajar: trabajar, ir
 mandame-un-whatsapp: whatsapp, enviar
 avisa-a-la-familia: familia, avisar
 llama-por-telefono: telefono, llamar
+# Frases añadidas (tanda 2): solo con palabras que ya están en videos/.
+buenos-dias-que-tal: buenos-dias, que-tal
+buenas-tardes-que-tal: buenas-tardes, que-tal
+buenas-noches-me-voy-a-dormir: buenas-noches, dormir, ir
+hola-como-te-llamas: hola, como-te-llamas
+hola-me-llamo: hola, me-llamo
+adios-buen-fin-de-semana: adios, fin-de-semana, bien
+perdon-no-entiendo: perdon, no-entiendo
+perdon-que-significa: perdon, que-significa
+estoy-triste-y-cansado: triste, cansado
+estoy-nervioso-tengo-miedo: nervioso, miedo
+tengo-hambre-quiero-comer: hambre, comer, querer
+tengo-sed-quiero-agua: sed, agua, querer
+tengo-sueno-me-voy-a-la-cama: sueno, cama, ir
+quiero-un-zumo-de-naranja: zumo, naranja, querer
+me-gusta-la-tarta: tarta, gustar
+tengo-dolor-quiero-ir-al-medico: dolor, medico, ir, querer
+quiero-una-pastilla-por-favor: pastilla, querer, por-favor
+tengo-una-herida-ayuda: herida, ayuda
+mi-madre-esta-enferma: madre, enfermo
+mi-padre-esta-en-el-hospital: padre, hospital
+vivo-con-mi-familia: familia, vivir
+voy-a-casa: casa, ir
+bienvenida-a-casa: casa, bienvenida
+trabajo-en-una-oficina: oficina, trabajar
+el-lunes-voy-a-trabajar: lunes, trabajar, ir
+el-domingo-voy-a-casa-de-la-abuela: domingo, abuela, casa, ir
+voy-a-la-escuela: escuela, ir
+no-entiendo-al-profesor: profesor, no-entiendo
+quiero-ver-la-television: television, ver, querer
+escribeme-un-email: email, escribir
