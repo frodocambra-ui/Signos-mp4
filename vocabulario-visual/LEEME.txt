@@ -1,2 +1,2 @@
-Vídeos de vocabulario con dibujo: colores, animales, frutas, familia, números y saludos.
-No son lengua de signos. Los signos de verdad están en la carpeta videos/.
+Estos dibujos no son lengua de signos. No los uses para aprender un signo.
+Los vídeos en los que Susana signa de verdad están en la carpeta susana.
