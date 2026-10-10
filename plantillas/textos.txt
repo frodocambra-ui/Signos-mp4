@@ -33,6 +33,8 @@ vigilancia-despertar.mp3 (4.9 s): Buenos días. Despierta, es hora de levantarse
 vigilancia-disuasion.mp3 (5.8 s): Atención: estás siendo grabado. La policía ha sido avisada.
 vigilancia-dormir.mp3 (4.9 s): Es hora de dormir. Buenas noches, que descanses.
 vigilancia-tranquilo.mp3 (4.5 s): Tranquilo, cariño. Mamá viene enseguida.
+vigilancia-nana.mp3 (91.4 s): nana suave de caja de música para dormir a un niño pequeño («Guten Abend, gut' Nacht», la nana de Brahms), repetida dos veces. Fuente: Wikimedia Commons, File:Lullaby_wound_up_clock_guten_abend_gute_nacht.ogg (autor: stephan) – https://commons.wikimedia.org/wiki/File:Lullaby_wound_up_clock_guten_abend_gute_nacht.ogg. Licencia: dominio público.
+vigilancia-ruido-blanco.mp3 (60 s): ruido suave (ruido rosa, más agradable que el blanco puro) para ayudar a dormir; se puede repetir en bucle. Generado por ordenador con ffmpeg (sin derechos de terceros).
 
 MODO AVISOS – SONIDOS (no son voz; muestras para que la burbuja de Avisos los aprenda)
 --------------------------------------------------------------------------------------
@@ -41,6 +43,22 @@ avisos-alarma-humo.mp3 (8.0 s): pitido de alarma de humo (primeros 8 s). Fuente:
 avisos-llanto-bebe.mp3 (10.0 s): llanto de bebé recién nacido (primeros 10 s). Fuente: Wikimedia Commons, File:Crying_newborn_baby.ogg (autor: the_yura). Licencia: CC0.
 avisos-lavadora.mp3 (7.8 s): lavadora en marcha. Fuente: Wikimedia Commons, File:Washing_machine.ogg (autor: chocoholic). Licencia: dominio público.
 avisos-telefono-sintetico.mp3 (7.5 s): timbre de teléfono generado por ordenador con ffmpeg (sin derechos de terceros). No he encontrado ningún timbre de teléfono CC0 o de dominio público que sirva.
+avisos-timbre-bici.mp3 (7.0 s): timbre de bicicleta (ring), repetido 4 veces. Fuente: Wikimedia Commons, File:Bicycle-bell-1.wav (autor: Soundscape_Leuphana) – https://commons.wikimedia.org/wiki/File:Bicycle-bell-1.wav. Licencia: CC0.
+avisos-camion-marcha-atras.mp3 (9.3 s): pitido de camión dando marcha atrás. Fuente: Wikimedia Commons, File:Back-up_beeper.ogg (autor: Ke4roh) – https://commons.wikimedia.org/wiki/File:Back-up_beeper.ogg. Licencia: CC0.
+avisos-sirena-policia.mp3 (10.0 s): sirena de policía (ululante). Fuente: Freesound, «sirena» (autor: crisca0904) – https://freesound.org/people/crisca0904/sounds/471254/. Licencia: CC0.
+avisos-sirena-bomberos.mp3 (5.9 s): camión de bomberos de París con sirena de dos tonos (europea). Fuente: Freesound, «Parisian fire truck siren» (autor: Mxsmanic) – https://freesound.org/people/Mxsmanic/sounds/139324/. Licencia: CC0.
+avisos-sirena-ambulancia.mp3 (10.0 s): ambulancia pasando con la sirena. Fuente: Freesound, «Ambulance Siren» (autor: LanDub) – https://freesound.org/people/LanDub/sounds/184623/. Licencia: CC0.
+avisos-grito-cuidado.mp3 (7.1 s): grito de persona (no dice «¡Cuidado!»; no se encontró ninguna grabación libre con esa palabra). Fuente: Freesound, «Female scream 01» (autor: missozzy) – https://freesound.org/people/missozzy/sounds/169810/. Licencia: CC0.
+avisos-frenazo-coche.mp3 (8.0 s): frenazo y chirrido de ruedas. Fuente: Freesound, «Llantas_rechinando.wav» (autor: nmarciniegasm) – https://freesound.org/people/nmarciniegasm/sounds/237312/. Licencia: CC0.
+avisos-bocina-coche.mp3 (7.1 s): bocina de coche (dos pitidos, repetidos). Fuente: Wikimedia Commons, File:Car_Horn.wav – https://commons.wikimedia.org/wiki/File:Car_Horn.wav. Licencia: CC0.
+avisos-perro-ladrando.mp3 (10.0 s): perro ladrando. Fuente: Freesound, «A dog barking (close recording)» (autor: felix.blume) – https://freesound.org/people/felix.blume/sounds/199261/. Licencia: CC0.
+avisos-golpes-puerta.mp3 (8.4 s): alguien llamando a la puerta con los nudillos. Fuente: Freesound, «Knocking on Door» (autor: Fabrizio84) – https://freesound.org/people/Fabrizio84/sounds/458007/. Licencia: CC0.
+avisos-microondas-pitido.mp3 (7.4 s): pitidos del microondas al terminar. Fuente: Freesound, «microwave beep.wav» (autor: photogtony) – https://freesound.org/people/photogtony/sounds/242006/. Licencia: CC0.
+avisos-pitido-lavadora-fin.mp3 (6.1 s): pitidos de la lavadora al terminar el programa. Fuente: Freesound, «Washing Machine_Finish Beep.wav» (autor: KaleidacousticsAudio, antes Mar.Sounds) – https://freesound.org/people/KaleidacousticsAudio/sounds/630439/. Licencia: CC0.
+avisos-despertador.mp3 (8.6 s): despertador sonando. Fuente: Freesound, «alarm clock short.wav» (autor: ZyryTSounds) – https://freesound.org/people/ZyryTSounds/sounds/219244/. Licencia: CC0.
+avisos-cristal-roto.mp3 (5.3 s): cristal rompiéndose. Fuente: Freesound, «glass break» (autor: nick121087) – https://freesound.org/people/nick121087/sounds/232176/. Licencia: CC0.
+avisos-alarma-coche.mp3 (10.0 s): alarma de coche. Fuente: Freesound, «Car alarm» (autor: aaron.drh) – https://freesound.org/people/aaron.drh/sounds/513942/. Licencia: CC0.
+avisos-paso-a-nivel.mp3 (10.0 s): señal acústica de paso a nivel de tren (Bélgica). Fuente: Wikimedia Commons, File:Level_crossing_Belgium_2022.ogg – https://commons.wikimedia.org/wiki/File:Level_crossing_Belgium_2022.ogg. Licencia: CC0.
 
 EXPLICACIONES DE CADA PANTALLA (hechas antes del cambio de encargo; carpeta explicaciones/)
 -------------------------------------------------------------------------------------------
