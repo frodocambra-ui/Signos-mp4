@@ -1,0 +1,16 @@
+De dónde salen estos vídeos
+
+Son 300 vídeos de señas de verdad. No los ha generado la app. No es Susana.
+
+Fuente: SWL-LSE, Universidad de Vigo, con la Fundación CNSE.
+DOI: https://doi.org/10.5281/zenodo.13691887
+Licencia: CC BY 4.0. Se pueden usar si se cita la fuente.
+https://creativecommons.org/licenses/by/4.0/
+
+En pantalla se lee fundacioncnse.org.
+
+Son palabras de salud (alergia, vomitar, alcohol y otras). No son el abecedario, ni los saludos, ni los meses.
+
+El nombre de cada archivo es el código original. La palabra está en LISTADO.csv.
+
+No se han tocado los demás vídeos de la carpeta videos/.
