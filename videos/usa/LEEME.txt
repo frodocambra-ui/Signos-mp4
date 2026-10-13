@@ -1,0 +1,3 @@
+Lengua de signos americana.
+Fuente: simplyyousef/American-Sign-Language-Dataset. Licencia MIT.
+Un vídeo por palabra.
