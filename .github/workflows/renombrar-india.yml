@@ -27,7 +27,6 @@ jobs:
           import webdataset as wds
           import json
           import re
-          import shutil
           from pathlib import Path
 
           dest = Path("videos/india")
@@ -38,14 +37,16 @@ jobs:
 
           def slug(text):
               text = str(text).lower().strip()
-              text = re.sub(r'[^a-z0-9\u0900-\u097F]+', '-', text)  # keep Devanagari too
+              # keep basic letters and numbers, replace others with hyphen
+              text = re.sub(r'[^a-z0-9]+', '-', text)
               text = re.sub(r'-+', '-', text).strip('-')
               return text[:80] or "sign"
 
-          # map key -> word
           key_to_word = {}
-          dataset = wds.WebDataset(urls, shardshuffle=False)
+          dataset = wds.WebDataset(urls, shardshuffle=False).decode()
+          sample_count = 0
           for sample in dataset:
+              sample_count += 1
               try:
                   key = sample.get("__key__", "")
                   js = sample.get("json")
@@ -55,36 +56,34 @@ jobs:
                       js = json.loads(js)
                   word = None
                   if isinstance(js, dict):
-                      # try several fields
-                      for field in ("glosses", "transcripts", "filename", "gloss", "word", "label"):
-                          val = js.get(field)
-                          if val:
-                              if isinstance(val, list) and val:
-                                  word = str(val[0])
-                              else:
-                                  word = str(val)
-                              break
+                      # prefer glosses, then transcripts
+                      val = js.get("glosses") or js.get("transcripts") or js.get("filename")
+                      if val:
+                          if isinstance(val, list) and val:
+                              word = str(val[0])
+                          else:
+                              word = str(val)
                   if word and key:
-                      key_to_word[key] = slug(word)
-              except Exception:
+                      key_to_word[str(key)] = slug(word)
+                  # debug first few
+                  if sample_count <= 5:
+                      print(f"sample {sample_count} key={key} json_keys={list(js.keys()) if isinstance(js, dict) else type(js)} word={word}")
+              except Exception as e:
+                  if sample_count <= 5:
+                      print("error", e)
                   continue
 
           print(f"Mapeos encontrados: {len(key_to_word)}")
-          # sample
-          items = list(key_to_word.items())[:10]
-          for k, w in items:
+          print("Ejemplos:")
+          for k, w in list(key_to_word.items())[:10]:
               print(f"  {k} -> {w}")
 
-          # rename existing numbered files
+          # rename numbered files
           renamed = 0
           seen = set()
           for mp4 in sorted(dest.glob("*.mp4")):
               stem = mp4.stem
-              # if stem looks like a number/key, try to map
               word = key_to_word.get(stem)
-              if not word:
-                  # also try without leading zeros etc
-                  word = key_to_word.get(stem.lstrip("0") or "0")
               if word:
                   final = word
                   i = 1
@@ -99,17 +98,15 @@ jobs:
           print(f"Renombrados: {renamed}")
           PY
 
-      - name: Subir renombrados por lotes
+      - name: Subir renombrados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cd videos/india
-          # remove old numbered if any left, then add all
           git add -A
           if git diff --cached --quiet; then
             echo "Nada que renombrar"
           else
-            git commit -m "Renombra vídeos ISL con la palabra"
-            # push in chunks if needed
+            git commit -m "Renombra vídeos ISL con la palabra real del dataset"
             git push || git push || true
           fi
