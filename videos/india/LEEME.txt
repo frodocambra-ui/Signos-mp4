@@ -1,0 +1,6 @@
+Lengua de signos india (ISL).
+Fuente: Bridge Connectivity Solutions – sign-dictionary-isl (Hugging Face).
+Licencia: CC BY-SA 4.0.
+Hay que citar a Bridge Connectivity Solutions y mantener la misma licencia (CC BY-SA 4.0).
+Aproximadamente 3.000 signos.
+Enlace: https://huggingface.co/datasets/bridgeconn/sign-dictionary-isl
