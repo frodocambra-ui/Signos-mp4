@@ -1,4 +1,4 @@
-name: Subir videos India (ISL) desde Drive
+name: Subir videos India (ISL) desde Hugging Face
 
 on:
   workflow_dispatch:
@@ -18,43 +18,76 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar gdown
-        run: pip install "gdown==5.2.0"
+      - name: Instalar dependencias
+        run: pip install webdataset requests
 
-      - name: Descargar y extraer lotes ISL
+      - name: Descargar, extraer y renombrar vídeos ISL
         run: |
-          mkdir -p /tmp/isl videos/india
+          mkdir -p videos/india
           python - <<'PY'
-          import gdown, tarfile, shutil
+          import webdataset as wds
+          import json
+          import re
           from pathlib import Path
 
-          lotes = {
-              "isl-batch-1.tar.gz": "1m4-vAq1DSB5DpmOERPxW8nx3MXx-_9wM",
-              "isl-batch-2.tar.gz": "1ljOSZFO0EGK9H3QYRNEkkPsRnK-9CbFT",
-              "isl-batch-3.tar.gz": "1Hyne4NZYgFcy_zGG0j4r_69yNHye-LHX",
-              "isl-batch-4.tar.gz": "1qmm-M_qfuDnvgs7_Q2t8JDe7gKgFREbA",
-              "isl-batch-5.tar.gz": "1z9C0mrT1RWoktHSPrvO-KN_Hy9cEuLkr",
-              "isl-batch-6.tar.gz": "1ihdkADuZNJ3jdxcdIMnBrIDaV4PTszm5",
-          }
-          tmp = Path("/tmp/isl")
           dest = Path("videos/india")
           dest.mkdir(parents=True, exist_ok=True)
-          for name, fid in lotes.items():
-              out = tmp / name
-              print("Bajando", name)
-              gdown.download(id=fid, output=str(out), quiet=False)
-              size = out.stat().st_size if out.exists() else 0
-              print(" ", name, size)
-              if size < 100000:
-                  raise SystemExit(f"Fallo al bajar {name}. Comparte el archivo en Drive con enlace (lector).")
-              print("Extrayendo", name)
-              with tarfile.open(out, "r:gz") as t:
-                  t.extractall(tmp / name.replace(".tar.gz", ""))
-              # mover mp4s
-              for mp4 in (tmp / name.replace(".tar.gz", "")).rglob("*.mp4"):
-                  target = dest / mp4.name
-                  shutil.move(str(mp4), str(target))
-              print("OK", name)
+
+          urls = [
+              f"https://huggingface.co/datasets/bridgeconn/sign-dictionary-isl/resolve/main/shard_{i:05d}-train.tar"
+              for i in range(1, 8)
+          ]
+
+          def slug(text):
+              text = text.lower().strip()
+              text = re.sub(r'[^a-z0-9]+', '-', text)
+              text = re.sub(r'-+', '-', text).strip('-')
+              return text or "sign"
+
+          count = 0
+          seen = set()
+          dataset = wds.WebDataset(urls, shardshuffle=False).decode()
+          for sample in dataset:
+              try:
+                  js = sample.get("json")
+                  if isinstance(js, bytes):
+                      js = json.loads(js.decode("utf-8"))
+                  elif isinstance(js, str):
+                      js = json.loads(js)
+                  name = None
+                  if isinstance(js, dict):
+                      if js.get("glosses"):
+                          name = js["glosses"][0] if isinstance(js["glosses"], list) else str(js["glosses"])
+                      elif js.get("transcripts"):
+                          name = js["transcripts"][0] if isinstance(js["transcripts"], list) else str(js["transcripts"])
+                      elif js.get("filename"):
+                          name = js["filename"]
+                  if not name:
+                      name = sample.get("__key__", f"sign-{count}")
+                  base = slug(str(name))
+                  # avoid collisions
+                  final = base
+                  i = 1
+                  while final in seen:
+                      final = f"{base}-{i}"
+                      i += 1
+                  seen.add(final)
+                  mp4 = sample.get("mp4")
+                  if mp4 is None:
+                      continue
+                  out = dest / f"{final}.mp4"
+                  if isinstance(mp4, bytes):
+                      out.write_bytes(mp4)
+                  else:
+                      # already decoded path or similar
+                      continue
+                  count += 1
+                  if count % 200 == 0:
+                      print(f"Procesados {count}")
+              except Exception as e:
+                  print("skip", e)
+                  continue
+          print(f"Total vídeos guardados: {count}")
           PY
 
       - name: Guardar en el repo
@@ -65,6 +98,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nada nuevo"
           else
-            git commit -m "Añade vídeos de lengua de signos india (ISL)"
+            git commit -m "Añade vídeos de lengua de signos india (ISL) desde Hugging Face"
             git push
           fi
