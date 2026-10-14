@@ -1,0 +1,70 @@
+name: Subir videos India (ISL) desde Drive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  subir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar gdown
+        run: pip install "gdown==5.2.0"
+
+      - name: Descargar y extraer lotes ISL
+        run: |
+          mkdir -p /tmp/isl videos/india
+          python - <<'PY'
+          import gdown, tarfile, shutil
+          from pathlib import Path
+
+          lotes = {
+              "isl-batch-1.tar.gz": "1m4-vAq1DSB5DpmOERPxW8nx3MXx-_9wM",
+              "isl-batch-2.tar.gz": "1ljOSZFO0EGK9H3QYRNEkkPsRnK-9CbFT",
+              "isl-batch-3.tar.gz": "1Hyne4NZYgFcy_zGG0j4r_69yNHye-LHX",
+              "isl-batch-4.tar.gz": "1qmm-M_qfuDnvgs7_Q2t8JDe7gKgFREbA",
+              "isl-batch-5.tar.gz": "1z9C0mrT1RWoktHSPrvO-KN_Hy9cEuLkr",
+              "isl-batch-6.tar.gz": "1ihdkADuZNJ3jdxcdIMnBrIDaV4PTszm5",
+          }
+          tmp = Path("/tmp/isl")
+          dest = Path("videos/india")
+          dest.mkdir(parents=True, exist_ok=True)
+          for name, fid in lotes.items():
+              out = tmp / name
+              print("Bajando", name)
+              gdown.download(id=fid, output=str(out), quiet=False)
+              size = out.stat().st_size if out.exists() else 0
+              print(" ", name, size)
+              if size < 100000:
+                  raise SystemExit(f"Fallo al bajar {name}. Comparte el archivo en Drive con enlace (lector).")
+              print("Extrayendo", name)
+              with tarfile.open(out, "r:gz") as t:
+                  t.extractall(tmp / name.replace(".tar.gz", ""))
+              # mover mp4s
+              for mp4 in (tmp / name.replace(".tar.gz", "")).rglob("*.mp4"):
+                  target = dest / mp4.name
+                  shutil.move(str(mp4), str(target))
+              print("OK", name)
+          PY
+
+      - name: Guardar en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videos/india/
+          if git diff --cached --quiet; then
+            echo "Nada nuevo"
+          else
+            git commit -m "Añade vídeos de lengua de signos india (ISL)"
+            git push
+          fi
