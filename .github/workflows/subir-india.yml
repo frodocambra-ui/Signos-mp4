@@ -65,7 +65,6 @@ jobs:
                   if not name:
                       name = sample.get("__key__", f"sign-{count}")
                   base = slug(str(name))
-                  # avoid collisions
                   final = base
                   i = 1
                   while final in seen:
@@ -79,7 +78,6 @@ jobs:
                   if isinstance(mp4, bytes):
                       out.write_bytes(mp4)
                   else:
-                      # already decoded path or similar
                       continue
                   count += 1
                   if count % 200 == 0:
@@ -90,14 +88,22 @@ jobs:
           print(f"Total vídeos guardados: {count}")
           PY
 
-      - name: Guardar en el repo
+      - name: Guardar en el repo por lotes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add videos/india/
-          if git diff --cached --quiet; then
-            echo "Nada nuevo"
-          else
-            git commit -m "Añade vídeos de lengua de signos india (ISL) desde Hugging Face"
-            git push
-          fi
+          cd videos/india
+          # sube en lotes de 400 para evitar errores de push
+          ls *.mp4 2>/dev/null | split -l 400 - batch_
+          for f in batch_*; do
+            echo "Procesando lote $f"
+            xargs -a "$f" git add
+            git commit -m "Añade lote de vídeos ISL ($f)" || true
+            git push || echo "Push del lote falló, reintento..."
+            git push || true
+          done
+          cd ../..
+          # asegura que todo esté subido
+          git add videos/india/ || true
+          git commit -m "Añade vídeos ISL restantes" || true
+          git push || true
