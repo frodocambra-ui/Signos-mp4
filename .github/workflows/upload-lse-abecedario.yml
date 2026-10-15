@@ -1,0 +1,14 @@
+name: Upload LSE Abecedario
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create clips directory
+        run: mkdir -p videos/lse-abecedario
+      - name: Note
+        run: echo "Los clips A-I están preparados. Subir manualmente o via API con los ficheros de /tmp/lse_ref"
