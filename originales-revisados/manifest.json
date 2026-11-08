@@ -1,13 +1,13 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Seis recortes de origen humano. El rótulo y el movimiento se compararon con su fuente. Siguen con texto incrustado. No son finales de Susan, no certifican la LSE y no entran en la app.",
+  "que_son": "Seis recortes de origen humano comparados con su fuente. Los tres de cocina ya no llevan el rótulo; los tres de boda todavía lo llevan. No son finales de Susan, no certifican la LSE y no entran en la app. Wan sigue pendiente.",
   "revision_visual": "Comparación contra la fuente de cada lote. No es certificación LSE ni final de Susan.",
   "archivos": [
     {
       "nombre": "cuchillo.mp4",
       "ruta": "originales-revisados/cuchillo.mp4",
-      "sha256": "dbb6195734e5e69f5801bc2905642f02f1d1786fd8098541abf3849b14701f76",
-      "bytes": 206300,
+      "sha256": "83bda32ebb61b1c7db4de48efd790b443f6e7c834763dadf1fda1cfb696f4382",
+      "bytes": 253649,
       "duracion_s": "3.400000",
       "ancho": 854,
       "alto": 480,
@@ -20,7 +20,7 @@
       "estado_recorte": "recorte_revisado",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
-      "estado_limpieza_texto": "pendiente",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
       "certificacion_lse": false,
       "final_para_app": false,
       "archivo_previo_mismo_nombre": {
@@ -31,13 +31,18 @@
       },
       "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
       "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
-      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado."
+      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado.",
+      "pre_limpieza_hash": "dbb6195734e5e69f5801bc2905642f02f1d1786fd8098541abf3849b14701f76",
+      "pre_limpieza_bytes": 206300,
+      "pre_limpieza_commit": "d39f93f2e0f7cc638c2602ad2826518fde546878",
+      "final_susan": false,
+      "rotulo": "ausente en esta versión; el archivo anterior con texto queda en el hash pre_limpieza y en el commit d39f93f"
     },
     {
       "nombre": "vaso.mp4",
       "ruta": "originales-revisados/vaso.mp4",
-      "sha256": "59b391b36e737b2512262d1b32d0c98dfaf12049631b380edfeb1dfed8ddfa55",
-      "bytes": 200736,
+      "sha256": "53ab7727ba1ddf6f08af943c9c15b5f5f9058d5ea3ee33040ea02f89d2b71306",
+      "bytes": 235816,
       "duracion_s": "3.500000",
       "ancho": 854,
       "alto": 480,
@@ -50,7 +55,7 @@
       "estado_recorte": "recorte_revisado",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
-      "estado_limpieza_texto": "pendiente",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
       "certificacion_lse": false,
       "final_para_app": false,
       "archivo_previo_mismo_nombre": {
@@ -61,13 +66,18 @@
       },
       "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
       "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
-      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado."
+      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado.",
+      "pre_limpieza_hash": "59b391b36e737b2512262d1b32d0c98dfaf12049631b380edfeb1dfed8ddfa55",
+      "pre_limpieza_bytes": 200736,
+      "pre_limpieza_commit": "d39f93f2e0f7cc638c2602ad2826518fde546878",
+      "final_susan": false,
+      "rotulo": "ausente en esta versión; el archivo anterior con texto queda en el hash pre_limpieza y en el commit d39f93f"
     },
     {
       "nombre": "platollano.mp4",
       "ruta": "originales-revisados/platollano.mp4",
-      "sha256": "099742530f0a62ebcf65f7a6324ad4053e6a8f3d2d5b2f87a5fce2f14d737997",
-      "bytes": 255482,
+      "sha256": "0d0dee156f8670b16e3cf5be1c4947b871a1d0a186b599fe791daf26fb2b7dfb",
+      "bytes": 324916,
       "duracion_s": "3.900000",
       "ancho": 854,
       "alto": 480,
@@ -80,7 +90,7 @@
       "estado_recorte": "recorte_revisado",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
-      "estado_limpieza_texto": "pendiente",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
       "certificacion_lse": false,
       "final_para_app": false,
       "archivo_previo_mismo_nombre": {
@@ -91,7 +101,12 @@
       },
       "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
       "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
-      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado."
+      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado.",
+      "pre_limpieza_hash": "099742530f0a62ebcf65f7a6324ad4053e6a8f3d2d5b2f87a5fce2f14d737997",
+      "pre_limpieza_bytes": 255482,
+      "pre_limpieza_commit": "d39f93f2e0f7cc638c2602ad2826518fde546878",
+      "final_susan": false,
+      "rotulo": "ausente en esta versión; el archivo anterior con texto queda en el hash pre_limpieza y en el commit d39f93f"
     },
     {
       "nombre": "boda.mp4",
@@ -110,7 +125,7 @@
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
       "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "recorte_revisado",
+      "estado_recorte": "recorte_revisado_con_texto",
       "estado_limpieza_texto": "pendiente",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
@@ -141,7 +156,7 @@
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
       "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "recorte_revisado",
+      "estado_recorte": "recorte_revisado_con_texto",
       "estado_limpieza_texto": "pendiente",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
@@ -172,7 +187,7 @@
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
       "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "recorte_revisado",
+      "estado_recorte": "recorte_revisado_con_texto",
       "estado_limpieza_texto": "pendiente",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
@@ -212,5 +227,6 @@
   "tiempos_cocina": "Aproximados. Se dedujeron con el offset 14.3 del nombre del archivo local. El timestamp absoluto de YouTube no está verificado. La duración del contenedor coincide con la longitud de cada intervalo.",
   "fuente_youtube_boda": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
   "copia_fuente_boda": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps.",
-  "tiempos_boda": "Absolutos en esa descarga: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8."
+  "tiempos_boda": "Absolutos en esa descarga: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8.",
+  "limpieza_texto": "Cuchillo, vaso y plato llano sustituyen en la misma ruta a la versión con texto. El hash anterior queda en pre_limpieza_hash y en el commit d39f93f2e0f7cc638c2602ad2826518fde546878. No se ha copiado el bruto a otra carpeta."
 }
