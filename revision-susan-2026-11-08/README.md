@@ -1,8 +1,8 @@
 # Revisión Susan 2026-11-08
 
-Estado del respaldo: **VERIFICADO_LOCAL_PENDIENTE_DE_REMOTO**.
+Estado del respaldo: **COMPLETO**.
 
-Los 46 contenidos únicos están en `objects/` y las 59 rutas originales están en `manifest.json`. El tamaño y el SHA-256 de cada objeto ya coinciden con el manifiesto. Esta copia todavía no se llama COMPLETO: falta confirmar el blob git de cada objeto en la rama remota.
+Los 46 contenidos únicos están en `objects/` y las 59 rutas originales están en `manifest.json`. Tras el push, el blob git remoto de cada objeto coincide en tamaño y en SHA-256 con el manifiesto. No falta ningún objeto de este lote.
 
 Esta carpeta es un respaldo aislado. No sustituye ni modifica la aplicación ni los archivos que ya existían en el repositorio.
 

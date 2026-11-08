@@ -1,7 +1,8 @@
 {
-  "estado": "VERIFICADO_LOCAL_PENDIENTE_DE_REMOTO",
-  "backup_completo": false,
-  "motivo": "Los 46 objetos únicos y las 59 rutas coinciden en tamaño y SHA-256 dentro de esta carpeta. Aún no se marca COMPLETO: falta confirmar en origin el blob git de cada objeto.",
+  "estado": "COMPLETO",
+  "backup_completo": true,
+  "motivo": "46/46 objetos únicos y 59/59 rutas verificados en tamaño y SHA-256. El blob git remoto de cada objeto, leído en origin después del push, coincide con ese contenido.",
+  "commit_objetos": "c480fc5e2c06a699e5ea27f26ccb77693ff266ad",
   "carpeta": "revision-susan-2026-11-08",
   "rama": "cursor/respaldo-revision-susan-2026-11-08-3023",
   "objetos_unicos_esperados": 46,
