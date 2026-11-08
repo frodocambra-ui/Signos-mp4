@@ -1,20 +1,19 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Catorce archivos en la misma carpeta. Once están limpios y revisados. Padrino y ramo de flores siguen con texto. La aprobación de boda.mp4 sigue revocada. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
+  "que_son": "Catorce archivos en la misma carpeta. Trece están limpios y revisados. La aprobación de boda.mp4 sigue revocada y su archivo no cambia. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
     "archivos": 14,
     "por_estado_recorte": {
-      "recorte_revisado": 11,
-      "pending_intro_trim_and_re_review": 1,
-      "recorte_revisado_con_texto": 2
+      "recorte_revisado": 13,
+      "pending_intro_trim_and_re_review": 1
     },
     "por_estado_limpieza_texto": {
-      "limpieza_texto_revisada": 11,
-      "pendiente": 3
+      "limpieza_texto_revisada": 13,
+      "pendiente": 1
     },
-    "limpios_revisados": 11,
-    "con_texto": 2,
+    "limpios_revisados": 13,
+    "con_texto": 0,
     "boda_en_revision": 1
   },
   "archivos": [
@@ -159,8 +158,8 @@
     {
       "nombre": "padrino.mp4",
       "ruta": "originales-revisados/padrino.mp4",
-      "sha256": "7c00e514e8bd3ab0a514b484fd26cbfb15be3948964989a3c45aeb4dd444d35f",
-      "bytes": 181913,
+      "sha256": "0b1e9788cf741ec26b8df7508b1d7e9fa5d4f453f65acc1a9c2d7dc1c85d0e19",
+      "bytes": 211848,
       "duracion_s": "3.003000",
       "ancho": 640,
       "alto": 360,
@@ -172,9 +171,9 @@
       ],
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
-      "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "recorte_revisado_con_texto",
-      "estado_limpieza_texto": "pendiente",
+      "texto_y_fondo": "El texto de la versión anterior ya no está. No es un final de Susan.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
       "certificacion_lse": false,
@@ -185,13 +184,21 @@
         "sha256": "8945cf7e58c918a3eb11a2202de9580bb0b8f4ff9c6a68401d45b2ea283ec5ef",
         "bytes": 419732,
         "accion": "conservado sin cambios; el contenido no es el mismo"
-      }
+      },
+      "pre_limpieza_hash": "7c00e514e8bd3ab0a514b484fd26cbfb15be3948964989a3c45aeb4dd444d35f",
+      "pre_limpieza_bytes": 181913,
+      "pre_limpieza_commit": "d39f93f2e0f7cc638c2602ad2826518fde546878",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "revision_limpieza": "c3d4ead9",
+      "mascara_texto": "x=0 y=309 w=640 h=42, banda 309..350.",
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE"
     },
     {
       "nombre": "ramodeflores.mp4",
       "ruta": "originales-revisados/ramodeflores.mp4",
-      "sha256": "c72572ed40517297fa0b6222631739e6e4cd4727a65b51d08d7720a7058d3d8d",
-      "bytes": 253804,
+      "sha256": "1a6c71200edc68f8353c07bacdc358f5e76be328de7aaddb7de355e1e16551b3",
+      "bytes": 303313,
       "duracion_s": "4.004000",
       "ancho": 640,
       "alto": 360,
@@ -203,9 +210,9 @@
       ],
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
-      "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "recorte_revisado_con_texto",
-      "estado_limpieza_texto": "pendiente",
+      "texto_y_fondo": "El texto de la versión anterior ya no está. No es un final de Susan.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
       "certificacion_lse": false,
@@ -216,7 +223,15 @@
         "sha256": "51e75d2ffbbe439068231356b0b42a3462d43d123917b82193736547a2bd15be",
         "bytes": 399351,
         "accion": "conservado sin cambios; el contenido no es el mismo"
-      }
+      },
+      "pre_limpieza_hash": "c72572ed40517297fa0b6222631739e6e4cd4727a65b51d08d7720a7058d3d8d",
+      "pre_limpieza_bytes": 253804,
+      "pre_limpieza_commit": "d39f93f2e0f7cc638c2602ad2826518fde546878",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "revision_limpieza": "c3d4ead9",
+      "mascara_texto": "x=0 y=309 w=640 h=42, banda 309..350.",
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE"
     },
     {
       "nombre": "tenedor.mp4",
