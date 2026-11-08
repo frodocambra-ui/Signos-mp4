@@ -1,10 +1,7 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Recortes de origen humano con texto incrustado. Pasaron una comparación de extractos contra la fuente. No son finales de Susan, no certifican la LSE y no entran en la app.",
-  "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
-  "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
-  "tiempos": "Aproximados. Se dedujeron con el offset 14.3 del nombre del archivo local. El timestamp absoluto de YouTube no está verificado. La duración del contenedor coincide con la longitud de cada intervalo.",
-  "revision_visual": "Comparación de extractos, no certificación LSE.",
+  "que_son": "Seis recortes de origen humano. El rótulo y el movimiento se compararon con su fuente. Siguen con texto incrustado. No son finales de Susan, no certifican la LSE y no entran en la app.",
+  "revision_visual": "Comparación contra la fuente de cada lote. No es certificación LSE ni final de Susan.",
   "archivos": [
     {
       "nombre": "cuchillo.mp4",
@@ -31,7 +28,10 @@
         "sha256": "95c3327dfe4185375b9b93bd43ed16b03212e901a141bbc18acad7ff4fa02a26",
         "bytes": 187057,
         "accion": "conservado sin cambios; el contenido no es el mismo"
-      }
+      },
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
+      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado."
     },
     {
       "nombre": "vaso.mp4",
@@ -58,7 +58,10 @@
         "sha256": "ae3e18bbb7aa03697b85415be24f69b42a28f0be97c7019fed0f0734413e7d05",
         "bytes": 649566,
         "accion": "conservado sin cambios; el contenido no es el mismo"
-      }
+      },
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
+      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado."
     },
     {
       "nombre": "platollano.mp4",
@@ -85,7 +88,129 @@
         "sha256": "cf050463b3c02df05315719234b8d2c2050ef83fabc09de2f440028e087118b8",
         "bytes": 329015,
         "accion": "conservado sin cambios; el contenido no es el mismo"
+      },
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "procedencia_copia_local": "entero-c13pJ9Ikrjw-143-801.mp4",
+      "nota_tiempos": "Intervalo aproximado, deducido con offset 14.3. El timestamp absoluto no está verificado."
+    },
+    {
+      "nombre": "boda.mp4",
+      "ruta": "originales-revisados/boda.mp4",
+      "sha256": "3b1024204d79e193b32e0a383a4698a90b8339b99d29b4bbf2b289a9e89e9b9b",
+      "bytes": 258934,
+      "duracion_s": "3.378375",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 81,
+      "intervalo_fuente_s": [
+        13.4,
+        16.8
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
+      "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "pendiente",
+      "estado_wan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/boda.mp4",
+        "sha256": "455d4a8416b066029d556e5012cd48b3b2999bc76a9e3e60e051652274347bd7",
+        "bytes": 658024,
+        "accion": "conservado sin cambios; el contenido no es el mismo"
+      }
+    },
+    {
+      "nombre": "padrino.mp4",
+      "ruta": "originales-revisados/padrino.mp4",
+      "sha256": "7c00e514e8bd3ab0a514b484fd26cbfb15be3948964989a3c45aeb4dd444d35f",
+      "bytes": 181913,
+      "duracion_s": "3.003000",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 72,
+      "intervalo_fuente_s": [
+        28.5,
+        31.5
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
+      "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "pendiente",
+      "estado_wan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/padrino.mp4",
+        "sha256": "8945cf7e58c918a3eb11a2202de9580bb0b8f4ff9c6a68401d45b2ea283ec5ef",
+        "bytes": 419732,
+        "accion": "conservado sin cambios; el contenido no es el mismo"
+      }
+    },
+    {
+      "nombre": "ramodeflores.mp4",
+      "ruta": "originales-revisados/ramodeflores.mp4",
+      "sha256": "c72572ed40517297fa0b6222631739e6e4cd4727a65b51d08d7720a7058d3d8d",
+      "bytes": 253804,
+      "duracion_s": "4.004000",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 96,
+      "intervalo_fuente_s": [
+        67.8,
+        71.8
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
+      "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "pendiente",
+      "estado_wan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/ramodeflores.mp4",
+        "sha256": "51e75d2ffbbe439068231356b0b42a3462d43d123917b82193736547a2bd15be",
+        "bytes": 399351,
+        "accion": "conservado sin cambios; el contenido no es el mismo"
       }
     }
-  ]
+  ],
+  "fuentes": [
+    {
+      "youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "archivos": [
+        "cuchillo.mp4",
+        "vaso.mp4",
+        "platollano.mp4"
+      ],
+      "tiempos": "Aproximados, offset 14.3. El timestamp absoluto no está verificado."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "archivos": [
+        "boda.mp4",
+        "padrino.mp4",
+        "ramodeflores.mp4"
+      ],
+      "tiempos": "Absolutos en la descarga de 0 a 95 s: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8."
+    }
+  ],
+  "fuente_youtube_cocina": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+  "procedencia_copia_local_cocina": "entero-c13pJ9Ikrjw-143-801.mp4",
+  "tiempos_cocina": "Aproximados. Se dedujeron con el offset 14.3 del nombre del archivo local. El timestamp absoluto de YouTube no está verificado. La duración del contenedor coincide con la longitud de cada intervalo.",
+  "fuente_youtube_boda": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+  "copia_fuente_boda": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps.",
+  "tiempos_boda": "Absolutos en esa descarga: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8."
 }
