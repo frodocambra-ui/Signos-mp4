@@ -1,0 +1,43 @@
+{
+  "tipo": "recibo_catalogo_tecnico",
+  "generado_utc": "2026-11-08T11:08:41Z",
+  "main_sha_auditado": "0036bb5a9bf579e7396778d87a8de092a5960c2d",
+  "origin_main_al_inventar": "0036bb5a9bf579e7396778d87a8de092a5960c2d",
+  "rama": "cursor/respaldo-revision-susan-2026-11-08-3023",
+  "rama_sha_al_inventar": "421af4b745d4e6477583aa418d7c15abab9aea12",
+  "limpieza_de_videos_completada": false,
+  "validados_en_esta_pasada": 0,
+  "resumen": {
+    "archivos_mp4_main_auditado": 29,
+    "archivos_mp4_rama": 232,
+    "contenidos_unicos_sha256": 203,
+    "letras": 29,
+    "palabras": 158,
+    "enteros": 13,
+    "desconocidos": 3,
+    "compartidos_entre_categorias": 0,
+    "grupos_con_alias_o_rutas_multiples": 37,
+    "candidatos_tecnicos": 0,
+    "validados_en_esta_pasada": 0
+  },
+  "candidatos_tecnicos": [],
+  "backups": {
+    "revision-susan-2026-11-08": "no modificado por este catálogo",
+    "revision-palabras-separadas-2026-11-08": "no modificado por este catálogo"
+  },
+  "herramientas": [
+    "git ls-tree",
+    "git cat-file",
+    "sha256",
+    "ffprobe -show_format -show_streams",
+    "ffmpeg -f null"
+  ],
+  "no_se_hizo": [
+    "fotogramas",
+    "revisión visual",
+    "merge",
+    "rebase",
+    "borrado",
+    "copia de binarios"
+  ]
+}
