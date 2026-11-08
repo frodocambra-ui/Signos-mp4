@@ -1,10 +1,20 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Nueve archivos. Ocho siguen aptos como recorte de fuente. La aprobación de boda.mp4 queda revocada: los fotogramas 0 a 20 son cartela de título, sin persona, y la persona empieza en el fotograma 21 en reposo. El binario no se ha sustituido. No son finales de Susan, no certifican la LSE y no entran en la app.",
+  "que_son": "Catorce archivos en la misma carpeta. Once están limpios y revisados. Padrino y ramo de flores siguen con texto. La aprobación de boda.mp4 sigue revocada. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
-    "archivos": 9,
-    "aptos_fuente": 8,
+    "archivos": 14,
+    "por_estado_recorte": {
+      "recorte_revisado": 11,
+      "pending_intro_trim_and_re_review": 1,
+      "recorte_revisado_con_texto": 2
+    },
+    "por_estado_limpieza_texto": {
+      "limpieza_texto_revisada": 11,
+      "pendiente": 3
+    },
+    "limpios_revisados": 11,
+    "con_texto": 2,
     "boda_en_revision": 1
   },
   "archivos": [
@@ -311,6 +321,193 @@
         "accion": "conservado sin cambios; no es este archivo"
       },
       "nota": "El rótulo vecino estático QUE APROVECHE se eliminó; no es otro lema."
+    },
+    {
+      "nombre": "mesa.mp4",
+      "ruta": "originales-revisados/mesa.mp4",
+      "sha256": "df27e2531c11626f909cd322d5110831df0b8223d065b8b0803386492ef35226",
+      "bytes": 208155,
+      "duracion_s": "2.335667",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_ffprobe": 56,
+      "fotogramas_recibo": 56,
+      "intervalo_fuente_s": [
+        15.0,
+        17.3
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_f7bfff_5",
+      "revision_limpieza": "ec135a44",
+      "pre_limpieza_hash": "aea098d8c4e0af311cba730839663e8b646bbf9f5863613b5e4f05e885f39eb2",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, solo la banda original.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/mesa.mp4",
+        "sha256": "95cd06e6ae95677c2982bf1bed8fa76a841043bd5c5ae10e4f4563a4a41e0c53",
+        "bytes": 586312,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "silla.mp4",
+      "ruta": "originales-revisados/silla.mp4",
+      "sha256": "3d7a48eaea643bae0ff90fc796a85130cce1e7906e27d5ec6ec09521ebeeb87e",
+      "bytes": 194561,
+      "duracion_s": "2.627625",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_ffprobe": 63,
+      "fotogramas_recibo": 63,
+      "intervalo_fuente_s": [
+        17.6,
+        20.2
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_f7bfff_5",
+      "revision_limpieza": "ec135a44",
+      "pre_limpieza_hash": "afd5bbc51e23c3bdbae1c17500d87bc2c05b3bb160e03c1de00b01eb0e9b5ef3",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, solo la banda original.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/silla.mp4",
+        "sha256": "1e7c752474fab731af3e8fecd66eb0d1e7997c7a4135e14345470f68c0d91c8b",
+        "bytes": 265473,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "plato.mp4",
+      "ruta": "originales-revisados/plato.mp4",
+      "sha256": "f2e951860628aae0e0b3973d8dce108b4ea11dd9a772775d620bac537ae1841e",
+      "bytes": 205026,
+      "duracion_s": "2.502500",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_ffprobe": 60,
+      "fotogramas_recibo": 60,
+      "intervalo_fuente_s": [
+        20.5,
+        23.0
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_f7bfff_5",
+      "revision_limpieza": "ec135a44",
+      "pre_limpieza_hash": "b17e2059f6dc149f604917e8f0db9ce3c72265c97dc7009ba6f8a66d8c9d89c8",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, solo la banda original.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/plato.mp4",
+        "sha256": "3eb59027b516ddfd3aec1674a0011bd81cc2a0eb60a8f7ae75d7d790842deaea",
+        "bytes": 526708,
+        "accion": "conservado sin cambios; no es este archivo"
+      },
+      "nota": "La máscara y310..350 es la correcta. Una advertencia anterior sobre dedos no se conserva como defecto."
+    },
+    {
+      "nombre": "jarra.mp4",
+      "ruta": "originales-revisados/jarra.mp4",
+      "sha256": "b0c38f93ddfa3cfcdc9ce9546e1915f1338f734419edf7bc06c979aa6bb6585f",
+      "bytes": 266556,
+      "duracion_s": "3.169833",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_ffprobe": 76,
+      "fotogramas_recibo": 76,
+      "intervalo_fuente_s": [
+        59.25,
+        62.4
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_f7bfff_5",
+      "revision_limpieza": "ec135a44",
+      "pre_limpieza_hash": "8e77601e0ed4f6f4807b424ab1b3131f2f5ea724d341ea602e789f11e9e613e6",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, solo la banda original.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/jarra.mp4",
+        "sha256": "5ee9284415a9573ee9b238f868990a9d1c1b6336291f89b22f1c36e335f44459",
+        "bytes": 322689,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "botella.mp4",
+      "ruta": "originales-revisados/botella.mp4",
+      "sha256": "5dc1604ab442d7ed1e424fb378628d06b9039ae8865dd70f813d0ffdd3dd9ca2",
+      "bytes": 228054,
+      "duracion_s": "3.795458",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_ffprobe": 90,
+      "fotogramas_recibo": 91,
+      "intervalo_fuente_s": [
+        62.5,
+        66.25
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_f7bfff_5",
+      "revision_limpieza": "ec135a44",
+      "pre_limpieza_hash": "232cfceabdb83890c76231fe002df36216de62e0f1a1d3a108703ca5ab0b10de",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, solo la banda original.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/botella.mp4",
+        "sha256": "56a000d201eedb2b55da2f032192adcd5ce19dfa59d575cc09145ff86db178ab",
+        "bytes": 630152,
+        "accion": "conservado sin cambios; no es este archivo"
+      },
+      "nota": "ffprobe informa 90 fotogramas y una tasa media 2160000/91091. El recibo indica 91. La tasa nominal es 24000/1001. El hash sí coincide."
     }
   ],
   "fuentes": [
@@ -349,5 +546,18 @@
     ],
     "tiempos": "Absolutos en la fuente: tenedor 38–41.25, cucharita de café 51.5–56, servilleta 66.25–70.",
     "contenedor": "640x360, 24000/1001 fps, 78, 108 y 90 fotogramas."
+  },
+  "cocina_f7bfff_5": {
+    "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+    "archivos": [
+      "mesa.mp4",
+      "silla.mp4",
+      "plato.mp4",
+      "jarra.mp4",
+      "botella.mp4"
+    ],
+    "tiempos": "Absolutos en la fuente: mesa 15–17.3, silla 17.6–20.2, plato 20.5–23, jarra 59.25–62.4, botella 62.5–66.25.",
+    "revision_limpieza": "ec135a44",
+    "plato": "La máscara y310..350 es la correcta. No se conserva como defecto la advertencia anterior."
   }
 }
