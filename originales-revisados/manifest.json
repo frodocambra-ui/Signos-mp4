@@ -1,21 +1,21 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Veinte archivos en la misma carpeta. El conteo de este manifiesto da veinte limpios revisados: diecisiete de cocina y tres de boda. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
+  "que_son": "El conteo de este manifiesto es la cifra real. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
-    "archivos": 20,
+    "archivos": 23,
     "por_estado_recorte": {
-      "recorte_revisado": 20
+      "recorte_revisado": 23
     },
     "por_estado_limpieza_texto": {
-      "limpieza_texto_revisada": 20
+      "limpieza_texto_revisada": 23
     },
-    "limpios_revisados": 20,
+    "limpios_revisados": 23,
     "con_texto": 0,
     "boda_en_revision": 0,
     "por_fuente": {
-      "cocina_c13pJ9Ikrjw": 17,
-      "boda_P6ejS": 3
+      "cocina_c13pJ9Ikrjw": 18,
+      "boda_P6ejS": 5
     }
   },
   "archivos": [
@@ -766,6 +766,123 @@
         "ruta": "revision-palabras-separadas-2026-11-08/brindissalud.mp4",
         "sha256": "33ef721d541e664514a0cda2f87b6f339f599c4e1efee1a0304c4fc1494b3b42",
         "bytes": 635644,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "cucharadepostre.mp4",
+      "ruta": "originales-revisados/cucharadepostre.mp4",
+      "sha256": "22b4c9036651afa25be2988341bc84bbb1a621192567040e29936bdc16318043",
+      "bytes": 303131,
+      "duracion_s": "4.254250",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 102,
+      "intervalo_fuente_s": [
+        47.0,
+        51.25
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "version_bruto": "v3",
+      "recibo": "bloque_15_56",
+      "revision_fuente": "34b44",
+      "revision_limpieza": "a2c6a724",
+      "pre_limpieza_hash": "d034338d7a851d4a61b0a46b9a68300f398b6a8e254df6d093ada25b099c3349",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/cucharadepostre.mp4",
+        "sha256": "1c07ab660077b82383a9ae891608708540665a9212b1549ebd4ea27dc2d637aa",
+        "bytes": 643502,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "invitacion.mp4",
+      "ruta": "originales-revisados/invitacion.mp4",
+      "sha256": "9efdcb26a709e8b41f9ea72d59f3a1a86d1ebd5762449367ff03c76111c0fb90",
+      "bytes": 287980,
+      "duracion_s": "3.461792",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 83,
+      "intervalo_fuente_s": [
+        46.975,
+        50.4
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "version_bruto": "v2",
+      "recibo": "bloque_15_56",
+      "revision_fuente": "34b44",
+      "revision_limpieza": "a2c6a724",
+      "pre_limpieza_hash": "2e08f8ed03293c3963d654436becd64f2446fc69132ca0e857c559b951b05e7b",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/invitacin.mp4",
+        "sha256": "b826208000c0f4278ce8279f74b8178847750fe27809c1727d80ba8827a47fbc",
+        "bytes": 663979,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "invitados.mp4",
+      "ruta": "originales-revisados/invitados.mp4",
+      "sha256": "bf6eba3509cfd2c2385a2a3b3ac5ee311f1c8dc7833b6f6d283f3dcb49114175",
+      "bytes": 315745,
+      "duracion_s": "4.295958",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 103,
+      "intervalo_fuente_s": [
+        50.5,
+        54.775
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "version_bruto": "v2",
+      "recibo": "bloque_15_56",
+      "revision_fuente": "34b44",
+      "revision_limpieza": "a2c6a724",
+      "pre_limpieza_hash": "80aa6ca5372e423d7a1d10022d5d1b822ca2554dd210fe8ee25561d954f8ee32",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/invitados.mp4",
+        "sha256": "272ea6ed93962a202335d207a88043cfd3746eef54617a5deb325a50baefde67",
+        "bytes": 277827,
         "accion": "conservado sin cambios; no es este archivo"
       }
     }
