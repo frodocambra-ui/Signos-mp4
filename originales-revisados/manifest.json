@@ -1,18 +1,18 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Catorce archivos en la misma carpeta. Trece están limpios y revisados. La aprobación de boda.mp4 sigue revocada y su archivo no cambia. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
+  "que_son": "Quince archivos en la misma carpeta. Catorce están limpios y revisados. La aprobación de boda.mp4 sigue revocada y su archivo no cambia. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
-    "archivos": 14,
+    "archivos": 15,
     "por_estado_recorte": {
-      "recorte_revisado": 13,
+      "recorte_revisado": 14,
       "pending_intro_trim_and_re_review": 1
     },
     "por_estado_limpieza_texto": {
-      "limpieza_texto_revisada": 13,
+      "limpieza_texto_revisada": 14,
       "pendiente": 1
     },
-    "limpios_revisados": 13,
+    "limpios_revisados": 14,
     "con_texto": 0,
     "boda_en_revision": 1
   },
@@ -523,6 +523,43 @@
         "accion": "conservado sin cambios; no es este archivo"
       },
       "nota": "ffprobe informa 90 fotogramas y una tasa media 2160000/91091. El recibo indica 91. La tasa nominal es 24000/1001. El hash sí coincide."
+    },
+    {
+      "nombre": "queaproveche.mp4",
+      "ruta": "originales-revisados/queaproveche.mp4",
+      "sha256": "dc43e9a4b329cfd25d886ba6077e65f89dda3614624467813b5e36d4b1852d49",
+      "bytes": 223753,
+      "duracion_s": "2.752750",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 66,
+      "intervalo_fuente_s": [
+        70.0,
+        72.75
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "queaproveche_v2",
+      "revision_limpieza": "5d0a5d3c",
+      "pre_limpieza_hash": "0eff58d13106d828e1f5fb68914a17951b429e42fd6b0e2c9de19149363bf372",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350. Las filas 351..359 son franja azul del fondo original, sin texto.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/queaproveche.mp4",
+        "sha256": "466d5fbcf986dca70c9826251de9eb5ff23cfd1b12ceea7067395c29eee74327",
+        "bytes": 635644,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
     }
   ],
   "fuentes": [
@@ -574,5 +611,14 @@
     "tiempos": "Absolutos en la fuente: mesa 15–17.3, silla 17.6–20.2, plato 20.5–23, jarra 59.25–62.4, botella 62.5–66.25.",
     "revision_limpieza": "ec135a44",
     "plato": "La máscara y310..350 es la correcta. No se conserva como defecto la advertencia anterior."
+  },
+  "queaproveche_v2": {
+    "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+    "intervalo_s": [
+      70.0,
+      72.75
+    ],
+    "revision_limpieza": "5d0a5d3c",
+    "nota": "Sin letras residuales bajo la banda ni manos borradas. La franja 351..359 es fondo azul original, sin texto."
   }
 }

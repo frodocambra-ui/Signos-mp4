@@ -1,8 +1,8 @@
 # Originales revisados
 
-Hay catorce archivos en esta misma carpeta. Trece están limpios y revisados. La aprobación de `boda.mp4` sigue revocada y ese archivo no se ha sustituido. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
+Hay quince archivos en esta misma carpeta. Catorce están limpios y revisados. La aprobación de `boda.mp4` sigue revocada y ese archivo no se ha sustituido. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
 
-Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, silla, plato, jarra, botella, padrino y ramo de flores están sin rótulo. Padrino y ramo sustituyen, en la misma ruta, a la versión que todavía tenía texto. La recodificación no se afirma idéntica píxel a píxel.
+Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, silla, plato, jarra, botella, padrino, ramo de flores y que aproveche están sin rótulo. Padrino y ramo sustituyen, en la misma ruta, a la versión que todavía tenía texto. La recodificación no se afirma idéntica píxel a píxel.
 
 ## Cocina 854×480
 
@@ -27,6 +27,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 - Recibo `cocina_f7bfff_5`. La revisión `ec135a44` confirmó la limpieza: sin texto y sin manos ni dedos borrados.
 - La máscara de plato, y310..350, es la correcta. No se conserva como defecto la advertencia anterior.
 - Contenedor medido: 640×360. Mesa, silla, plato y jarra van a 24000/1001, con 56, 63, 60 y 76 fotogramas. Botella dura 3.795 s; ffprobe informa 90 fotogramas y el recibo 91. El hash de botella sí coincide con el recibo.
+- Que aproveche, tramo 70–72.75, recibo `queaproveche_v2`, revisión `5d0a5d3c`. Máscara 310..350. Las filas 351..359 son franja azul del fondo original, sin texto. 66 fotogramas, 640×360, 24000/1001.
 
 ## Boda
 
@@ -54,6 +55,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 | plato.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | jarra.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | botella.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| queaproveche.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 
 Los MP4 antiguos de `revision-palabras-separadas-2026-11-08/` siguen intactos. La cucharita antigua se llama `cucharitadecaf.mp4`.
 
