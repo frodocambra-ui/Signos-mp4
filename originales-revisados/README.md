@@ -1,6 +1,6 @@
 # Originales revisados
 
-Hay veintitrés archivos en esta misma carpeta. Los veintitrés están limpios y revisados: dieciocho de la fuente de cocina y cinco de la de boda. El archivo revocado de boda, hash `3b102420`, queda solo en el historial. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
+Hay veintiséis archivos en esta misma carpeta. Los veintiséis están limpios y revisados: dieciocho de la fuente de cocina y ocho de la de boda. El archivo revocado de boda, hash `3b102420`, queda solo en el historial. Marido no está incluido. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
 
 Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, silla, plato, jarra, botella, padrino, ramo de flores, que aproveche, cuchara y boda están sin rótulo. La recodificación no se afirma idéntica píxel a píxel.
 
@@ -41,6 +41,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 - La boda actual es la versión limpia, 60 fotogramas, 640×360, 24000/1001. Tramo aproximado 14.275875–16.8. El bruto sin cartela y con texto es `0b576279661140c202dd6628f83838e15023cdce2a80e9d80e98575c4c177465`. Revisión del bruto `c3d4` y limpieza `ba84b717`. Máscara 310..350.
 - Padrino y ramo de flores ya están en la versión limpia, revisión `c3d4ead9`, máscara 309..350. Conservan los mismos tramos de la fuente. El hash con texto queda en `pre_limpieza_hash`.
 - Invitación, tramo 46.975–50.4, e invitados, tramo 50.5–54.775, de la misma fuente de boda. Recibo `bloque_15_56`, bruto v2. 83 y 103 fotogramas, 640×360, 24000/1001. Máscara 310..350. Revisión de la fuente `34b44` y limpieza `a2c6a724`. El archivo antiguo de invitación se llama `invitacin.mp4`.
+- Abogado 39.225–42.525, ceremonia 42.725–46.275 y quieres casarte conmigo 55.225–59.775, de la misma fuente de boda. Recibo `bloque_15_56`. 80, 86 y 110 fotogramas, 640×360, 24000/1001. Máscara 310..350. Revisión del bruto `98c46` y limpieza `be9675c5`.
 
 ## Estados
 
@@ -69,6 +70,9 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 | cucharadepostre.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | invitacion.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | invitados.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| abogado.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| ceremonia.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| quierescasarteconmigo.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 
 Los MP4 antiguos de `revision-palabras-separadas-2026-11-08/` siguen intactos. La cucharita antigua se llama `cucharitadecaf.mp4`.
 

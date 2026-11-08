@@ -1,21 +1,21 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "El conteo de este manifiesto es la cifra real. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
+  "que_son": "El conteo de este manifiesto es la cifra real. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes. Marido no está incluido.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
-    "archivos": 23,
+    "archivos": 26,
     "por_estado_recorte": {
-      "recorte_revisado": 23
+      "recorte_revisado": 26
     },
     "por_estado_limpieza_texto": {
-      "limpieza_texto_revisada": 23
+      "limpieza_texto_revisada": 26
     },
-    "limpios_revisados": 23,
+    "limpios_revisados": 26,
     "con_texto": 0,
     "boda_en_revision": 0,
     "por_fuente": {
       "cocina_c13pJ9Ikrjw": 18,
-      "boda_P6ejS": 5
+      "boda_P6ejS": 8
     }
   },
   "archivos": [
@@ -883,6 +883,120 @@
         "ruta": "revision-palabras-separadas-2026-11-08/invitados.mp4",
         "sha256": "272ea6ed93962a202335d207a88043cfd3746eef54617a5deb325a50baefde67",
         "bytes": 277827,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "abogado.mp4",
+      "ruta": "originales-revisados/abogado.mp4",
+      "sha256": "212514bdb709fa75646d637939df8d74bf58251b837510ec75ce081046d48a8a",
+      "bytes": 220397,
+      "duracion_s": "3.336667",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 80,
+      "intervalo_fuente_s": [
+        39.225,
+        42.525
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "recibo": "bloque_15_56",
+      "revision_raw": "98c46",
+      "revision_limpieza": "be9675c5",
+      "pre_limpieza_hash": "b9e2f90c33622c57af61f30fe50869884f8a94f1c2094ee9c070f845accfbbd7",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/abogado.mp4",
+        "sha256": "7d05de0f34757215bb778f9a00a63ee53ec2bdc4b023e69ff9e86bb206a22879",
+        "bytes": 673943,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "ceremonia.mp4",
+      "ruta": "originales-revisados/ceremonia.mp4",
+      "sha256": "ad51c79db5929d4a88d2c7db83662bb951c9054f9b942361fa6fa0077d947c99",
+      "bytes": 223768,
+      "duracion_s": "3.586917",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 86,
+      "intervalo_fuente_s": [
+        42.725,
+        46.275
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "recibo": "bloque_15_56",
+      "revision_raw": "98c46",
+      "revision_limpieza": "be9675c5",
+      "pre_limpieza_hash": "ba0f3e1f76b4f1356ca8d8046abf547da774a6421990fcf1c12daab6741e3abb",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/ceremonia.mp4",
+        "sha256": "f87acb2d874329b44a576a0c196e40cc5770b7ce7f6036504f60167951ca0c36",
+        "bytes": 358277,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "quierescasarteconmigo.mp4",
+      "ruta": "originales-revisados/quierescasarteconmigo.mp4",
+      "sha256": "a2b3c56f4065c03dacabd5b8b420f7774a5edb7322b1582e7b273b2fad8b5ecf",
+      "bytes": 361947,
+      "duracion_s": "4.587917",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 110,
+      "intervalo_fuente_s": [
+        55.225,
+        59.775
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
+      "recibo": "bloque_15_56",
+      "revision_raw": "98c46",
+      "revision_limpieza": "be9675c5",
+      "pre_limpieza_hash": "90a3dcac5379bd9bb093d9594c9c18bb81feac97ccfc72eb713aabb7a5297cc6",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/quierescasarteconmigo.mp4",
+        "sha256": "322f9fcaf0d1a25aa833685c57fe8c321db6e8204eebee492b247449c1ebee5b",
+        "bytes": 659574,
         "accion": "conservado sin cambios; no es este archivo"
       }
     }
