@@ -1,6 +1,6 @@
 # Originales revisados
 
-Hay dieciséis archivos en esta misma carpeta. Los dieciséis están limpios y revisados. La boda publicada ahora es la versión sin cartela. El archivo revocado, hash `3b102420`, queda solo en el historial. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
+Hay veinte archivos en esta misma carpeta. Los veinte están limpios y revisados: diecisiete de la fuente de cocina y tres de la de boda. El archivo revocado de boda, hash `3b102420`, queda solo en el historial. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
 
 Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, silla, plato, jarra, botella, padrino, ramo de flores, que aproveche, cuchara y boda están sin rótulo. La recodificación no se afirma idéntica píxel a píxel.
 
@@ -29,6 +29,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 - Contenedor medido: 640×360. Mesa, silla, plato y jarra van a 24000/1001, con 56, 63, 60 y 76 fotogramas. Botella dura 3.795 s; ffprobe informa 90 fotogramas y el recibo 91. El hash de botella sí coincide con el recibo.
 - Que aproveche, tramo 70–72.75, recibo `queaproveche_v2`, revisión `5d0a5d3c`. Máscara 310..350. Las filas 351..359 son franja azul del fondo original, sin texto. 66 fotogramas, 640×360, 24000/1001.
 - Cuchara, tramo 44.5–47.1, recibo `cuchara_v2`, bruto citado como `0fbb21` y hash `9918a4999ba1987e8d483b76782daefab6f8d2ec366817ce143b9c4d7e7fc451`. Limpieza `ba84b717`. 63 fotogramas, 640×360, 24000/1001. Máscara 310..350.
+- Cuenco 22.75–26.75, plato hondo 30.25–34.25, ensaladera 33.75–37.75 y brindis 76.25–80. Recibo `cocina_aptos_2dd3fa`, auditoría `6eed3684`. 96, 96, 96 y 90 fotogramas, 640×360, 24000/1001. Máscara 310..350. Las filas 351..359 son fondo original. Un rechazo anterior no se conserva como defecto.
 
 ## Boda
 
@@ -59,6 +60,10 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 | botella.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | queaproveche.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | cuchara.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| bowlcuenco.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| platohondo.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| ensaladera.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| brindis.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 
 Los MP4 antiguos de `revision-palabras-separadas-2026-11-08/` siguen intactos. La cucharita antigua se llama `cucharitadecaf.mp4`.
 

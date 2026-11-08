@@ -1,18 +1,22 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Dieciséis archivos en la misma carpeta. Los dieciséis están limpios y revisados. La boda publicada ahora es la versión sin cartela. El archivo revocado, hash 3b102420, permanece solo en el historial. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
+  "que_son": "Veinte archivos en la misma carpeta. El conteo de este manifiesto da veinte limpios revisados: diecisiete de cocina y tres de boda. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
-    "archivos": 16,
+    "archivos": 20,
     "por_estado_recorte": {
-      "recorte_revisado": 16
+      "recorte_revisado": 20
     },
     "por_estado_limpieza_texto": {
-      "limpieza_texto_revisada": 16
+      "limpieza_texto_revisada": 20
     },
-    "limpios_revisados": 16,
+    "limpios_revisados": 20,
     "con_texto": 0,
-    "boda_en_revision": 0
+    "boda_en_revision": 0,
+    "por_fuente": {
+      "cocina_c13pJ9Ikrjw": 17,
+      "boda_P6ejS": 3
+    }
   },
   "archivos": [
     {
@@ -610,6 +614,158 @@
         "ruta": "revision-palabras-separadas-2026-11-08/cuchara.mp4",
         "sha256": "ee9768f70e2cfff2bfa9572a68cd2073ffad7627a92dfd1bf1809ef36f743bbb",
         "bytes": 399871,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "bowlcuenco.mp4",
+      "ruta": "originales-revisados/bowlcuenco.mp4",
+      "sha256": "ba4821f246ab9ff7f71bd7c4b0379b272e8171c58b345ee9ea5dc1180815f9a9",
+      "bytes": 257301,
+      "duracion_s": "4.004000",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 96,
+      "intervalo_fuente_s": [
+        22.75,
+        26.75
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_aptos_2dd3fa",
+      "revision_limpieza": "6eed3684",
+      "pre_limpieza_hash": "a2a755197da0faf8187b1ecd87df53bdd1b1081fa033667e0119069d9a8c5c1e",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350. Las filas 351..359 son fondo original.",
+      "nota": "La auditoría 6eed3684 comparó el clip bruto y el limpio. Un rechazo anterior no se conserva como defecto.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/bowlcuenco.mp4",
+        "sha256": "b88b6f706cd42d3953e5501c888fd1d5cd44274857fc7c0a6665cbd144730e14",
+        "bytes": 755049,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "platohondo.mp4",
+      "ruta": "originales-revisados/platohondo.mp4",
+      "sha256": "3822e1f79b0e3cceadd0b3c69cb260ab3bfe4a11e799026b4abb1350c532fb27",
+      "bytes": 328210,
+      "duracion_s": "4.004000",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 96,
+      "intervalo_fuente_s": [
+        30.25,
+        34.25
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_aptos_2dd3fa",
+      "revision_limpieza": "6eed3684",
+      "pre_limpieza_hash": "a5aa16f64008ec4dde1e5c4776954ceb7f8939fc92cfeea8f1136afade58a668",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350. Las filas 351..359 son fondo original.",
+      "nota": "La auditoría 6eed3684 comparó el clip bruto y el limpio. Un rechazo anterior no se conserva como defecto.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/platohondo.mp4",
+        "sha256": "fa285851ef9c73aad898c04fe0c3ad611048105d807b7d32ae1eaa4fccf0e9d6",
+        "bytes": 554645,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "ensaladera.mp4",
+      "ruta": "originales-revisados/ensaladera.mp4",
+      "sha256": "9b59b7ceadf3da8cac1399c043b360c1b9e676067ecd8a50b70a9a4f6e866920",
+      "bytes": 349790,
+      "duracion_s": "4.004000",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 96,
+      "intervalo_fuente_s": [
+        33.75,
+        37.75
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_aptos_2dd3fa",
+      "revision_limpieza": "6eed3684",
+      "pre_limpieza_hash": "c52de5e98b8627ab46fecb9768132e4c19eac944ad84c56d1e3fce5085ffcd07",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350. Las filas 351..359 son fondo original.",
+      "nota": "La auditoría 6eed3684 comparó el clip bruto y el limpio. Un rechazo anterior no se conserva como defecto.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/ensaladera.mp4",
+        "sha256": "4eebd5adef56437c64dc314e6a9336170a69daf13436698afc7918c820718297",
+        "bytes": 278674,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "brindis.mp4",
+      "ruta": "originales-revisados/brindis.mp4",
+      "sha256": "ae01c2e77e8d6d694aa5fdc3b77a3f4cc861f3275354ffd7674acef9515a1de5",
+      "bytes": 346210,
+      "duracion_s": "3.753750",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 90,
+      "intervalo_fuente_s": [
+        76.25,
+        80.0
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cocina_aptos_2dd3fa",
+      "revision_limpieza": "6eed3684",
+      "pre_limpieza_hash": "ae895c2427fb11e0d5fdd4defb6e394e7e2ee9783428e2cd6928ea0613669dbd",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350. Las filas 351..359 son fondo original.",
+      "nota": "La auditoría 6eed3684 comparó el clip bruto y el limpio. Un rechazo anterior no se conserva como defecto.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_distinto": {
+        "ruta": "revision-palabras-separadas-2026-11-08/brindissalud.mp4",
+        "sha256": "33ef721d541e664514a0cda2f87b6f339f599c4e1efee1a0304c4fc1494b3b42",
+        "bytes": 635644,
         "accion": "conservado sin cambios; no es este archivo"
       }
     }
