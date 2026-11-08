@@ -1,0 +1,154 @@
+{
+  "nota": "Enteros de la carpeta de procedencia 'videos fondo modificado' en revision-susan-2026-11-08. Un identificador de fuente puede tener varias versiones. No son vídeos distintos por cada alias. ReActor no acreditado. No se ha reauditado el resto del repositorio.",
+  "identificadores_de_fuente": 8,
+  "contenidos_unicos": 13,
+  "fuentes": [
+    {
+      "id": "aMRd2V_PB7k",
+      "contenidos": [
+        {
+          "sha256": "34ac20c614f382f2afe77bcb978dc5f45c61f8beaba6f1f489a1a83086e650b4",
+          "bytes": 10125073,
+          "duracion_s": 87.2,
+          "alias": 4,
+          "nombre": "entero-aMRd2V_PB7k-193-1065",
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "c13pJ9Ikrjw",
+      "contenidos": [
+        {
+          "sha256": "f55961676ddacb04ed3ddc038357d54457462f20553038ce6a569017dcb4538d",
+          "bytes": 4727515,
+          "duracion_s": 65.8,
+          "alias": 2,
+          "nombre": "entero-c13pJ9Ikrjw-143-801",
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "c3fmfQA7OzI",
+      "contenidos": [
+        {
+          "sha256": "2fff576fa56413991ebaacde28cb40272b0f6f9a41d4c53877b91f728c8cc376",
+          "bytes": 7615925,
+          "duracion_s": 68.4,
+          "alias": 1,
+          "nombre": "entero-c3fmfQA7OzI-173-857",
+          "estado": "pendiente"
+        },
+        {
+          "sha256": "0274604b74085df168e7b4a1a08ecc7beed6f6ac886ce144d742678718f70ea8",
+          "bytes": 7248254,
+          "duracion_s": 65.4,
+          "alias": 2,
+          "nombre": "entero-c3fmfQA7OzI-203-857",
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "cNFulmacs5k",
+      "contenidos": [
+        {
+          "sha256": "a6e75449ba4431050a5c6c8ca69e8df44ee350542cbfd747c9b1912d5a59044f",
+          "bytes": 9541433,
+          "duracion_s": 51.9,
+          "alias": 2,
+          "nombre": "entero-cNFulmacs5k-188-707",
+          "estado": "pendiente"
+        },
+        {
+          "sha256": "c7623df427c0eb0251b5a1437349d7f1a65307c1b370da114c97d7d4e19470f2",
+          "bytes": 4244663,
+          "duracion_s": 22.833,
+          "alias": 1,
+          "nombre": "entero-cNFulmacs5k-188-707-v3.parcial",
+          "estado": "pendiente"
+        },
+        {
+          "sha256": "f6df807ed8a5fe7ef63cba8a7fb295c2a530781828d36c2b26fcb3ec5e7bb45a",
+          "bytes": 15571801,
+          "duracion_s": 51.9,
+          "alias": 1,
+          "nombre": "entero-cNFulmacs5k-188-707-v3.parcial.fondo",
+          "estado": "pendiente"
+        },
+        {
+          "sha256": "4547ad44fd1e73d937bd19ef516b3b560294a235b00cf759084ac93d92e3296e",
+          "bytes": 3503346,
+          "duracion_s": 17.533,
+          "alias": 2,
+          "nombre": "entero-cNFulmacs5k-801-977",
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "P6ejS-q_xoM",
+      "contenidos": [
+        {
+          "sha256": "918235c0bd408a6cf25b8a7e7f47e62458bfaeeff67acf0a8289f6681c204fae",
+          "bytes": 5303283,
+          "duracion_s": 72.333,
+          "alias": 3,
+          "nombre": "entero-P6ejS-q_xoM-139-863",
+          "estado": "pendiente"
+        },
+        {
+          "sha256": "1a5a7ce170f39702b0ba0b3baaa37763c52cc26b0e6ef9ba9896339f3be67566",
+          "bytes": 5796780,
+          "duracion_s": 72.333,
+          "alias": 1,
+          "nombre": "entero-P6ejS-q_xoM-139-863-v3.parcial.fondo",
+          "estado": "en_revision",
+          "clips": 18,
+          "fronteras": "no_verificadas",
+          "entero_retirado": false
+        }
+      ]
+    },
+    {
+      "id": "vCU0NYkiyaI",
+      "contenidos": [
+        {
+          "sha256": "ae9a83ace460f07e11121da4bb2704be7eb917c0c63350629b9552e4da9ab35c",
+          "bytes": 8517996,
+          "duracion_s": 73.6,
+          "alias": 1,
+          "nombre": "entero-vCU0NYkiyaI-143-879-v2",
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "VwZtdv_OcKE",
+      "contenidos": [
+        {
+          "sha256": "24c43cfef6eb9425338e2a52f9720b6af5f6530976efd44c1a2955e80d015f69",
+          "bytes": 5713181,
+          "duracion_s": 63.1,
+          "alias": 1,
+          "nombre": "entero-VwZtdv_OcKE-143-774-v2",
+          "estado": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": "z9vdunHBipA",
+      "contenidos": [
+        {
+          "sha256": "7e1de9a832538bf06a97ff1072e5cf0935932054313b440e5e31cd424324f482",
+          "bytes": 8458347,
+          "duracion_s": 93.0,
+          "alias": 4,
+          "nombre": "entero-z9vdunHBipA-137-1067",
+          "estado": "pendiente"
+        }
+      ]
+    }
+  ]
+}

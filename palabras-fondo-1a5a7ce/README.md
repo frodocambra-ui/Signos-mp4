@@ -4,7 +4,9 @@ Dieciocho rótulos leídos en `1a5a7ce170f39702b0ba0b3baaa37763c52cc26b0e6ef9ba9
 
 El fondo negro está visto en el propio archivo. ReActor no está acreditado: no hay recibo y no se afirma. Wan queda pendiente. No es una certificación de lengua de signos.
 
-Los tiempos son del archivo local. El corte incluye el hueco sin rótulo hasta la mitad del camino hacia la palabra vecina. Ese borde puede moverse cerca de medio segundo; no está cerrado fotograma a fotograma.
+Los tiempos son del archivo local. El corte por la mitad del hueco sin rótulo no se da por correcto. En 16 de 17 fronteras el reposo medido a 30 fps no cae en ese hueco. Esas fronteras quedan pendientes de revisión de vídeo. Las hojas están en `fronteras/`. `revision-lenta.mp4` lleva el reloj local de este archivo de 72,3 s.
+
+El entero no se retira: los cortes siguen dudosos. El otro entero de la misma fuente, `918235c0bd40…`, tampoco se borra.
 
 | Orden | Rótulo | Tramo local (s) | Archivo |
 |---|---|---|---|
