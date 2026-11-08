@@ -1,6 +1,6 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Seis recortes de origen humano comparados con su fuente. Los tres de cocina ya no llevan el rótulo; los tres de boda todavía lo llevan. No son finales de Susan, no certifican la LSE y no entran en la app. Wan sigue pendiente.",
+  "que_son": "Nueve recortes de origen humano. Seis ya estaban y tres se añaden limpios de texto. No son finales de Susan, no certifican la LSE y no entran en la app. Wan sigue pendiente.",
   "revision_visual": "Comparación contra la fuente de cada lote. No es certificación LSE ni final de Susan.",
   "archivos": [
     {
@@ -200,6 +200,110 @@
         "bytes": 399351,
         "accion": "conservado sin cambios; el contenido no es el mismo"
       }
+    },
+    {
+      "nombre": "tenedor.mp4",
+      "ruta": "originales-revisados/tenedor.mp4",
+      "sha256": "fa826f59e3c718a3b855b2397b084c581334d72856fca726d45e3d146d3d2f5a",
+      "bytes": 228927,
+      "duracion_s": "3.253250",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 78,
+      "intervalo_fuente_s": [
+        38.0,
+        41.25
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "nota_tiempos": "Tramo absoluto en la fuente de YouTube. Los rótulos vecinos estáticos del final no son un lema aparte.",
+      "pre_limpieza_hash": "4a7d8da72e396311066ad79252e7cd98cf6bdb1086ecc3e38223445ae0dd7fa9",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo de limpieza. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=309 w=640 h=42. Solo la banda del texto. La recodificación no se afirma idéntica píxel a píxel.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "recorte completo y sin texto revisado",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/tenedor.mp4",
+        "sha256": "49e906a0d8dd831810443c7a0f0e8fa2b0405d5f5e3b97275a3914fc11c359b5",
+        "bytes": 529705,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "cucharitadecafe.mp4",
+      "ruta": "originales-revisados/cucharitadecafe.mp4",
+      "sha256": "02d5f1a65aea07ba0f89f113c91d1e50404bc18385e170c32546ff879d4eb55f",
+      "bytes": 309771,
+      "duracion_s": "4.504500",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 108,
+      "intervalo_fuente_s": [
+        51.5,
+        56.0
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "nota_tiempos": "Tramo absoluto en la fuente de YouTube. Los rótulos vecinos estáticos del final no son un lema aparte.",
+      "pre_limpieza_hash": "847cad72c419bcefc5d84affc6cc26cbe19a91e59d8044150e87f67b83f24ddb",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo de limpieza. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=309 w=640 h=42. Solo la banda del texto. La recodificación no se afirma idéntica píxel a píxel.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "recorte completo y sin texto revisado",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/cucharitadecaf.mp4",
+        "sha256": "faaf7ae6175522b5e79b51e1a63bf5072c6a4e0ff44a278a20a73ebafe396268",
+        "bytes": 368034,
+        "accion": "conservado sin cambios; no es este archivo"
+      },
+      "nota": "El archivo antiguo se llama cucharitadecaf.mp4, sin la e final."
+    },
+    {
+      "nombre": "servilleta.mp4",
+      "ruta": "originales-revisados/servilleta.mp4",
+      "sha256": "c74c87644600ae15491093382f64feaa68072fcd963b1d515526245ef4b30f8b",
+      "bytes": 268635,
+      "duracion_s": "3.753750",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 90,
+      "intervalo_fuente_s": [
+        66.25,
+        70.0
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "nota_tiempos": "Tramo absoluto en la fuente de YouTube. Los rótulos vecinos estáticos del final no son un lema aparte.",
+      "pre_limpieza_hash": "a7b5eb9e955d1b736bb20551465a03fe6d59a44bb315e8ea842b79f26c2b470d",
+      "pre_limpieza_nota": "Hash del recorte con texto, tomado del recibo de limpieza. Ese bruto no se copia al repositorio.",
+      "mascara_texto": "x=0 y=309 w=640 h=42. Solo la banda del texto. La recodificación no se afirma idéntica píxel a píxel.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_para_app": false,
+      "nivel": "recorte completo y sin texto revisado",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/servilleta.mp4",
+        "sha256": "b5359b6a7da10d53c6d2f550017309004566e92dda144da73c3248808d26f51d",
+        "bytes": 635644,
+        "accion": "conservado sin cambios; no es este archivo"
+      },
+      "nota": "El rótulo vecino estático QUE APROVECHE se eliminó; no es otro lema."
     }
   ],
   "fuentes": [
@@ -228,5 +332,15 @@
   "fuente_youtube_boda": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
   "copia_fuente_boda": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps.",
   "tiempos_boda": "Absolutos en esa descarga: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8.",
-  "limpieza_texto": "Cuchillo, vaso y plato llano sustituyen en la misma ruta a la versión con texto. El hash anterior queda en pre_limpieza_hash y en el commit d39f93f2e0f7cc638c2602ad2826518fde546878. No se ha copiado el bruto a otra carpeta."
+  "limpieza_texto": "Cuchillo, vaso y plato llano sustituyen en la misma ruta a la versión con texto. El hash anterior queda en pre_limpieza_hash y en el commit d39f93f2e0f7cc638c2602ad2826518fde546878. No se ha copiado el bruto a otra carpeta.",
+  "cocina_640x360": {
+    "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+    "archivos": [
+      "tenedor.mp4",
+      "cucharitadecafe.mp4",
+      "servilleta.mp4"
+    ],
+    "tiempos": "Absolutos en la fuente: tenedor 38–41.25, cucharita de café 51.5–56, servilleta 66.25–70.",
+    "contenedor": "640x360, 24000/1001 fps, 78, 108 y 90 fotogramas."
+  }
 }
