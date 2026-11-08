@@ -1,8 +1,8 @@
 # Originales revisados
 
-Hay nueve recortes comparados con su fuente. No son finales de Susan, no certifican la LSE y no entran en la app. Wan sigue pendiente en los nueve.
+Hay nueve archivos. Ocho siguen aptos como recorte de fuente. La aprobación de `boda.mp4` queda revocada: no son nueve aprobados. No son finales de Susan, no certifican la LSE y no entran en la app.
 
-Cuchillo, vaso, plato llano, tenedor, cucharita de café y servilleta están sin rótulo. Boda, padrino y ramo de flores conservan el texto y el fondo azul original. La recodificación de la limpieza no se afirma idéntica píxel a píxel.
+Cuchillo, vaso, plato llano, tenedor, cucharita de café y servilleta están sin rótulo. Padrino y ramo de flores conservan el texto y el fondo azul original, y su estado no cambia. La recodificación de la limpieza no se afirma idéntica píxel a píxel.
 
 ## Cocina 854×480
 
@@ -24,7 +24,8 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café y servilleta están sin
 
 - YouTube: https://www.youtube.com/watch?v=P6ejS-q_xoM
 - Copia fuente: descarga de 0 a 95 s, 640×360, 23.976 fps.
-- Tiempos absolutos: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8.
+- Tiempos de la fuente: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8.
+- `boda.mp4` (`3b1024204d79e193b32e0a383a4698a90b8339b99d29b4bbf2b289a9e89e9b9b`) sigue en el repositorio, pero su aprobación está revocada. Los fotogramas 0 a 20 son cartela de título, sin persona. La persona empieza en el fotograma 21, en reposo. La revisión anterior tomó el fotograma 0 como reposo. Estado: `pending_intro_trim_and_re_review`. El archivo no se recorta aquí.
 
 ## Estados
 
@@ -33,7 +34,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café y servilleta están sin
 | cuchillo.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | vaso.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | platollano.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
-| boda.mp4 | recorte_revisado_con_texto | pendiente | pendiente | pendiente | pendiente |
+| boda.mp4 | pending_intro_trim_and_re_review | pendiente | pendiente | pendiente | pendiente |
 | padrino.mp4 | recorte_revisado_con_texto | pendiente | pendiente | pendiente | pendiente |
 | ramodeflores.mp4 | recorte_revisado_con_texto | pendiente | pendiente | pendiente | pendiente |
 | tenedor.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |

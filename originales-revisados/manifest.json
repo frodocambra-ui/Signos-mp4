@@ -1,7 +1,12 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Nueve recortes de origen humano. Seis ya estaban y tres se añaden limpios de texto. No son finales de Susan, no certifican la LSE y no entran en la app. Wan sigue pendiente.",
-  "revision_visual": "Comparación contra la fuente de cada lote. No es certificación LSE ni final de Susan.",
+  "que_son": "Nueve archivos. Ocho siguen aptos como recorte de fuente. La aprobación de boda.mp4 queda revocada: los fotogramas 0 a 20 son cartela de título, sin persona, y la persona empieza en el fotograma 21 en reposo. El binario no se ha sustituido. No son finales de Susan, no certifican la LSE y no entran en la app.",
+  "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
+  "conteo": {
+    "archivos": 9,
+    "aptos_fuente": 8,
+    "boda_en_revision": 1
+  },
   "archivos": [
     {
       "nombre": "cuchillo.mp4",
@@ -125,7 +130,9 @@
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
       "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "recorte_revisado_con_texto",
+      "estado_recorte": "pending_intro_trim_and_re_review",
+      "aprobacion_revocada": true,
+      "motivo_revocacion": "Los fotogramas 0 a 20 son una cartela de título con anillos y sin persona. La persona aparece en el fotograma 21, en reposo. La revisión anterior aprobó por error el fotograma 0 como reposo. El binario se conserva hasta que haya un recorte nuevo revisado entero.",
       "estado_limpieza_texto": "pendiente",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
