@@ -1,20 +1,18 @@
 {
   "carpeta": "originales-revisados",
-  "que_son": "Quince archivos en la misma carpeta. Catorce están limpios y revisados. La aprobación de boda.mp4 sigue revocada y su archivo no cambia. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
+  "que_son": "Dieciséis archivos en la misma carpeta. Los dieciséis están limpios y revisados. La boda publicada ahora es la versión sin cartela. El archivo revocado, hash 3b102420, permanece solo en el historial. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.",
   "revision_visual": "La revisión anterior de boda tomó el fotograma 0 como reposo y queda revocada. Estado: pending_intro_trim_and_re_review. No es certificación LSE ni final de Susan.",
   "conteo": {
-    "archivos": 15,
+    "archivos": 16,
     "por_estado_recorte": {
-      "recorte_revisado": 14,
-      "pending_intro_trim_and_re_review": 1
+      "recorte_revisado": 16
     },
     "por_estado_limpieza_texto": {
-      "limpieza_texto_revisada": 14,
-      "pendiente": 1
+      "limpieza_texto_revisada": 16
     },
-    "limpios_revisados": 14,
+    "limpios_revisados": 16,
     "con_texto": 0,
-    "boda_en_revision": 1
+    "boda_en_revision": 0
   },
   "archivos": [
     {
@@ -125,24 +123,23 @@
     {
       "nombre": "boda.mp4",
       "ruta": "originales-revisados/boda.mp4",
-      "sha256": "3b1024204d79e193b32e0a383a4698a90b8339b99d29b4bbf2b289a9e89e9b9b",
-      "bytes": 258934,
-      "duracion_s": "3.378375",
+      "sha256": "93866c0aa0aa6d402fc7784af4dd30b5cb55fa584a0ce1f63f2a35bfaa9c4c84",
+      "bytes": 184034,
+      "duracion_s": "2.502500",
       "ancho": 640,
       "alto": 360,
       "fps": "24000/1001",
-      "fotogramas_informados": 81,
+      "fotogramas_informados": 60,
       "intervalo_fuente_s": [
-        13.4,
+        14.275875,
         16.8
       ],
       "fuente_youtube": "https://www.youtube.com/watch?v=P6ejS-q_xoM",
       "copia_fuente": "Descarga de YouTube de 0 a 95 s, 640x360, 23.976 fps. El intervalo es el tiempo absoluto de esa descarga.",
-      "texto_y_fondo": "Permanecen el texto incrustado y el fondo azul original. No es un final.",
-      "estado_recorte": "pending_intro_trim_and_re_review",
-      "aprobacion_revocada": true,
-      "motivo_revocacion": "Los fotogramas 0 a 20 son una cartela de título con anillos y sin persona. La persona aparece en el fotograma 21, en reposo. La revisión anterior aprobó por error el fotograma 0 como reposo. El binario se conserva hasta que haya un recorte nuevo revisado entero.",
-      "estado_limpieza_texto": "pendiente",
+      "texto_y_fondo": "La versión actual ya no tiene la cartela inicial ni el rótulo. No es un final de Susan.",
+      "estado_recorte": "recorte_revisado",
+      "aprobacion_revocada": false,
+      "estado_limpieza_texto": "limpieza_texto_revisada",
       "estado_wan": "pendiente",
       "estado_app": "pendiente",
       "certificacion_lse": false,
@@ -153,7 +150,24 @@
         "sha256": "455d4a8416b066029d556e5012cd48b3b2999bc76a9e3e60e051652274347bd7",
         "bytes": 658024,
         "accion": "conservado sin cambios; el contenido no es el mismo"
-      }
+      },
+      "historial_revocacion": {
+        "sha256": "3b1024204d79e193b32e0a383a4698a90b8339b99d29b4bbf2b289a9e89e9b9b",
+        "bytes": 258934,
+        "commit": "b990828b86de1bc1aec0ec3c398900713ff04c88",
+        "estado": "pending_intro_trim_and_re_review",
+        "motivo": "Los fotogramas 0 a 20 de aquella versión eran cartela de título, sin persona. Esa aprobación quedó revocada. El archivo se conserva en ese commit y ya no es el archivo actual."
+      },
+      "intervalo_fuente_nota": "Aproximado. La versión revocada usaba 13.4–16.8.",
+      "pre_limpieza_hash": "0b576279661140c202dd6628f83838e15023cdce2a80e9d80e98575c4c177465",
+      "pre_limpieza_nota": "Hash del recorte v2 sin cartela y todavía con texto. No se copia al repositorio.",
+      "recibo": "boda_v2",
+      "revision_raw": "c3d4",
+      "revision_limpieza": "ba84b717",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE"
     },
     {
       "nombre": "padrino.mp4",
@@ -558,6 +572,44 @@
         "ruta": "revision-palabras-separadas-2026-11-08/queaproveche.mp4",
         "sha256": "466d5fbcf986dca70c9826251de9eb5ff23cfd1b12ceea7067395c29eee74327",
         "bytes": 635644,
+        "accion": "conservado sin cambios; no es este archivo"
+      }
+    },
+    {
+      "nombre": "cuchara.mp4",
+      "ruta": "originales-revisados/cuchara.mp4",
+      "sha256": "ea59fea6864370e2a735ad77807d13e35eaa9f8c4135a7334e99007e8b6ad12e",
+      "bytes": 168956,
+      "duracion_s": "2.627625",
+      "ancho": 640,
+      "alto": 360,
+      "fps": "24000/1001",
+      "fotogramas_informados": 63,
+      "intervalo_fuente_s": [
+        44.5,
+        47.1
+      ],
+      "fuente_youtube": "https://www.youtube.com/watch?v=c13pJ9Ikrjw",
+      "recibo": "cuchara_v2",
+      "revision_raw": "0fbb21",
+      "revision_limpieza": "ba84b717",
+      "pre_limpieza_hash": "9918a4999ba1987e8d483b76782daefab6f8d2ec366817ce143b9c4d7e7fc451",
+      "pre_limpieza_nota": "Hash del recorte con texto en el recibo cuchara_v2. Ese bruto no se copia. La aprobación del bruto se cita como 0fbb21.",
+      "mascara_texto": "x=0 y=310 w=640 h=41, banda 310..350.",
+      "estado_recorte": "recorte_revisado",
+      "estado_limpieza_texto": "limpieza_texto_revisada",
+      "estado_wan": "pendiente",
+      "estado_jarvis": "pendiente",
+      "estado_final_susan": "pendiente",
+      "estado_app": "pendiente",
+      "certificacion_lse": false,
+      "final_susan": false,
+      "final_para_app": false,
+      "nivel": "limpio revisado; no es final de Susan ni certificación LSE",
+      "archivo_previo_mismo_nombre": {
+        "ruta": "revision-palabras-separadas-2026-11-08/cuchara.mp4",
+        "sha256": "ee9768f70e2cfff2bfa9572a68cd2073ffad7627a92dfd1bf1809ef36f743bbb",
+        "bytes": 399871,
         "accion": "conservado sin cambios; no es este archivo"
       }
     }

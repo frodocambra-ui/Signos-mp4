@@ -1,8 +1,8 @@
 # Originales revisados
 
-Hay quince archivos en esta misma carpeta. Catorce están limpios y revisados. La aprobación de `boda.mp4` sigue revocada y ese archivo no se ha sustituido. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
+Hay dieciséis archivos en esta misma carpeta. Los dieciséis están limpios y revisados. La boda publicada ahora es la versión sin cartela. El archivo revocado, hash `3b102420`, queda solo en el historial. No son finales de Susan, no certifican la LSE y no entran en la app. Wan y Jarvis siguen pendientes.
 
-Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, silla, plato, jarra, botella, padrino, ramo de flores y que aproveche están sin rótulo. Padrino y ramo sustituyen, en la misma ruta, a la versión que todavía tenía texto. La recodificación no se afirma idéntica píxel a píxel.
+Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, silla, plato, jarra, botella, padrino, ramo de flores, que aproveche, cuchara y boda están sin rótulo. La recodificación no se afirma idéntica píxel a píxel.
 
 ## Cocina 854×480
 
@@ -28,13 +28,15 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 - La máscara de plato, y310..350, es la correcta. No se conserva como defecto la advertencia anterior.
 - Contenedor medido: 640×360. Mesa, silla, plato y jarra van a 24000/1001, con 56, 63, 60 y 76 fotogramas. Botella dura 3.795 s; ffprobe informa 90 fotogramas y el recibo 91. El hash de botella sí coincide con el recibo.
 - Que aproveche, tramo 70–72.75, recibo `queaproveche_v2`, revisión `5d0a5d3c`. Máscara 310..350. Las filas 351..359 son franja azul del fondo original, sin texto. 66 fotogramas, 640×360, 24000/1001.
+- Cuchara, tramo 44.5–47.1, recibo `cuchara_v2`, bruto citado como `0fbb21` y hash `9918a4999ba1987e8d483b76782daefab6f8d2ec366817ce143b9c4d7e7fc451`. Limpieza `ba84b717`. 63 fotogramas, 640×360, 24000/1001. Máscara 310..350.
 
 ## Boda
 
 - YouTube: https://www.youtube.com/watch?v=P6ejS-q_xoM
 - Copia fuente: descarga de 0 a 95 s, 640×360, 23.976 fps.
 - Tiempos de la fuente: boda 13.4–16.8, padrino 28.5–31.5, ramo de flores 67.8–71.8.
-- `boda.mp4` (`3b1024204d79e193b32e0a383a4698a90b8339b99d29b4bbf2b289a9e89e9b9b`) sigue en el repositorio, pero su aprobación está revocada. Los fotogramas 0 a 20 son cartela de título, sin persona. La persona empieza en el fotograma 21, en reposo. La revisión anterior tomó el fotograma 0 como reposo. Estado: `pending_intro_trim_and_re_review`. El archivo no se recorta aquí. Una versión posterior en bruto puede estar aprobada, pero todavía no está limpia y no sustituye a este archivo.
+- La versión revocada de `boda.mp4`, hash `3b1024204d79e193b32e0a383a4698a90b8339b99d29b4bbf2b289a9e89e9b9b`, tenía cartela en los fotogramas 0 a 20. Sigue en el commit `b990828b86de1bc1aec0ec3c398900713ff04c88` y ya no es el archivo actual.
+- La boda actual es la versión limpia, 60 fotogramas, 640×360, 24000/1001. Tramo aproximado 14.275875–16.8. El bruto sin cartela y con texto es `0b576279661140c202dd6628f83838e15023cdce2a80e9d80e98575c4c177465`. Revisión del bruto `c3d4` y limpieza `ba84b717`. Máscara 310..350.
 - Padrino y ramo de flores ya están en la versión limpia, revisión `c3d4ead9`, máscara 309..350. Conservan los mismos tramos de la fuente. El hash con texto queda en `pre_limpieza_hash`.
 
 ## Estados
@@ -44,7 +46,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 | cuchillo.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | vaso.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | platollano.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
-| boda.mp4 | pending_intro_trim_and_re_review | pendiente | pendiente | pendiente | pendiente |
+| boda.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | padrino.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | ramodeflores.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | tenedor.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
@@ -56,6 +58,7 @@ Cuchillo, vaso, plato llano, tenedor, cucharita de café, servilleta, mesa, sill
 | jarra.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | botella.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 | queaproveche.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
+| cuchara.mp4 | recorte_revisado | limpieza_texto_revisada | pendiente | pendiente | pendiente |
 
 Los MP4 antiguos de `revision-palabras-separadas-2026-11-08/` siguen intactos. La cucharita antigua se llama `cucharitadecaf.mp4`.
 
