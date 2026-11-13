@@ -49,3 +49,34 @@ Se ha añadido como **fuente separada** el conjunto [SWL-LSE / SignaMed](https:/
 - Las palabras nuevas llevan `source: "swl_lse"` y sus puntos embebidos en `puntos`.
 - Las palabras que ya estaban en el diccionario no se han reescrito: sus puntos SWL-LSE van en `puntos_swl_lse`.
 - Las explicaciones son propias. No se ha copiado DILSE.
+
+## Fuente añadida: cursos de YouTube, saludos (13-11-2026, Europe/Madrid)
+
+Se han añadido plantillas de puntos (MediaPipe Holistic) de **signantes reales**, no de Susan, sacadas de signos aislados de cursos públicos de YouTube. Sirven como referencias extra del escáner, para que la app pueda reconocer saludos que antes no tenían puntos (`hola`, `gracias`, `perdón`, `por-favor`, etc.).
+
+Las plantillas nuevas de una palabra que ya tenía puntos no sustituyen a las existentes: van en `puntos_adicionales` (lista). Si la palabra no tenía puntos, la plantilla principal queda en `puntos` (para que el formato siga siendo compatible) y el resto, si hay, en `puntos_adicionales`.
+
+**No se ha usado Spread The Sign ni DILSE.**
+
+### Aprender Gratis — Tema 10, saludos y conversación
+
+- Vídeo: [Curso LENGUA de SIGNOS / Saludos y conversación en LSE / Tema 10](https://www.youtube.com/watch?v=w1vRaGuo328), canal Aprender Gratis.
+- Lista: https://www.youtube.com/playlist?list=PL3t1u6bsUXuIv1nJfQcEMLCNCAcd8RZZW
+- Licencia: licencia estándar de YouTube.
+- Signante: mujer. Los cortes se identificaron con los subtítulos manuales, la narración y las pausas del movimiento.
+
+### EFIAP Región de Murcia — 01 Saludar y despedirse
+
+- Vídeo: [01 Saludar y despedirse](https://www.youtube.com/watch?v=P2VPCEjGHBU), lista [A1 Lengua de Signos Española Básico](https://www.youtube.com/playlist?list=PLxCZtp6Ou7i1u_ed53oQRcOrlaSkuyUhr).
+- Autor: Cristobal López López / Escuela de Formación e Innovación de la Administración Pública de la Región de Murcia.
+- Licencia: [CC BY-NC-SA 3.0 ES](https://creativecommons.org/licenses/by-nc-sa/3.0/es/). Hay que citar al autor. **Uso no comercial y ShareAlike**: estas plantillas (`source: "efiapp_murcia"`) no se pueden usar con fines comerciales y las obras derivadas deben llevar la misma licencia. No se han puesto como `puntos` principales de ninguna palabra, solo en `puntos_adicionales`.
+
+### Clases Lengua de signos ES — Conversación básica
+
+- Vídeo: [Conversación básica](https://www.youtube.com/watch?v=ZQuGtA1pDFg), canal Clases Lengua de signos ES.
+- Licencia: licencia estándar de YouTube.
+- Signante: mujer. Los cortes se identificaron con la etiqueta de cada signo en pantalla (por ejemplo «POR FAVOR», «¡HOLA!», «PERDÓN»).
+
+### Palabras cubiertas en este lote
+
+`hola`, `qué-tal`, `bien`, `mal`, `regular`, `buenos-días`, `buenas-tardes`, `buenas-noches`, `adiós`, `gracias`, `de-nada`, `perdón`, `por-favor`. Las que no tenían puntos ahora tienen plantilla en `puntos`. `mal` y `regular` ya tenían puntos; se han añadido referencias extra.
