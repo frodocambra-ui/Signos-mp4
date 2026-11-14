@@ -22,7 +22,7 @@ El campo `puntos`:
   - Fotogramas reducidos de forma uniforme a un máximo de 24; coordenadas redondeadas a 3 decimales.
   - `n_frames_original`, `fps_original` e `indices_fotogramas` permiten recuperar la cadencia original.
   - `resumen` y `detalle_plantillas` describen manos, inicio, fin y trayectoria.
-  - `fuente_plantilla` indica el lote de origen (por ejemplo `cortes/abrir.json` o `swl_lse/aborto.json`); no es una ruta de este repositorio.
+  - `fuente_plantilla` indica el lote de origen (por ejemplo `cortes/abrir.json`); no es una ruta de este repositorio.
 
 La etiqueta `2` se deja como `2`, igual que en el resto del repositorio. El nombre `zapatod-de-tacon` también se conserva tal cual está.
 
@@ -41,14 +41,6 @@ La etiqueta `2` se deja como `2`, igual que en el resto del repositorio. El nomb
 - **baja:** no se ha podido describir con seguridad. En este lote solo ocurre en `asistente` (en el vídeo de la app casi no se ve el signo).
 
 Fecha: 13 de noviembre de 2026 (Europe/Madrid).
-
-## Fuente añadida: SWL-LSE (13-11-2026, Europe/Madrid)
-
-Se ha añadido como **fuente separada** el conjunto [SWL-LSE / SignaMed](https://zenodo.org/records/13691887) de la Universidade de Vigo, licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Hay que citar: SWL-LSE (SignaMed Word-Level LSE), Universidade de Vigo, CC BY 4.0, DOI [10.5281/zenodo.13691887](https://doi.org/10.5281/zenodo.13691887).
-
-- Las palabras nuevas llevan `source: "swl_lse"` y sus puntos embebidos en `puntos`.
-- Las palabras que ya estaban en el diccionario no se han reescrito: sus puntos SWL-LSE van en `puntos_swl_lse`.
-- Las explicaciones son propias. No se ha copiado DILSE.
 
 ## Fuente añadida: cursos de YouTube, saludos (13-11-2026, Europe/Madrid)
 

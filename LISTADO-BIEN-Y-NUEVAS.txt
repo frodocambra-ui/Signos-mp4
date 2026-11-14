@@ -49,9 +49,6 @@ Son 46. Están en videos/ y salen al decir la palabra.
 46. voleibol
 
 LAS 300 NUEVAS
-Son de salud. Universidad de Vigo y Fundación CNSE. Licencia CC BY 4.0.
-https://doi.org/10.5281/zenodo.13691887
-Están en videos/swl-lse/. Todavía no salen al decir la palabra.
 
 1. #N/A
 2. ABORTO
