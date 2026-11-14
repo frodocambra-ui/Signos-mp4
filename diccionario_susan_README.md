@@ -72,3 +72,14 @@ Las plantillas nuevas de una palabra que ya tenía puntos no sustituyen a las ex
 ### Palabras cubiertas en este lote
 
 `hola`, `qué-tal`, `bien`, `mal`, `regular`, `buenos-días`, `buenas-tardes`, `buenas-noches`, `adiós`, `gracias`, `de-nada`, `perdón`, `por-favor`. Las que no tenían puntos ahora tienen plantilla en `puntos`. `mal` y `regular` ya tenían puntos; se han añadido referencias extra.
+
+## Fuente añadida: vídeos de Susan (14-11-2026, Europe/Madrid)
+
+Se han añadido plantillas MediaPipe Holistic (manos, pose, blendshapes y **cara**) extraídas de los vídeos propios de Susan en `videos/lse/palabras`. Sirven para que el escáner reconozca palabras que se habían quedado sin puntos al quitar los datos de SWL-LSE (Vigo).
+
+Reglas:
+
+- Si la palabra **no tenía** puntos, la plantilla de Susan queda en `puntos` (compatible con la app actual, que ya lee `pose`, `mano_izq` y `mano_der`).
+- Si la palabra **ya tenía** puntos de un signante real, esos no se tocan: la de Susan va en `puntos_adicionales`.
+- El campo nuevo `frames.cara` tiene 89 puntos clave de Face Mesh (cejas, ojos, nariz, boca, contorno). La app actual puede ignorarlo sin romperse.
+- **No se ha usado SWL-LSE (Vigo), Spread The Sign ni DILSE.**
