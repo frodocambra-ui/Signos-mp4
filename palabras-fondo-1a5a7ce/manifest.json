@@ -1,0 +1,456 @@
+{
+  "objeto": "revision-susan-2026-11-08/objects/1a5a7ce170f39702b0ba0b3baaa37763c52cc26b0e6ef9ba9896339f3be67566.mp4",
+  "sha256_objeto": "1a5a7ce170f39702b0ba0b3baaa37763c52cc26b0e6ef9ba9896339f3be67566",
+  "duracion_objeto_s": 72.333,
+  "fps": 30,
+  "resolucion": "854x480",
+  "fondo": "modificado_negro_verificado",
+  "reactor": "no_acreditado",
+  "wan": "pendiente",
+  "certificacion_lse": false,
+  "tiempo": "segundos locales del archivo procesado, no tiempos absolutos de YouTube",
+  "metodo": "Rótulo leído cada 1 s. El movimiento del cuerpo se midió a 30 fps. En 16 de 17 fronteras no hay un reposo dentro del hueco entre rótulos, así que el corte por la mitad del hueco no se da por correcto. No se han vuelto a codificar los 18 clips.",
+  "entero_conservado": true,
+  "palabras": 18,
+  "dudosas": 17,
+  "clips": [
+    {
+      "orden": 1,
+      "rotulo": "BODA",
+      "archivo": "01-boda.mp4",
+      "inicio_s": 0.5,
+      "fin_s": 4.5,
+      "inicio_frame": 15,
+      "fin_frame": 135,
+      "duracion_clip_s": 4.0,
+      "bytes": 202205,
+      "sha256": "97655e6a253c1b45d69a5371da3430c4eeff25835d5788e6dcb20820cee0525d",
+      "rotulo_visto_en_s": 2.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 2,
+      "rotulo": "MARIDO",
+      "archivo": "02-marido.mp4",
+      "inicio_s": 4.5,
+      "fin_s": 8.0,
+      "inicio_frame": 135,
+      "fin_frame": 240,
+      "duracion_clip_s": 3.5,
+      "bytes": 214620,
+      "sha256": "5a51955d60421bd6ed42fc304a817bd9f11434c3edc93b95dce736ae77722390",
+      "rotulo_visto_en_s": 5.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 3,
+      "rotulo": "MUJER",
+      "archivo": "03-mujer.mp4",
+      "inicio_s": 8.0,
+      "fin_s": 11.5,
+      "inicio_frame": 240,
+      "fin_frame": 345,
+      "duracion_clip_s": 3.5,
+      "bytes": 214956,
+      "sha256": "a3a3eecb5bc0eeeb84074b4ba8aedcacdc0e441a8d3302fd394cadee804d751e",
+      "rotulo_visto_en_s": 9.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 4,
+      "rotulo": "DAMA DE HONOR",
+      "archivo": "04-dama-de-honor.mp4",
+      "inicio_s": 11.5,
+      "fin_s": 15.5,
+      "inicio_frame": 345,
+      "fin_frame": 465,
+      "duracion_clip_s": 4.0,
+      "bytes": 269478,
+      "sha256": "6dbc1555c6f092d437de1a83b96fa7c3d208e92ee27403ac2e1bcc261170c947",
+      "rotulo_visto_en_s": 12.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 5,
+      "rotulo": "PADRINO",
+      "archivo": "05-padrino.mp4",
+      "inicio_s": 15.5,
+      "fin_s": 18.5,
+      "inicio_frame": 465,
+      "fin_frame": 555,
+      "duracion_clip_s": 3.0,
+      "bytes": 163733,
+      "sha256": "a0c3b0e7a4cabb34ec328b126cb4796780005c37f25082da2581471cd3cd6004",
+      "rotulo_visto_en_s": 16.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 6,
+      "rotulo": "BANQUETE",
+      "archivo": "06-banquete.mp4",
+      "inicio_s": 18.5,
+      "fin_s": 22.5,
+      "inicio_frame": 555,
+      "fin_frame": 675,
+      "duracion_clip_s": 4.0,
+      "bytes": 266799,
+      "sha256": "58898f887dd0f46a6486bc5862f2614c6fe0a59d989b998addf56add8f35f538",
+      "rotulo_visto_en_s": 19.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 7,
+      "rotulo": "CURA",
+      "archivo": "07-cura.mp4",
+      "inicio_s": 22.5,
+      "fin_s": 26.5,
+      "inicio_frame": 675,
+      "fin_frame": 795,
+      "duracion_clip_s": 4.0,
+      "bytes": 260421,
+      "sha256": "25bf0cfdbb71f99d660589b62a9226537e502c1778b52bde6dca655c6425933e",
+      "rotulo_visto_en_s": 23.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 8,
+      "rotulo": "ABOGADO",
+      "archivo": "08-abogado.mp4",
+      "inicio_s": 26.5,
+      "fin_s": 29.5,
+      "inicio_frame": 795,
+      "fin_frame": 885,
+      "duracion_clip_s": 3.0,
+      "bytes": 139037,
+      "sha256": "4d40735b10a176ab5d47f8c0848acc254cde1c494c649159d10b4b4c214de7ea",
+      "rotulo_visto_en_s": 27.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 9,
+      "rotulo": "CEREMONIA",
+      "archivo": "09-ceremonia.mp4",
+      "inicio_s": 29.5,
+      "fin_s": 33.5,
+      "inicio_frame": 885,
+      "fin_frame": 1005,
+      "duracion_clip_s": 4.0,
+      "bytes": 189757,
+      "sha256": "0a989b5e5502ef0a0bbd2649f79bd5f0de198356e4f37f6dc9ae2c3228e111d6",
+      "rotulo_visto_en_s": 30.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 10,
+      "rotulo": "INVITACIÓN",
+      "archivo": "10-invitacion.mp4",
+      "inicio_s": 33.5,
+      "fin_s": 38.5,
+      "inicio_frame": 1005,
+      "fin_frame": 1155,
+      "duracion_clip_s": 5.0,
+      "bytes": 325182,
+      "sha256": "1b92f978d9eea8055cba66d16b1b0d485a0737eb98ec5b7188d2adc5fc47c66d",
+      "rotulo_visto_en_s": 34.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 11,
+      "rotulo": "INVITADOS",
+      "archivo": "11-invitados.mp4",
+      "inicio_s": 38.5,
+      "fin_s": 42.5,
+      "inicio_frame": 1155,
+      "fin_frame": 1275,
+      "duracion_clip_s": 4.0,
+      "bytes": 209852,
+      "sha256": "cf3c5957425c506d41424edd252a3381e1267398581352f4baef5e0cce9f9ecd",
+      "rotulo_visto_en_s": 39.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 12,
+      "rotulo": "QUIERES CASARTE CONMIGO",
+      "archivo": "12-quieres-casarte-conmigo.mp4",
+      "inicio_s": 42.5,
+      "fin_s": 47.5,
+      "inicio_frame": 1275,
+      "fin_frame": 1425,
+      "duracion_clip_s": 5.0,
+      "bytes": 299043,
+      "sha256": "a1a10a4b3879a247469e4fd53da56fe151da6462417fa51c951439cd8c159602",
+      "rotulo_visto_en_s": 43.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 13,
+      "rotulo": "VESTIDO DE NOVIA",
+      "archivo": "13-vestido-de-novia.mp4",
+      "inicio_s": 47.5,
+      "fin_s": 51.5,
+      "inicio_frame": 1425,
+      "fin_frame": 1545,
+      "duracion_clip_s": 4.0,
+      "bytes": 239759,
+      "sha256": "99a6efe091581c447369ac0bc5485342d5161637c74c354773b5fee99f69018f",
+      "rotulo_visto_en_s": 48.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 14,
+      "rotulo": "TRAJE",
+      "archivo": "14-traje.mp4",
+      "inicio_s": 51.5,
+      "fin_s": 54.5,
+      "inicio_frame": 1545,
+      "fin_frame": 1635,
+      "duracion_clip_s": 3.0,
+      "bytes": 143608,
+      "sha256": "7dfe096f804c118c6bf32bdd7d6a9fedc40da81972d7cd8c553231e370594429",
+      "rotulo_visto_en_s": 52.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 15,
+      "rotulo": "RAMO DE FLORES",
+      "archivo": "15-ramo-de-flores.mp4",
+      "inicio_s": 54.5,
+      "fin_s": 59.5,
+      "inicio_frame": 1635,
+      "fin_frame": 1785,
+      "duracion_clip_s": 5.0,
+      "bytes": 257748,
+      "sha256": "f5d4106e704d4f05448e1d2ef043cae1911a1d550c7c9ac485f7ce09433d029c",
+      "rotulo_visto_en_s": 55.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 16,
+      "rotulo": "ANILLO DE PROMETIDO/A",
+      "archivo": "16-anillo-de-prometido.mp4",
+      "inicio_s": 59.5,
+      "fin_s": 64.5,
+      "inicio_frame": 1785,
+      "fin_frame": 1935,
+      "duracion_clip_s": 5.0,
+      "bytes": 295041,
+      "sha256": "e651269f246794fc9d8bbc595744d249899c20682fced24d477337d13d6689c7",
+      "rotulo_visto_en_s": 60.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 17,
+      "rotulo": "ANILLO DE COMPROMISO",
+      "archivo": "17-anillo-de-compromiso.mp4",
+      "inicio_s": 64.5,
+      "fin_s": 69.5,
+      "inicio_frame": 1935,
+      "fin_frame": 2085,
+      "duracion_clip_s": 5.0,
+      "bytes": 291779,
+      "sha256": "e56e337afe79764efb4fddd996c78918b2bd77f6e35f08aca941784d2c117171",
+      "rotulo_visto_en_s": 65.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    },
+    {
+      "orden": 18,
+      "rotulo": "VIVAN LOS NOVIOS",
+      "archivo": "18-vivan-los-novios.mp4",
+      "inicio_s": 69.5,
+      "fin_s": 72.333,
+      "inicio_frame": 2085,
+      "fin_frame": 2170,
+      "duracion_clip_s": 2.833,
+      "bytes": 196488,
+      "sha256": "fe13fb2f264aff40f89462655337bd3134f7694866efe8ec0b492b11f06ded75",
+      "rotulo_visto_en_s": 70.0,
+      "comprobacion": "rotulo_leido_no_basta",
+      "borde": "pendiente_revision_video",
+      "dudoso": true,
+      "certificacion_lse": false
+    }
+  ],
+  "entero_retirado": false,
+  "motivo_no_retirado": "Las fronteras entre palabras no coinciden con un reposo medido. Los cortes siguen pendientes de revisión de vídeo. No se borra el entero.",
+  "verificacion_fronteras": "no_verificado",
+  "fronteras": [
+    {
+      "entre": "01-boda|02-marido",
+      "corte_s": 4.5,
+      "reposo_cercano_s": [
+        3.43,
+        4.47
+      ],
+      "estado": "reposo_termina_justo_antes_del_corte"
+    },
+    {
+      "entre": "02-marido|03-mujer",
+      "corte_s": 8.0,
+      "reposo_cercano_s": [
+        7.33,
+        7.7
+      ],
+      "estado": "reposo_antes_del_hueco_no_verificado"
+    },
+    {
+      "entre": "03-mujer|04-dama-de-honor",
+      "corte_s": 11.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "04-dama-de-honor|05-padrino",
+      "corte_s": 15.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "05-padrino|06-banquete",
+      "corte_s": 18.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "06-banquete|07-cura",
+      "corte_s": 22.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "07-cura|08-abogado",
+      "corte_s": 26.5,
+      "reposo_cercano_s": [
+        27.17,
+        27.53
+      ],
+      "estado": "reposo_despues_del_corte_no_verificado"
+    },
+    {
+      "entre": "08-abogado|09-ceremonia",
+      "corte_s": 29.5,
+      "reposo_cercano_s": [
+        28.5,
+        29.27
+      ],
+      "estado": "reposo_antes_del_corte_no_verificado"
+    },
+    {
+      "entre": "09-ceremonia|10-invitacion",
+      "corte_s": 33.5,
+      "reposo_cercano_s": [
+        32.17,
+        33.37
+      ],
+      "estado": "reposo_antes_del_corte_no_verificado"
+    },
+    {
+      "entre": "10-invitacion|11-invitados",
+      "corte_s": 38.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "11-invitados|12-quieres-casarte-conmigo",
+      "corte_s": 42.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "12-quieres-casarte-conmigo|13-vestido-de-novia",
+      "corte_s": 47.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "13-vestido-de-novia|14-traje",
+      "corte_s": 51.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "14-traje|15-ramo-de-flores",
+      "corte_s": 54.5,
+      "reposo_cercano_s": [
+        53.13,
+        54.07
+      ],
+      "estado": "reposo_antes_del_corte_no_verificado"
+    },
+    {
+      "entre": "15-ramo-de-flores|16-anillo-de-prometido",
+      "corte_s": 59.5,
+      "reposo_cercano_s": [
+        57.8,
+        59.13
+      ],
+      "estado": "reposo_antes_del_corte_no_verificado"
+    },
+    {
+      "entre": "16-anillo-de-prometido|17-anillo-de-compromiso",
+      "corte_s": 64.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    },
+    {
+      "entre": "17-anillo-de-compromiso|18-vivan-los-novios",
+      "corte_s": 69.5,
+      "reposo_cercano_s": null,
+      "estado": "sin_reposo_en_el_hueco"
+    }
+  ],
+  "inicio": "El clip 01 empieza en 0,5 s. Hay cambio de imagen en los primeros 0,3 s. No se ha movido el corte: el fotograma 0 está negro y el fundido exacto no está cerrado.",
+  "final": "El clip 18 llega al final del archivo, 72,333 s. Incluye el tramo final.",
+  "contacto": "fronteras/frontera-01.jpg … frontera-17.jpg",
+  "revision_lenta": "revision-lenta.mp4 lleva el reloj local del archivo de 72,3 s."
+}
