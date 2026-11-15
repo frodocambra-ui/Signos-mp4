@@ -1,0 +1,366 @@
+{
+    "schema":  "unique-binary-objects-with-original-path-map-v1",
+    "scope":  [
+                  "videos fondo modificado",
+                  "Listos-GitHub"
+              ],
+    "local_files_preserved":  true,
+    "files":  [
+                  {
+                      "relative_path":  "videos fondo modificado/atletismo.mp4",
+                      "bytes":  270745,
+                      "sha256":  "bab098002ae1892463dabfd0b1e8976bf7ea993839b4e6ed01e4557592da55c8",
+                      "modified_utc":  "2026-11-05T17:01:19.8966640Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/baloncesto.mp4",
+                      "bytes":  232549,
+                      "sha256":  "7879fc709c0e37bf66fc48016dc119c11ee9ba1a4199736b65a112f6c8ac71a3",
+                      "modified_utc":  "2026-11-08T09:20:44.5484859Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/deportes-v2.mp4",
+                      "bytes":  227513,
+                      "sha256":  "75ceb4c50ff31d8a2d298b55e07d2a5db617d12af85560f0498c9ccbc9d5e926",
+                      "modified_utc":  "2026-11-03T16:52:10.5490359Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/deportes.mp4",
+                      "bytes":  227513,
+                      "sha256":  "75ceb4c50ff31d8a2d298b55e07d2a5db617d12af85560f0498c9ccbc9d5e926",
+                      "modified_utc":  "2026-11-02T13:25:14.6749482Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-aMRd2V_PB7k-193-1065-v2.mp4",
+                      "bytes":  10125073,
+                      "sha256":  "34ac20c614f382f2afe77bcb978dc5f45c61f8beaba6f1f489a1a83086e650b4",
+                      "modified_utc":  "2026-11-03T07:58:49.4143649Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-aMRd2V_PB7k-193-1065-v3.mp4",
+                      "bytes":  10125073,
+                      "sha256":  "34ac20c614f382f2afe77bcb978dc5f45c61f8beaba6f1f489a1a83086e650b4",
+                      "modified_utc":  "2026-11-06T16:48:01.2723087Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-aMRd2V_PB7k-193-1065-v4.mp4",
+                      "bytes":  10125073,
+                      "sha256":  "34ac20c614f382f2afe77bcb978dc5f45c61f8beaba6f1f489a1a83086e650b4",
+                      "modified_utc":  "2026-11-03T18:18:04.5394134Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-aMRd2V_PB7k-193-1065.mp4",
+                      "bytes":  10125073,
+                      "sha256":  "34ac20c614f382f2afe77bcb978dc5f45c61f8beaba6f1f489a1a83086e650b4",
+                      "modified_utc":  "2026-11-03T07:47:00.9570539Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-c13pJ9Ikrjw-143-801-v2.mp4.parcial.mp4",
+                      "bytes":  4727515,
+                      "sha256":  "f55961676ddacb04ed3ddc038357d54457462f20553038ce6a569017dcb4538d",
+                      "modified_utc":  "2026-11-04T08:24:12.2880615Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-c13pJ9Ikrjw-143-801.mp4",
+                      "bytes":  4727515,
+                      "sha256":  "f55961676ddacb04ed3ddc038357d54457462f20553038ce6a569017dcb4538d",
+                      "modified_utc":  "2026-11-03T14:44:43.2985061Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-c3fmfQA7OzI-173-857.mp4",
+                      "bytes":  7615925,
+                      "sha256":  "2fff576fa56413991ebaacde28cb40272b0f6f9a41d4c53877b91f728c8cc376",
+                      "modified_utc":  "2026-11-03T17:01:46.5338432Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-c3fmfQA7OzI-203-857-v2.mp4",
+                      "bytes":  7248254,
+                      "sha256":  "0274604b74085df168e7b4a1a08ecc7beed6f6ac886ce144d742678718f70ea8",
+                      "modified_utc":  "2026-11-05T17:49:14.8928707Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-c3fmfQA7OzI-203-857.mp4",
+                      "bytes":  7248254,
+                      "sha256":  "0274604b74085df168e7b4a1a08ecc7beed6f6ac886ce144d742678718f70ea8",
+                      "modified_utc":  "2026-11-06T16:26:53.3481441Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-cNFulmacs5k-188-707-v2.mp4",
+                      "bytes":  9541433,
+                      "sha256":  "a6e75449ba4431050a5c6c8ca69e8df44ee350542cbfd747c9b1912d5a59044f",
+                      "modified_utc":  "2026-11-03T17:47:21.5507697Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-cNFulmacs5k-188-707-v3.mp4.parcial.mp4",
+                      "bytes":  4244663,
+                      "sha256":  "c7623df427c0eb0251b5a1437349d7f1a65307c1b370da114c97d7d4e19470f2",
+                      "modified_utc":  "2026-11-06T17:06:56.9319794Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-cNFulmacs5k-188-707-v3.mp4.parcial.mp4.fondo.mp4",
+                      "bytes":  15571801,
+                      "sha256":  "f6df807ed8a5fe7ef63cba8a7fb295c2a530781828d36c2b26fcb3ec5e7bb45a",
+                      "modified_utc":  "2026-11-06T16:59:42.2220444Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-cNFulmacs5k-188-707.mp4",
+                      "bytes":  9541433,
+                      "sha256":  "a6e75449ba4431050a5c6c8ca69e8df44ee350542cbfd747c9b1912d5a59044f",
+                      "modified_utc":  "2026-11-06T15:50:14.2954067Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-cNFulmacs5k-801-977-v2.mp4",
+                      "bytes":  3503346,
+                      "sha256":  "4547ad44fd1e73d937bd19ef516b3b560294a235b00cf759084ac93d92e3296e",
+                      "modified_utc":  "2026-11-06T16:18:07.3066005Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-cNFulmacs5k-801-977.mp4",
+                      "bytes":  3503346,
+                      "sha256":  "4547ad44fd1e73d937bd19ef516b3b560294a235b00cf759084ac93d92e3296e",
+                      "modified_utc":  "2026-11-03T07:12:45.0058469Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-P6ejS-q_xoM-139-863-v2.mp4",
+                      "bytes":  5303283,
+                      "sha256":  "918235c0bd408a6cf25b8a7e7f47e62458bfaeeff67acf0a8289f6681c204fae",
+                      "modified_utc":  "2026-11-03T08:16:54.8838768Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-P6ejS-q_xoM-139-863-v3.mp4",
+                      "bytes":  5303283,
+                      "sha256":  "918235c0bd408a6cf25b8a7e7f47e62458bfaeeff67acf0a8289f6681c204fae",
+                      "modified_utc":  "2026-11-03T18:27:57.5614199Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-P6ejS-q_xoM-139-863-v3.mp4.parcial.mp4.fondo.mp4",
+                      "bytes":  5796780,
+                      "sha256":  "1a5a7ce170f39702b0ba0b3baaa37763c52cc26b0e6ef9ba9896339f3be67566",
+                      "modified_utc":  "2026-11-06T17:02:04.5258780Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-P6ejS-q_xoM-139-863.mp4",
+                      "bytes":  5303283,
+                      "sha256":  "918235c0bd408a6cf25b8a7e7f47e62458bfaeeff67acf0a8289f6681c204fae",
+                      "modified_utc":  "2026-11-06T16:59:49.8352247Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-vCU0NYkiyaI-143-879-v2.mp4",
+                      "bytes":  8517996,
+                      "sha256":  "ae9a83ace460f07e11121da4bb2704be7eb917c0c63350629b9552e4da9ab35c",
+                      "modified_utc":  "2026-11-03T18:48:13.2449480Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-VwZtdv_OcKE-143-774-v2.mp4",
+                      "bytes":  5713181,
+                      "sha256":  "24c43cfef6eb9425338e2a52f9720b6af5f6530976efd44c1a2955e80d015f69",
+                      "modified_utc":  "2026-11-03T14:27:01.0050077Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-z9vdunHBipA-137-1067-v2.mp4",
+                      "bytes":  8458347,
+                      "sha256":  "7e1de9a832538bf06a97ff1072e5cf0935932054313b440e5e31cd424324f482",
+                      "modified_utc":  "2026-11-03T17:11:34.1258396Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-z9vdunHBipA-137-1067-v3.mp4",
+                      "bytes":  8458347,
+                      "sha256":  "7e1de9a832538bf06a97ff1072e5cf0935932054313b440e5e31cd424324f482",
+                      "modified_utc":  "2026-11-06T16:42:15.4711465Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-z9vdunHBipA-137-1067-v4.mp4",
+                      "bytes":  8458347,
+                      "sha256":  "7e1de9a832538bf06a97ff1072e5cf0935932054313b440e5e31cd424324f482",
+                      "modified_utc":  "2026-11-06T16:58:44.9655132Z"
+                  },
+                  {
+                      "relative_path":  "videos fondo modificado/entero-z9vdunHBipA-137-1067.mp4",
+                      "bytes":  8458347,
+                      "sha256":  "7e1de9a832538bf06a97ff1072e5cf0935932054313b440e5e31cd424324f482",
+                      "modified_utc":  "2026-11-06T14:08:15.1018644Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/A.mp4",
+                      "bytes":  154304,
+                      "sha256":  "e83e4edfce1a8a9281719a31b8db81cc20db1219e9b8ab6925e41e9b36ef190c",
+                      "modified_utc":  "2026-11-01T10:03:42.7033785Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/B.mp4",
+                      "bytes":  194491,
+                      "sha256":  "589c8b9ca431fdbbd4a1851d379b5e6888664eb7d1bdf05ff9885a6a5e6e9412",
+                      "modified_utc":  "2026-11-01T10:10:13.0447704Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/C.mp4",
+                      "bytes":  186631,
+                      "sha256":  "5dcdd465a3351c507a4f5fc16354861aeefb67a745fe1c49624f91860db42627",
+                      "modified_utc":  "2026-11-01T10:47:12.2721442Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/CH.mp4",
+                      "bytes":  220345,
+                      "sha256":  "18acf6bb949bd5c49e0358dcbc83c7f5977c8a1537d3998349d462758d7ef7d4",
+                      "modified_utc":  "2026-11-01T10:49:33.7161322Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/D.mp4",
+                      "bytes":  212321,
+                      "sha256":  "796ec7e64f709d2b0c8a51cbfeeda5fb80740c171d5b604ea06bb7e28f11f93d",
+                      "modified_utc":  "2026-11-01T10:52:06.2523475Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/E.mp4",
+                      "bytes":  235727,
+                      "sha256":  "9f2a62782cabcf7ad061c53380918fc3c0984b1bad18cbe15866b9e8fe0c78e5",
+                      "modified_utc":  "2026-11-01T10:55:27.6954916Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/F.mp4",
+                      "bytes":  209975,
+                      "sha256":  "8d218c38ff015ee493e371f353a96c9125099089fb595e944da93637025896df",
+                      "modified_utc":  "2026-11-01T10:58:26.0343641Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/G.mp4",
+                      "bytes":  161766,
+                      "sha256":  "ac4673e53f94df1bfd78dd333b2719a5a1f1e06b889a8dfea38127422e0aef49",
+                      "modified_utc":  "2026-11-01T11:00:31.4209034Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/H.mp4",
+                      "bytes":  335554,
+                      "sha256":  "5bf0effedd765da75eb7563be6b6ff7d13f4537734d78fc24938dbe5fd41215d",
+                      "modified_utc":  "2026-11-01T11:04:08.9627958Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/I.mp4",
+                      "bytes":  193923,
+                      "sha256":  "22797be3bf7b966be19d4cb9e9bfc3f8a7bacb7bb5d2f624d602d6e12e3e4d31",
+                      "modified_utc":  "2026-11-01T11:06:55.9325153Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/J.mp4",
+                      "bytes":  215271,
+                      "sha256":  "62cfd66f3e4b251e61c02a8c68217bb4f940145ac5abe4577644955b55a098ac",
+                      "modified_utc":  "2026-11-01T11:10:00.5323958Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/K.mp4",
+                      "bytes":  223481,
+                      "sha256":  "cda05e58cae96dd48ffbfded4c65218e0d143b76c06b504d17b815a5d1800977",
+                      "modified_utc":  "2026-11-01T11:12:42.1742746Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/L.mp4",
+                      "bytes":  170683,
+                      "sha256":  "e850324855e4df040ac6019587d1ac1b286621af076fe447380e4022fb9af4f5",
+                      "modified_utc":  "2026-11-01T11:14:57.2975833Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/LL.mp4",
+                      "bytes":  219294,
+                      "sha256":  "3ea9ebcecb9f40175b6f74444cc64136ce8d3270d02c5fc3e2ddf230462394ba",
+                      "modified_utc":  "2026-11-01T11:17:33.2206744Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/M.mp4",
+                      "bytes":  204669,
+                      "sha256":  "fcbd2c5674b2a61bb03a09ed6833cbaceb0b9826ec5c4a75f3174cb064d6a181",
+                      "modified_utc":  "2026-11-01T11:24:07.2312549Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/N.mp4",
+                      "bytes":  193672,
+                      "sha256":  "60d1b1f78787e10f2cddd29aa6b6abe1afd6f60a8ca495d53b2bf822ecab0751",
+                      "modified_utc":  "2026-11-01T11:27:31.6337401Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/O.mp4",
+                      "bytes":  181877,
+                      "sha256":  "b04dfc51db9b498c5ef16e75a8e301c48e7f593198dd4a02ced0c460d8cbc7fc",
+                      "modified_utc":  "2026-11-01T11:32:55.1408696Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/P.mp4",
+                      "bytes":  201194,
+                      "sha256":  "a4ae52f31a3b9a47595d34d0831f994deb18af05ae3509fae77eb7c18bcf3fa8",
+                      "modified_utc":  "2026-11-01T11:35:47.2270265Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/Q.mp4",
+                      "bytes":  183507,
+                      "sha256":  "670d6e1b3f1e68f05f1d11d1fa1b340cdd3f0601275ccbf809b5d46a59420eaf",
+                      "modified_utc":  "2026-11-01T11:38:30.4070645Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/R.mp4",
+                      "bytes":  193736,
+                      "sha256":  "41790902a7918c87150600634f1f5775263e457982c7440cb51cf27a13170401",
+                      "modified_utc":  "2026-11-01T11:41:21.4334514Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/S.mp4",
+                      "bytes":  190257,
+                      "sha256":  "9a5ebec30167b56be3d0ff529240cbadb2697c95a1f5f03edf01ca14544a6be1",
+                      "modified_utc":  "2026-11-01T11:44:09.8051713Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/T.mp4",
+                      "bytes":  190181,
+                      "sha256":  "6e8cdb45d4b65a680a2e930d59b692fb88962afbc28615400061116260810687",
+                      "modified_utc":  "2026-11-01T11:46:56.7773655Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/U.mp4",
+                      "bytes":  162997,
+                      "sha256":  "75a324f6a33ab8337c7fd5f97d1edcb532c0fd7bc16147466b19b03ec4a98035",
+                      "modified_utc":  "2026-11-01T11:49:04.5475808Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/V.mp4",
+                      "bytes":  188576,
+                      "sha256":  "4682abe964e32cba1c8b03f3b992be32f69a3e1af1fad8c66c9eb30b744e320c",
+                      "modified_utc":  "2026-11-01T11:51:35.3501749Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/W.mp4",
+                      "bytes":  232228,
+                      "sha256":  "24525273555f3177e538eded135456d7b4ed9ec9df3f6658f5bd2b63f2b0621c",
+                      "modified_utc":  "2026-11-01T11:54:27.3312144Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/X.mp4",
+                      "bytes":  174416,
+                      "sha256":  "36cf6b6cef634fc3533a565a885a833ea5ecd211c903f22f3bc875049b171e9d",
+                      "modified_utc":  "2026-11-01T11:56:42.8844977Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/Y.mp4",
+                      "bytes":  180732,
+                      "sha256":  "bc0fe56f39bdea08ec7a687fa2f2a2d8ea83207386566078a5af10f4fd3266a8",
+                      "modified_utc":  "2026-11-01T11:59:03.5139229Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/Z.mp4",
+                      "bytes":  213305,
+                      "sha256":  "fd8d2a3fbf875591dc87beb326e6178a8ee2d6520b14b5f91e875fbed306ec30",
+                      "modified_utc":  "2026-11-01T12:09:45.1700156Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/abecedario/Ñ.mp4",
+                      "bytes":  234288,
+                      "sha256":  "ecf1258937967e5d5ced395b85eabdd4f4ee441e48a7192f52a4c79e042ea064",
+                      "modified_utc":  "2026-11-01T11:30:25.5592241Z"
+                  },
+                  {
+                      "relative_path":  "Listos-GitHub/palabras/deportes.mp4",
+                      "bytes":  167341,
+                      "sha256":  "4f6c8b0a42539f9145bd26172eca73b8649f81e3d5a30af41164243ee91a38f0",
+                      "modified_utc":  "2026-11-02T13:27:17.5779069Z"
+                  }
+              ],
+    "object_entry_rule":  "objects/\u003csha256\u003e.mp4",
+    "duplicates_preserved_in_path_map":  true
+}

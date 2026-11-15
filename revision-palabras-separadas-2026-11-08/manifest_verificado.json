@@ -1,0 +1,1258 @@
+[
+  {
+    "path": "abogado.mp4",
+    "bytes": 673943,
+    "sha256": "7D05DE0F34757215BB778F9A00A63EE53EC2BDC4B023E69FF9E86BB206A22879",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "912185b218eb26a0006cac64875ee2e08c6a1845"
+  },
+  {
+    "path": "abuela.mp4",
+    "bytes": 965036,
+    "sha256": "602CFBE31066A219B1E0FB34E25647BF244738D1A86F9A3EC6360BF5971F3D07",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "dfc1dd7630741027972c378c2dd5fb755488cd32"
+  },
+  {
+    "path": "abuelo.mp4",
+    "bytes": 621456,
+    "sha256": "77579723CAE9EB91D1B299E593FF49AEBA4A9AB200816DB2FD6421E7EC5B172B",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "0d268da23da739045948c5686681e224e3c2f09c"
+  },
+  {
+    "path": "abuenashorasmangasverdes.mp4",
+    "bytes": 1068197,
+    "sha256": "BC049910DB17B6EBE724AA963C40CE11F3F9126B2C0457DC8816B4CFE39F1056",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "077d2a3fa07c9a2ebf72735435f5ed5de83b4451"
+  },
+  {
+    "path": "aburridoa.mp4",
+    "bytes": 1169500,
+    "sha256": "B6E92D5FC2F5898858B7CEDC4A518856A25AC951541E4CE06E6B31A754F12E76",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "1b47887ac9ef042d9e1bd6fcb6cd44b6542e37a7"
+  },
+  {
+    "path": "alaterceravalavencida.mp4",
+    "bytes": 599770,
+    "sha256": "2AB75C7EA802C2CB6E1EADD47DB2463C98AE64947A8D577146053650C128F44D",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "01defc0e322dfa6c7bf23c627cb1a662048e16c1"
+  },
+  {
+    "path": "alegre.mp4",
+    "bytes": 1107155,
+    "sha256": "6B445142B89F74B2EB44D48043608C38B9C56B7A17EA8F1FFB97645AA5A95CB2",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "2de5d056f5eda013404cd4eea7173f9e5c4235d8"
+  },
+  {
+    "path": "amarillo.mp4",
+    "bytes": 1097791,
+    "sha256": "A70FB73542B24ADB01D1F82D73DBDE9CC8D24ECEC3E3B49B2791F9BEA34A8636",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "17d1ecedc0c331df2842ce986221656996948403"
+  },
+  {
+    "path": "anillodecompromiso.mp4",
+    "bytes": 444038,
+    "sha256": "6BE3B9A4EC4D265ED42D43C075216D32F926EF0D36CA54A7C261160853B1DA8E",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "9894bca1539bd2e78ca689ccc4dfa0f92f3c0300"
+  },
+  {
+    "path": "anillodeprometidoa.mp4",
+    "bytes": 444038,
+    "sha256": "24363C1488485A11BB370DCBE9910DD4AF8218277535EBAB426C24AA423F41C3",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "75342c815c2d80707c0f19b38dc7d68543f36bd1"
+  },
+  {
+    "path": "armarselamarimorena.mp4",
+    "bytes": 385032,
+    "sha256": "2809F035A9D1805B88C318B917A96A4905751E86261E98908E445AC145043A4C",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "9360363a7b145a44481bf776cfb94c7d5589f507"
+  },
+  {
+    "path": "asustadoa.mp4",
+    "bytes": 1291033,
+    "sha256": "A057865F20018E7FF0D20F95084FBFD220B21D74B393469005871D4A8036C8CD",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "33937fb3a7e26beae15c516d6edc00b437b98f15"
+  },
+  {
+    "path": "atletismo.mp4",
+    "bytes": 398431,
+    "sha256": "02A3D3CE4CBA7E0924916D022560D8718CB37E0746C1EC8567842525F39952ED",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "76a510012838f4e36f4aa6f1cc88cfa2a71eea25"
+  },
+  {
+    "path": "autobs.mp4",
+    "bytes": 684715,
+    "sha256": "6DFA4A23D582EB62615D0733FEF19ADF33BCE32092102E69A4EA58E3FD7B502B",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "32c10599f5df35180e8569242d9801523d1a0dce"
+  },
+  {
+    "path": "avergonzadoa.mp4",
+    "bytes": 643818,
+    "sha256": "A3CAEAA6C79A233DE9B61341BB1400C29F0EC2D66663FD905ED95D135D4F0BFC",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "66dc652c873c3ee1bbbf6c683de2df4118867ff6"
+  },
+  {
+    "path": "avin.mp4",
+    "bytes": 403579,
+    "sha256": "79AD1776F6251607A663CAC5E0D38A7E2F1DEFD7A004F5D03E4A26AF9C9516F7",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "dcaba5316623b14edcc7da8e32565fbc3c8c9119"
+  },
+  {
+    "path": "azul.mp4",
+    "bytes": 612370,
+    "sha256": "412E2981D242A096365FF0DCA6DC7EEDEC66876D91452CB372B739A5EE9C9276",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "8971f77009b3ba19180cca49f0d4d5c4cbb4d9c2"
+  },
+  {
+    "path": "baloncesto.mp4",
+    "bytes": 738940,
+    "sha256": "25EFF45A5EA47229A69940F6A7A120CE24F15C28DC2D7CBF62ACD15AD9CF7707",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "533b01c39e1a6f8daa6328a21c6cec77986e4caf"
+  },
+  {
+    "path": "banquete.mp4",
+    "bytes": 688541,
+    "sha256": "F4A6A4391948123BFF939DA32BE31E1D807D597384BDCCA30D7362C33BBB552B",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "2e03c0a746815667cba53f1cb0dd5aa91921a5ef"
+  },
+  {
+    "path": "barcaderemos.mp4",
+    "bytes": 879647,
+    "sha256": "1B325EC1CC4AAADAC99A38A0D2049BC8AB1350FBEC80A8C07424680D4551938F",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "f39bfe89385868b23498a1e27287164f9ba3deff"
+  },
+  {
+    "path": "barco.mp4",
+    "bytes": 538244,
+    "sha256": "BA7AD6110A0513EC49DBB8F3D0722C96F867FE6A112C895D3E46A30CAC20BFF2",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "e03b310045a83f96c29b469f037189c846effdd2"
+  },
+  {
+    "path": "bicicleta.mp4",
+    "bytes": 449617,
+    "sha256": "497B4F663D1B4190C8E2FE0BD57893CD77DEF651C30CB80FA7287E3C5B89243C",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "ef2d39be5409f2d24b6a21e210378f02798f27e2"
+  },
+  {
+    "path": "bisbol.mp4",
+    "bytes": 459954,
+    "sha256": "A77392F4828F3CA13FF2DD0FA87FF9B99F5539F723946BCE37EB54D71A4AF24E",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "ed733326d09c23778e100342fb81ad835b1a9e00"
+  },
+  {
+    "path": "blanco.mp4",
+    "bytes": 359153,
+    "sha256": "957250AE74A9843778861435F803A17DB6D62CE51ECD69E6442E8A48B9BA615C",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "9687ea228709ed7d342251d4b21ef5e11b113ea4"
+  },
+  {
+    "path": "boda.mp4",
+    "bytes": 658024,
+    "sha256": "455D4A8416B066029D556E5012CD48B3B2999BC76A9E3E60E051652274347BD7",
+    "archive": "palabras_01.zip",
+    "stable": true,
+    "git_blob_sha1": "c06b19dcfa49c399c3bbae01afd473daea628919"
+  },
+  {
+    "path": "botella.mp4",
+    "bytes": 630152,
+    "sha256": "56A000D201EEDB2B55DA2F032192ADCD5CE19DFA59D575CC09145FF86DB178AB",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "98e4e5636be61f54de8fec126d06d6ab601e5d51"
+  },
+  {
+    "path": "bowlcuenco.mp4",
+    "bytes": 755049,
+    "sha256": "B88B6F706CD42D3953E5501C888FD1D5CD44274857FC7C0A6665CBD144730E14",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "936f73226b59bcff25c765335568e36a346d7530"
+  },
+  {
+    "path": "boxeo.mp4",
+    "bytes": 702623,
+    "sha256": "3DC3D5CAE3D8215745C8C9371336C8EDA9C88A043E417A7A5E8DD03D975204B0",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "f84196dfcd6dacdb20385cfb61fed34ac879de88"
+  },
+  {
+    "path": "brindissalud.mp4",
+    "bytes": 635644,
+    "sha256": "33EF721D541E664514A0CDA2F87B6F339F599C4E1EFEE1A0304C4FC1494B3B42",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "9cbcb72a1b28122528b5a01b110016b8b065e3b1"
+  },
+  {
+    "path": "camin.mp4",
+    "bytes": 718572,
+    "sha256": "984D613FF9A89FF2ABFDA384EF74B59BFDD1A7E1036B30E47FB0024AD04A84CE",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "99557503f3e9bede93f9bb89446d8c9f26d2f505"
+  },
+  {
+    "path": "cansadoa.mp4",
+    "bytes": 877352,
+    "sha256": "AB9CE2612765D95A0FF99423E8F733A2E73E366B90BCCE01639A303E9E5B3AE0",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "8c7aa0dddbfcc8101eb86b449ab66a9f997b18c6"
+  },
+  {
+    "path": "ceremonia.mp4",
+    "bytes": 358277,
+    "sha256": "F87ACB2D874329B44A576A0C196E40CC5770B7CE7F6036504F60167951CA0C36",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "d436a93a4fc3941caf597493b01040183e445ff2"
+  },
+  {
+    "path": "ciclismo.mp4",
+    "bytes": 410111,
+    "sha256": "66295E90C687DD88044C27052044AFA9E4B31EB3E97DE19B507F4E582B33C827",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "9925d6ddb72eed8ca01aef6850aeaaf6abef13a6"
+  },
+  {
+    "path": "claro.mp4",
+    "bytes": 359153,
+    "sha256": "9F3D735161D9C4A4350E898B76E51556A43852AC2C6E8639978BCB70DE4C876B",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "7eb9d467745a51e6c90f97ed63fd1724d75dda0e"
+  },
+  {
+    "path": "coche.mp4",
+    "bytes": 664299,
+    "sha256": "C50F61DC33B29B97B6C84D9F08CED6968642E19A5E16625EF9FE861632277C02",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "ec64142c030d8e6076aa2550ec712da092c5a3c4"
+  },
+  {
+    "path": "cohete.mp4",
+    "bytes": 403579,
+    "sha256": "80AFD759D7A1D47155EA3E0344B24E87F80758CEBC03AF50D3B59A47A9FD0458",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "ceb8642de14315da1360b6783e9f5271ade01c6f"
+  },
+  {
+    "path": "colores.mp4",
+    "bytes": 898201,
+    "sha256": "8DD917912F1A6774572DF209CA85FCCB3A00E6528D7FF11071A0C8D11CA9D574",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "5ce52176a940c82914cc1c345d6041f9a6139110"
+  },
+  {
+    "path": "consalud.mp4",
+    "bytes": 643818,
+    "sha256": "1545C8E26EEBF401178CAA6736EAF864B0D470FD9A59B92E99A9025CCB4D1862",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "a5cdec0405f1d18bae4b6c19ecb641315a1cf811"
+  },
+  {
+    "path": "consueo.mp4",
+    "bytes": 643818,
+    "sha256": "5603763BB7B25B867EB1DF0B8AF136FE2F6E2F2182FC80C7668E1BDCD965B907",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "01d5d682cd57bb630035b247e8db05f45ae3c6e6"
+  },
+  {
+    "path": "contentoa.mp4",
+    "bytes": 1219208,
+    "sha256": "E5CB04FD26884134A65196BC42D88DA2724089618DDBC686BCDED12F1C7FC352",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "50207eebdcd90755af4ce0a35affbeca112ec640"
+  },
+  {
+    "path": "cuada.mp4",
+    "bytes": 743160,
+    "sha256": "7612F44EF8EA78A2D32364EFD4CE6A5A94BD8AD7DD8AB8B52896621524CE1D54",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "fbc46a314cc8ba7ac908ef07f200809d1e910ee0"
+  },
+  {
+    "path": "cuado.mp4",
+    "bytes": 472948,
+    "sha256": "1BBDD086CAD4901A3101A005F8C36CC6535C93D18297061ADB51F570B3A9EF2E",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "c7f86e3bfe3c8faa8403239981d5816637c13bb9"
+  },
+  {
+    "path": "cuchara.mp4",
+    "bytes": 399871,
+    "sha256": "EE9768F70E2CFFF2BFA9572A68CD2073FFAD7627A92DFD1BF1809EF36F743BBB",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "670457042c41d2b852befdc5e80b241c7f23c6b1"
+  },
+  {
+    "path": "cucharadepostre.mp4",
+    "bytes": 643502,
+    "sha256": "1C07AB660077B82383A9AE891608708540665A9212B1549EBD4EA27DC2D637AA",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "4ba330cbf1c188049a962a5f30517420e0419e69"
+  },
+  {
+    "path": "cucharitadecaf.mp4",
+    "bytes": 368034,
+    "sha256": "FAAF7AE6175522B5E79B51E1A63BF5072C6A4E0FF44A278A20A73EBAFE396268",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "c3d106a43eedd51f52991564a54e515db3638ac4"
+  },
+  {
+    "path": "cuchillo.mp4",
+    "bytes": 187057,
+    "sha256": "95C3327DFE4185375B9B93BD43ED16B03212E901A141BBC18ACAD7FF4FA02A26",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "a7875970794c6a2301bbeb6d382243152212bad8"
+  },
+  {
+    "path": "cura.mp4",
+    "bytes": 455415,
+    "sha256": "E1CA249D3F0103EF65034336213A52387C2A4904D5CD815B934C99BC23F7D3B4",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "9d70a21b0246f749412da20ae052b107d73ef718"
+  },
+  {
+    "path": "damadehonor.mp4",
+    "bytes": 221566,
+    "sha256": "0C2D92306D2BF8202725EF33C08B55A1B6F8E45B9E18C9CD15C23F5D2B1CB07C",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "25b17c14abbd999666dfa504f01ce7faf68e37f1"
+  },
+  {
+    "path": "deportes.mp4",
+    "bytes": 924025,
+    "sha256": "5991E46D949CEBE80869B270FA7FCE3A51AC385D4CA63DDF50C9BC2A7A62C18D",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "21a15dfa52124f418addb1453ef74fa97680b6ee"
+  },
+  {
+    "path": "despreocupadoa.mp4",
+    "bytes": 766262,
+    "sha256": "E55DFA7C9235DD953499F0C6B8B2385DF78A7D4197B6D4BD5A78DE1C631E7AA5",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "1c4eb9588fa644d9a99aea7356527e596cf6cc18"
+  },
+  {
+    "path": "disgustadoa.mp4",
+    "bytes": 941160,
+    "sha256": "83015C119C9486AB80454418D4C18DB063F01F79F2944E4B0FAEC557013A0B36",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "54e982a5d4c9d12e6999ca920a2b9453ffa02ef8"
+  },
+  {
+    "path": "divertidoa.mp4",
+    "bytes": 847595,
+    "sha256": "F0996BC9E7064F7A3C4BF137B14DF46D23133BFA108AD921A208447F04CD6815",
+    "archive": "palabras_02.zip",
+    "stable": true,
+    "git_blob_sha1": "419e14e032f6a1ce5341125f09ab8e310ef0472f"
+  },
+  {
+    "path": "drselaaunoconqueso.mp4",
+    "bytes": 1152132,
+    "sha256": "D02D69FBBC09057C0C9093720E84EF6A43290DFAA6744AF8CF428D027842C27B",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "b0167c08be73bed38653405ef0419097984d3a33"
+  },
+  {
+    "path": "echarleaunoelmuerto.mp4",
+    "bytes": 1089101,
+    "sha256": "256DC89C8FF7D658825CD64E5420FD21CD3C38A0EA51820C50AF876578CEA121",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "762fa4a391b8d60ce481a0c250478429c0f011d7"
+  },
+  {
+    "path": "enfadadoa.mp4",
+    "bytes": 712114,
+    "sha256": "9B4D898C8AD31E0CE72FEC75E55BDEA1ABD15930B8859BB17AC4FD623D58F139",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "dc366c52457c2d6b63f5010b2075f05af63bde43"
+  },
+  {
+    "path": "enfermoa.mp4",
+    "bytes": 643818,
+    "sha256": "7E9A20CED81CC1112B9D670E36BF6B1649F4FDB2E2AD330BE882ADDE4A91DA76",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "8a9e7d0cf2fe9007c6824b282b3d7b7f5e13b347"
+  },
+  {
+    "path": "ensaladera.mp4",
+    "bytes": 278674,
+    "sha256": "4EEBD5ADEF56437C64DC314E6A9336170A69DAF13436698AFC7918C820718297",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "3e8d780c2620abe819929aaf02b47d314c35a1bb"
+  },
+  {
+    "path": "enunsatiamn.mp4",
+    "bytes": 521540,
+    "sha256": "7E79FEEA9176B1AB110290E68AC4FEAD78976C1F3F8DBDB6E81B26094C699247",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "f45380f0062a234599170973f0afaf704bb8fe50"
+  },
+  {
+    "path": "esqu.mp4",
+    "bytes": 627463,
+    "sha256": "D1F3FFF47690871BEAF32E9EF5A305248A1C77EE732EF1D27FF30699D3B495D4",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "5c64925cfd7c2e2d4968c3a4f7747fe4959c3730"
+  },
+  {
+    "path": "estarenbabia.mp4",
+    "bytes": 916616,
+    "sha256": "3BC96CAA173248DB4042FA207CFBED904CDB41FAD9CDC598D97D71A81DD8BC93",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "54e2cc62f26c4a24f73721d30f0d9d15f82d43fe"
+  },
+  {
+    "path": "familia.mp4",
+    "bytes": 682502,
+    "sha256": "B0BA8789BCE137386A38307E6D7715FA9D159EEA6A59430B599390F865B66DB5",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "85905cf58df87a5ba3441c0e9dd0b6aa3b7434e3"
+  },
+  {
+    "path": "feliz.mp4",
+    "bytes": 594480,
+    "sha256": "8D244B67D07132B7A38C77E4D9189D556F048C8E8BB1B41575AB153D23315F2C",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "fcdef238ff9a8348a526577a81840d2f8bfb7e7c"
+  },
+  {
+    "path": "frustadoaangustiadoa.mp4",
+    "bytes": 643818,
+    "sha256": "98D2DA4165E88C773B0763A759989FDB98940DA2745BC923756F829DE41F6D9A",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "2505c8dddbecacd2e89e4bb5566539c6e1dbff96"
+  },
+  {
+    "path": "ftbol.mp4",
+    "bytes": 992032,
+    "sha256": "73E8DFFB64688805087FC794F0B276B1038CDD14C4FA5DCE59BC0A6DE8F9DA23",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "aa9673f4610174311b77c3e7e1cbec4b469a0973"
+  },
+  {
+    "path": "ftbolamericano.mp4",
+    "bytes": 683555,
+    "sha256": "2CA92B6BCEF62A713D6F2B7A23E370D1E562807472CBFDED808619971EEABAE1",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "b32c471ab5ce19191857ac2b8d0164036730a17e"
+  },
+  {
+    "path": "furgoneta.mp4",
+    "bytes": 353859,
+    "sha256": "6942CA8EB30C61246F0AFCBB69B7B5AF04F183991F852414CAF14EEF6945BB6F",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "5341abc3af625c06b7bcd34530eab771ddf34510"
+  },
+  {
+    "path": "golf.mp4",
+    "bytes": 763246,
+    "sha256": "F30DE87254F77AC2D531143AE948D7F78F9B54103148FA3F59D37E0619A99B4F",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "8744a36ff479960a25a2f991d193d6e6c5f26eea"
+  },
+  {
+    "path": "gris.mp4",
+    "bytes": 359153,
+    "sha256": "AC81C58BF9CCD77F48FE05B94A68EADEFEB4D7A601EC847E2B372BD3439BEFA8",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "a71ab73d79e34ad57901c697b1f2334926a3d171"
+  },
+  {
+    "path": "hambriento.mp4",
+    "bytes": 1098139,
+    "sha256": "C5E9CBB24A3A34F300D4D5AD95670CE7C0D4B33D84BC292F27E82318737A8BB4",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "66df1f1196285c4110e15711cbec7f26c30f3061"
+  },
+  {
+    "path": "hartoa.mp4",
+    "bytes": 643818,
+    "sha256": "813E03401515DBC16D172131A27C89D9B969E3237086B05A9F3DB147D4A13D29",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "5b38492fd07f26eac7bf345e9c7a30c4103f47a8"
+  },
+  {
+    "path": "helicptero.mp4",
+    "bytes": 403579,
+    "sha256": "84DC4899AF0D412EF7FE7D4E8F941257CF8F959524A956AD4ABEA4BAEA0CB87C",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "a36fc0afea7b3700390cdde0a5b295626278648c"
+  },
+  {
+    "path": "hermanastra.mp4",
+    "bytes": 116951,
+    "sha256": "699108DA6879E9460F2EEF2983F854EB4D4B01B5BF2FB6CEABCB1BBCFF92D4C2",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "ea816e251e19362a42c5a895337d12540c7eb794"
+  },
+  {
+    "path": "hermanastro.mp4",
+    "bytes": 116951,
+    "sha256": "D3A1DEDF02F34505D8A84F9B80BD0FE358BAE4C04357478A2ACFEF69BD78D076",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "fdf3003f42f1a64aa7d719f11ac796e3e5ecacb4"
+  },
+  {
+    "path": "hija.mp4",
+    "bytes": 653377,
+    "sha256": "EF0C1618F40A17CC84E593160EB3E9CE7E58555E85EAAFEFF49E6B262B3264E2",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "8476c778e5c780bbf9bff5fb00c0b2aebf5f1618"
+  },
+  {
+    "path": "hijo.mp4",
+    "bytes": 327981,
+    "sha256": "0B0E36F0BEC5D1852EC9AF31E3F4A4DCAC622971BAA18E4368140DF49DD6D082",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "40f032a821e6a5dbd1626c8a112b2b08d0869b0e"
+  },
+  {
+    "path": "hockeysobrehielo.mp4",
+    "bytes": 450403,
+    "sha256": "D2F2C45EEF7C15C2F13F6CBF96BAD9158E5E6295FDDF0F509E9C2564B8509000",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "9866e4d17dc57df0cbb95793e79a34312eda472f"
+  },
+  {
+    "path": "hockeysobrehierba.mp4",
+    "bytes": 835308,
+    "sha256": "AD43645CC4F13D5E83334C9ECE9555F9CE58440D468FDEA0D45ED8F86DEB92A4",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "6c4174d57fee154efd2c59a7e8cbaa0118b7918a"
+  },
+  {
+    "path": "hombre.mp4",
+    "bytes": 242388,
+    "sha256": "736F7C48C50777AA945C16C36BEC9EE87AB6029AD5B378DBD96123B644495E12",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "8008d819161ccd00a83db40886f2ccb348e7b653"
+  },
+  {
+    "path": "invitacin.mp4",
+    "bytes": 663979,
+    "sha256": "B826208000C0F4278CE8279F74B8178847750FE27809C1727D80BA8827A47FBC",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "a196c96d405f5308cfc1680039b4a4b097271e5a"
+  },
+  {
+    "path": "invitados.mp4",
+    "bytes": 277827,
+    "sha256": "272EA6ED93962A202335D207A88043CFD3746EEF54617A5DEB325A50BAEFDE67",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "c26deaa7cb77ba4f22e44610a94f5f8dc870aa58"
+  },
+  {
+    "path": "jarra.mp4",
+    "bytes": 322689,
+    "sha256": "5EE9284415A9573EE9B238F868990A9D1C1B6336291F89B22F1C36E335F44459",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "f956808b083f3fcd86e0d5a130a5f20c0bc4fd23"
+  },
+  {
+    "path": "llenoa.mp4",
+    "bytes": 528594,
+    "sha256": "C4713F4C23ABB04A9EB094971C854A50C3EC2FEF50776EEBB376138450FACBAB",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "e8332991ccb718ba21c13900cbaab03f89506edc"
+  },
+  {
+    "path": "madrastra.mp4",
+    "bytes": 116951,
+    "sha256": "4D068CD9F0B68B9D50F7111F0EEAB016858D181E215E78663863A47BD50D34DA",
+    "archive": "palabras_03.zip",
+    "stable": true,
+    "git_blob_sha1": "e7c02152565503da5d29ea46ba9e9dd92b5908db"
+  },
+  {
+    "path": "madre.mp4",
+    "bytes": 332135,
+    "sha256": "CD501F74D34BE38E2F9E4A23FA96D572F8D2908D6E151A58EE23102543EBA4A5",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "c2f0ec77096311e3a727e0e79bd5003e4cd92646"
+  },
+  {
+    "path": "malhumoradoa.mp4",
+    "bytes": 591430,
+    "sha256": "5E5883E68083EA6A9D05F328E06B98C09DB400FD4EFB58B76D90B8F9CE9FEB7D",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "96458693a36eed2880179449b694074111892686"
+  },
+  {
+    "path": "marido.mp4",
+    "bytes": 344912,
+    "sha256": "978DF60A1BBF68E70A36CC9C7EDF444A4CD2880E7B032A771A4F24446A1BFE3E",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "8dd1395f728ee19eb13293834b3a00c8d53205fe"
+  },
+  {
+    "path": "marrn.mp4",
+    "bytes": 359153,
+    "sha256": "F84C780FEE84E8A9EE0B67D50709FCAD90C12BD448FF88B7069705523DCF7D93",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "432538135d63ff3e86250cd8f6b06ebe27cf83b7"
+  },
+  {
+    "path": "mesa.mp4",
+    "bytes": 586312,
+    "sha256": "95CD06E6AE95677C2982BF1BED8FA76A841043BD5C5AE10E4F4563A4A41E0C53",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "dfde514754611e4cbce71e8b88bf07102bfb1ecc"
+  },
+  {
+    "path": "metro.mp4",
+    "bytes": 959592,
+    "sha256": "DA6CD90D3DF7D2630C1A6325A65B8A128FD14ED866781D312A4CB663B071E7CC",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "20da692825b36a94fd473192e799f108873f7ff3"
+  },
+  {
+    "path": "mezcla.mp4",
+    "bytes": 359153,
+    "sha256": "1CF3DEB6E6284075B1F88A011678BBDDFE263C607C90D0D245F6E10302AE200D",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "16a1f9d8ac58d2b4345698112eb78da6d0682c10"
+  },
+  {
+    "path": "morado.mp4",
+    "bytes": 1373304,
+    "sha256": "56604C4A667373F053A1EC472B664F81D4856D39F68BF75ED96D6DB2E7593C68",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "bc758b10bc200708c0850e665063d456ca269f0d"
+  },
+  {
+    "path": "moto.mp4",
+    "bytes": 943452,
+    "sha256": "9F03CB2003F25EABC52094E5E0F80CA6665972BC2931A458809DBF43F764296C",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "65cebdbcd98897a5aa55b7b54890c233ba5102ac"
+  },
+  {
+    "path": "mujer.mp4",
+    "bytes": 477572,
+    "sha256": "13C60A2EF3C14E601CD9A1667C04BF4F76AE69FE31C086F26E81043506FE8BBD",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "aea858de2270a435cda5974eee5b730fe78e3c22"
+  },
+  {
+    "path": "naranja.mp4",
+    "bytes": 359153,
+    "sha256": "9E190BCC4A6A6904F9CC8E0AD3D004245FB4D76ED88E9188DD847BAC711F3139",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "4855f2016a882452f184b643e1aab9d5d7a67214"
+  },
+  {
+    "path": "natacin.mp4",
+    "bytes": 383813,
+    "sha256": "E41DB802FE0B82485D3ACAFB845774304DA735E8C01C82B8A2C7B0A7C4F85AB1",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "5cb9107f7ca9ee28225b7354a0c06ab7eb8f839e"
+  },
+  {
+    "path": "negro.mp4",
+    "bytes": 359153,
+    "sha256": "AAE1BCBF20256604E5B4931A667C14D456D632A9EF582BC1C5F3BB3BBE09CFA9",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "768a02b5976167a54686706ae5169df13208125c"
+  },
+  {
+    "path": "nerviosoa.mp4",
+    "bytes": 547867,
+    "sha256": "CC4D003F981CECAC3EDCBD43566D99DC4663724826C726FF08387F8DAAE20BFB",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "c4be8531f01f78dcdc77332b09970eed01f0bec0"
+  },
+  {
+    "path": "nieta.mp4",
+    "bytes": 470153,
+    "sha256": "7C198FB25CF1493C70195CF68E622AFF2917728963CD881588FDA318D516712C",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "6c97a76099550f15b95571d295b54e588f705319"
+  },
+  {
+    "path": "nieto.mp4",
+    "bytes": 943592,
+    "sha256": "EF176ED78281F579B9C7B2DE8AF7E5956E7F2B0B128CBFA51FAB7F4D6CA870B0",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "239ad58c788499c0342afcf3cedbb9af1883eebe"
+  },
+  {
+    "path": "nohaytuta.mp4",
+    "bytes": 906214,
+    "sha256": "BCECF0F7D61FF56BC20F9ABAD42D13BF1074605E2EABAEADE0DF934B651C0406",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "03cc5cd5207bc369c0c15fe463c65638efe6896d"
+  },
+  {
+    "path": "nuera.mp4",
+    "bytes": 595744,
+    "sha256": "069D437326C209A02B26FEA7C7341D8EEF6C16F6456580A60A4863B0A0E60B40",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "ff13efaf149abdc61dbd20decbf8ad693709e3e1"
+  },
+  {
+    "path": "oscuro.mp4",
+    "bytes": 359153,
+    "sha256": "3C766644FF7A5FDA1AC0BA77A97DAD252A098C6CB7402C932F70D1073E103CAB",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "52d4192663a9e5b2e7165431fcf64e62107634ae"
+  },
+  {
+    "path": "padrastro.mp4",
+    "bytes": 884918,
+    "sha256": "A3FBE4EAAE4C9B7BCA458F5A09D3F96FB7FF785327AC2D8B9C9FE1A26AF9B75A",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "df75233a89359e6102633492183e8debb6789036"
+  },
+  {
+    "path": "padre.mp4",
+    "bytes": 805835,
+    "sha256": "EE167988239846378344007E6098FDB1076B03CDB83D2FB3CEC12ED8FF87BFFE",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "881e404092ebd11173970933d138102b556829ae"
+  },
+  {
+    "path": "padrino.mp4",
+    "bytes": 419732,
+    "sha256": "8945CF7E58C918A3EB11A2202DE9580BB0B8F4FF9C6A68401D45B2EA283EC5EF",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "9dd83cb33afe51f7cb5beaeeabadb5790a8c7ee4"
+  },
+  {
+    "path": "pasarlanocheenblanco.mp4",
+    "bytes": 581082,
+    "sha256": "EF3DF43E95AFA3C21A204C166AF4A82054E537AAAB138D3FF4EFBF40C4425425",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "9376610411bf96dce689aa2db464fc21631cd951"
+  },
+  {
+    "path": "patinaje.mp4",
+    "bytes": 627463,
+    "sha256": "F6B44B543709EBD129E0613C72E45327FFFF421E060EA71BB2D8E0B73DBA296D",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "ca88891bc58f45e5671504e37288aa68ab1fb882"
+  },
+  {
+    "path": "patinajesobrehielo.mp4",
+    "bytes": 627463,
+    "sha256": "FF081D7FD65B71CEEAABD3B87A043ACE62DFD8CFDACDA9832DCE14C07D862ADC",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "16e6392448415fb5a1502cf6af5dd0faafb910f5"
+  },
+  {
+    "path": "plato.mp4",
+    "bytes": 526708,
+    "sha256": "3EB59027B516DDFD3AEC1674A0011BD81CC2A0EB60A8F7AE75D7D790842DEAEA",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "4fadb608b8ac25b432f369baac1ee625aa390f43"
+  },
+  {
+    "path": "platohondo.mp4",
+    "bytes": 554645,
+    "sha256": "FA285851EF9C73AAD898C04FE0C3AD611048105D807B7D32AE1EAA4FCCF0E9D6",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "716a7339824048f2bf6410aaedc807494119c283"
+  },
+  {
+    "path": "platollano.mp4",
+    "bytes": 329015,
+    "sha256": "CF050463B3C02DF05315719234B8D2C2050EF83FABC09DE2F440028E087118B8",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "bffbf3d9cb1b726c2f971711068ccf8355c5d5b4"
+  },
+  {
+    "path": "polo.mp4",
+    "bytes": 1190687,
+    "sha256": "F51243CA28BDD5C98637AF348F9100F03B6AC81D00FEF443E3F1BCF55076B8EA",
+    "archive": "palabras_04.zip",
+    "stable": true,
+    "git_blob_sha1": "ca2a664838220c2e514d3250bbb99e709152ddc8"
+  },
+  {
+    "path": "ponerlospiesenpolvorosa.mp4",
+    "bytes": 385032,
+    "sha256": "55EC329C349F0FC7D5636F1D44D47B215DBDEAED093D67A8A5ABC4A30BA45BBA",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "459f9248bf6dbb24cad68739404cbaad55934358"
+  },
+  {
+    "path": "preocupadoa.mp4",
+    "bytes": 1004068,
+    "sha256": "7CB5295EAC852F4801AA93FD2EA2435AA731BC3D211590CD5A8C986890E95B78",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "2371dd501dd494314f90fc2ae76b973c39290996"
+  },
+  {
+    "path": "prima.mp4",
+    "bytes": 314973,
+    "sha256": "75744DCFA67AA83AF24B1A649748FBE14BC26350793C187D1D86233459CEF4A2",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "b2781a3a8cabda858685c6ff7fce0a1e37408623"
+  },
+  {
+    "path": "primo.mp4",
+    "bytes": 785177,
+    "sha256": "B4D6BD6EED11FEA310341668E234A23C59B310437E2352A704A3D705538F62B1",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "0de92fecc8f02a278c2fcb34abcae0d0b2b717e4"
+  },
+  {
+    "path": "queaproveche.mp4",
+    "bytes": 635644,
+    "sha256": "466D5FBCF986DCA70C9826251DE9EB5FF23CFD1B12CEEA7067395C29EEE74327",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "ec77e71f73d462341f219756f1562601e9e2e4ed"
+  },
+  {
+    "path": "quiensefuasevillaperdisusilla.mp4",
+    "bytes": 564023,
+    "sha256": "76E861B21EBEE2F9EAFEA20DA5B68074A8D570BADEB4B279FAF29044AEF96684",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "103b83f3fe845f9e4f89aac8c5fccf3468769b58"
+  },
+  {
+    "path": "quierescasarteconmigo.mp4",
+    "bytes": 659574,
+    "sha256": "322F9FCAF0D1A25AA833685C57FE8C321DB6E8204EEBEE492B247449C1EBEE5B",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "dd3e53ff91f72a7822ec960e94eb08dd943f1ffa"
+  },
+  {
+    "path": "ramodeflores.mp4",
+    "bytes": 399351,
+    "sha256": "51E75D2FFBBE439068231356B0B42A3462D43D123917B82193736547A2BD15BE",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "200129958b45d51a359f66ff31151a16e3cbf9f4"
+  },
+  {
+    "path": "rojo.mp4",
+    "bytes": 949820,
+    "sha256": "E6F5A2AD10FAE93D066327CF2F712BADE39B5AFBDC8DAE370E981E688E1847C2",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "948e7f87a67ba8797941061e6ffce72de7a903c9"
+  },
+  {
+    "path": "rosa.mp4",
+    "bytes": 359153,
+    "sha256": "4BFBA03F8E3CC2775CC9EBACF906A0DB6D4162EED77DCF2D872CFCA9B1A294AB",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "a1747602412f9a9ebeea6d551ba61b2cf0ecf20e"
+  },
+  {
+    "path": "rugby.mp4",
+    "bytes": 1023004,
+    "sha256": "772A5876AFC507BEAB36FE16C0965A9B12B236CE27770FBFD23FF46E83E8D755",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "86f2fcb393e2290f73d966c3f1740a07f3740201"
+  },
+  {
+    "path": "sedientoa.mp4",
+    "bytes": 795860,
+    "sha256": "6D26F2954BEFED2703D89A982C1039EE61128956FFFE4C49796A92F1ACD6A2FA",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "af6029d9ba374dbf212bdfc474bf16050f84de71"
+  },
+  {
+    "path": "sermsfeoquepicio.mp4",
+    "bytes": 813436,
+    "sha256": "E290DD56D5DF9160A14E5790B5297F3BBE628CDC6F2E7C6117F1F2A1C5294D3E",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "bf9d731405d94fdf0497eb303246f2e8704ba84d"
+  },
+  {
+    "path": "servilleta.mp4",
+    "bytes": 635644,
+    "sha256": "B5359B6A7DA10D53C6D2F550017309004566E92DDA144DA73C3248808D26F51D",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "9c0f970de9b1e94635db2e7106bd93ced8613283"
+  },
+  {
+    "path": "silla.mp4",
+    "bytes": 265473,
+    "sha256": "1E7C752474FAB731AF3E8FECD66EB0D1E7997C7A4135E14345470F68C0D91C8B",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "b5bbce40e2524834b4926f37fcc57c0560974224"
+  },
+  {
+    "path": "sobrina.mp4",
+    "bytes": 922120,
+    "sha256": "DE1DAD8F38D1929EE09B9937385D48A3844CEA8D1B9B6BF99B169C2CEBE8E2B3",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "abdeac42a7dc77f7f912c75dafe0d614b97392d5"
+  },
+  {
+    "path": "sobrino.mp4",
+    "bytes": 620016,
+    "sha256": "8D696FC284D81C9B3CA5314ACEFE2D99A98AB9057536DA967A41C396824BE8D2",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "c5f8288bafe36f3dbc5169b6dccf72f451985b35"
+  },
+  {
+    "path": "sorprendidoa.mp4",
+    "bytes": 475817,
+    "sha256": "E4EF02D4EEEAC7DBC5D13AA5819C8A4EE5141C843D1C57E59C9767245AC69E06",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "2bb89944431020ae2121f3a87d3fbe3d74f73986"
+  },
+  {
+    "path": "submarino.mp4",
+    "bytes": 403579,
+    "sha256": "F05396CEC8504FF3DAC5EB95D0BA2A3056F47494D0C5EFE9472AA92B25E31CBE",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "e1b4b9d5712123e12a3f9616577470ff2f204188"
+  },
+  {
+    "path": "suegra.mp4",
+    "bytes": 679038,
+    "sha256": "E57D3A4E5CB1A689A162B16CE390A2F1FA7E45CEACF21B454822142753CDEA88",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "15a712a74d79521e83bb6cf33684ec38a963048f"
+  },
+  {
+    "path": "suegro.mp4",
+    "bytes": 364062,
+    "sha256": "82FE20B97485FECB8AE0687562ADA82C78093C6A9937370290E9FF379D94BD58",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "b352f2b40d5b712918c7ec4399f33aa773ba01bc"
+  },
+  {
+    "path": "surf.mp4",
+    "bytes": 627463,
+    "sha256": "B1E48A773A45E1F4C54837C5AF368EE44C02CE22C7CB4A3637E0F106E8BC927A",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "c60104faba3ddc8c7154278455152c818da7d8a9"
+  },
+  {
+    "path": "ta.mp4",
+    "bytes": 751448,
+    "sha256": "D5EE931C5BFDEC870E0D6979DD372626C74906B6E9ADC7190F1EF44473600D32",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "d8628c9d021ad93a1ed4469510a9f9b88af25173"
+  },
+  {
+    "path": "tenedor.mp4",
+    "bytes": 529705,
+    "sha256": "49E906A0D8DD831810443C7A0F0E8FA2B0405D5F5E3B97275A3914FC11C359B5",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "76de291b8058c475be067345c2c1e9f62812c91e"
+  },
+  {
+    "path": "tenermuchoshumos.mp4",
+    "bytes": 385032,
+    "sha256": "AD6F40039E0A949F03977C66E326EE06CF6B3CF0547F1C3D09310FF52D12297E",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "a8f570f4766c236b42a220206739324fe0c327ce"
+  },
+  {
+    "path": "tenis.mp4",
+    "bytes": 749658,
+    "sha256": "EC95673ED88375D54D7A45CE9EFFF0940FEC268EF39F5168CCB639AE35E52455",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "06cc5876b12784d5d601c3db8b312f31a0f71071"
+  },
+  {
+    "path": "tiroconarco.mp4",
+    "bytes": 362449,
+    "sha256": "AB136FAACEE205973F6C60FD5E89D733B91A64096BD88605D3FFB2977DAF65BA",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "08b1de51d98e675d0794831493ca29c121801c24"
+  },
+  {
+    "path": "to.mp4",
+    "bytes": 458058,
+    "sha256": "CF0CB7F47384C4A33E8171AC893C591779F7CEC80071B3A79BA4E35A45B56240",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "51483b749bd25802eecf93bbc1579d4aeb323c68"
+  },
+  {
+    "path": "tontodecapirote.mp4",
+    "bytes": 425014,
+    "sha256": "E796697D1A8EDCC2DCEA0FDE33F2C36FC35B0383924C8A3EAD8C9AB42B4A7168",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "651d1b02ec8f88c4ebff2733183dbcc100e3c6d8"
+  },
+  {
+    "path": "traje.mp4",
+    "bytes": 640323,
+    "sha256": "CB34243DE10EE6CF4337DC08AE03F7FF116FE529CF6341D689E8A5816E220C93",
+    "archive": "palabras_05.zip",
+    "stable": true,
+    "git_blob_sha1": "a6e9ab55cbe2359b838c8b61fc2aba9114bd7d3f"
+  },
+  {
+    "path": "tranquiloa.mp4",
+    "bytes": 1078104,
+    "sha256": "949E46144ADFCB6350C14D4413E0DFC0747D0226B15266DA752B435BC774E633",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "d95f7d2d7692df0632a772ca77916280728cee77"
+  },
+  {
+    "path": "transportes.mp4",
+    "bytes": 979440,
+    "sha256": "72A74368A69A54111DCCC2BD47C88BFACEC31E5092987623C3D45D1A8E9F88A6",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "e341c529aee083d580f106166d2688b302503e51"
+  },
+  {
+    "path": "tranva.mp4",
+    "bytes": 636640,
+    "sha256": "BA836A43031E7C9EC0A1A8935DE55465B52213E5E4B8F3DA05FB7E1D5D66A8C0",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "7b31ed1f5b02bc2749a268fa92420f293d3c279a"
+  },
+  {
+    "path": "tren.mp4",
+    "bytes": 296790,
+    "sha256": "A79784665B6D594A778E4111EBBC7B3C484404B01350B01DF6FA1039419B8E26",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "02778005d74f27913548dcdf3cdf09b484e5dbc2"
+  },
+  {
+    "path": "triste.mp4",
+    "bytes": 845273,
+    "sha256": "0AD684B1D24944466C79F8A144B8D00C029A5D9034F76B8FB25BC8DD64329A7B",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "be93fc00b2d3dcf36ef3d2d4573609f8c704042a"
+  },
+  {
+    "path": "vagoaperezosoa.mp4",
+    "bytes": 471278,
+    "sha256": "9BEED0D4B50B2BAD31DE3ACB011D86FDAC2F199A9FE99B409839B7A1F8648D94",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "fa3e15987f074e863c5eaace085b4830bff12bec"
+  },
+  {
+    "path": "vaso.mp4",
+    "bytes": 649566,
+    "sha256": "AE3E18BBB7AA03697B85415BE24F69B42A28F0BE97C7019FED0F0734413E7D05",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "c32bd05df304cadc18ca0efb39b18175f89fab22"
+  },
+  {
+    "path": "verde.mp4",
+    "bytes": 752800,
+    "sha256": "1F3B6F1BAD577725693F061E4B3ED9B86E381E3C46B2498DF943DC3068DD60FD",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "1d04f206c717cf4f477dc82759d9aabea350dd67"
+  },
+  {
+    "path": "vestidodenovia.mp4",
+    "bytes": 359121,
+    "sha256": "6AA3DA9F66513EB14F57174FFA6F82CBAEF8C3F0C4191CCF1C1168D75A872F1B",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "7cda456564cf42e8981c0cc498e127718643b5f5"
+  },
+  {
+    "path": "vetealaporra.mp4",
+    "bytes": 404079,
+    "sha256": "1DAC24DF334B66C3266AAA67CAE11B55BB3DCB80FD170463EACFCBF8AA63F037",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "7dbd8fa9ad43e7f69dfedb9f9839f4999e652db1"
+  },
+  {
+    "path": "vital.mp4",
+    "bytes": 584067,
+    "sha256": "E0DD7E94C8437A69794251594039A7348658750000F7D7F2CE40A8402A747890",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "5f0a096b9c58a358e6b6d735f23306a1c0312249"
+  },
+  {
+    "path": "vivanlosnovios.mp4",
+    "bytes": 444038,
+    "sha256": "135A3ECAF0B689FF7336235F19BC44E1A3B39177BA1CD8F22B271761645D482A",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "197a038a64920781f57489adc5867e375adf3486"
+  },
+  {
+    "path": "voleibol.mp4",
+    "bytes": 627463,
+    "sha256": "2516943693A3CDABFA7129DC794F33712E35EEBFBEC53BAB4C5EC8A34523E206",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "dc83b6405cafc0bba6b7ad45053d6b7b0743c6f9"
+  },
+  {
+    "path": "vrseleelplumero.mp4",
+    "bytes": 555822,
+    "sha256": "17A1E51304E7162DBFEDB6809A17BF2432374AAE56450407AA0C0416C109F4E4",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "76476ea94625cce1ea19ae33b649e42de456b493"
+  },
+  {
+    "path": "yerno.mp4",
+    "bytes": 302181,
+    "sha256": "FDC1695E50DA80AC61EDFB44AD19FC13B3C3E01DC80A75B8353876365478B3E9",
+    "archive": "palabras_06.zip",
+    "stable": true,
+    "git_blob_sha1": "27848228e0bf4fa3598ec4d75c882a8a7f49ca8b"
+  }
+]
