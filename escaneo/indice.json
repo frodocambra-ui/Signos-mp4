@@ -12,56 +12,56 @@
   {
    "archivo": "a.json",
    "n": 89,
-   "bytes": 18102218,
-   "sha1": "4c5c8ff89391"
+   "bytes": 9967222,
+   "sha1": "356e442c14b9"
   },
   {
    "archivo": "b.json",
    "n": 40,
-   "bytes": 7105041,
-   "sha1": "05f07496ad74"
+   "bytes": 5253808,
+   "sha1": "bf2cbb7f6504"
   },
   {
    "archivo": "c.json",
    "n": 89,
-   "bytes": 16533139,
-   "sha1": "66b6e836a2f2"
+   "bytes": 10167806,
+   "sha1": "a4b9f165d19a"
   },
   {
    "archivo": "d.json",
    "n": 47,
-   "bytes": 9834529,
-   "sha1": "bd1230a302f3"
+   "bytes": 6381238,
+   "sha1": "4acdcc47e78d"
   },
   {
    "archivo": "e.json",
    "n": 47,
-   "bytes": 9163469,
-   "sha1": "feac8198e311"
+   "bytes": 5182470,
+   "sha1": "03a25a2c476d"
   },
   {
    "archivo": "f.json",
    "n": 17,
-   "bytes": 2679300,
-   "sha1": "24d2570a734c"
+   "bytes": 2056292,
+   "sha1": "48d135e09731"
   },
   {
    "archivo": "g.json",
    "n": 22,
-   "bytes": 4156427,
-   "sha1": "89c714d1f879"
+   "bytes": 2547197,
+   "sha1": "9065c8ba2bbe"
   },
   {
    "archivo": "h.json",
    "n": 32,
-   "bytes": 5715966,
-   "sha1": "0a732c0865ef"
+   "bytes": 3804433,
+   "sha1": "0ea561d98a97"
   },
   {
    "archivo": "i.json",
    "n": 16,
-   "bytes": 3528269,
-   "sha1": "40012f6758b4"
+   "bytes": 2182259,
+   "sha1": "227137f4a388"
   },
   {
    "archivo": "j.json",
@@ -72,68 +72,68 @@
   {
    "archivo": "l.json",
    "n": 15,
-   "bytes": 2784680,
-   "sha1": "8852becfae11"
+   "bytes": 2143007,
+   "sha1": "17aa0e17a48a"
   },
   {
    "archivo": "m.json",
    "n": 53,
-   "bytes": 10087239,
-   "sha1": "a74e3f51f22c"
+   "bytes": 6124446,
+   "sha1": "e99eaae609be"
   },
   {
    "archivo": "n.json",
    "n": 26,
-   "bytes": 4168358,
-   "sha1": "006306a0f0c8"
+   "bytes": 3144549,
+   "sha1": "fdbc5627cff5"
   },
   {
    "archivo": "o.json",
    "n": 20,
-   "bytes": 3691130,
-   "sha1": "5b2e4ce6f561"
+   "bytes": 2716368,
+   "sha1": "2436bf822d59"
   },
   {
    "archivo": "p.json",
    "n": 63,
-   "bytes": 10249736,
-   "sha1": "69f5f26d0ffe"
+   "bytes": 7759214,
+   "sha1": "9a461ff7aa3b"
   },
   {
    "archivo": "q.json",
    "n": 9,
-   "bytes": 1373538,
-   "sha1": "7de3e3cdc8ca"
+   "bytes": 1051448,
+   "sha1": "9db5a5e5bc57"
   },
   {
    "archivo": "r.json",
    "n": 33,
-   "bytes": 7173048,
-   "sha1": "6bf41f2f81a6"
+   "bytes": 4188651,
+   "sha1": "5573b835c468"
   },
   {
    "archivo": "s.json",
    "n": 48,
-   "bytes": 7864868,
-   "sha1": "7ee05ef42269"
+   "bytes": 5876857,
+   "sha1": "f3a05ab0320a"
   },
   {
    "archivo": "t.json",
    "n": 37,
-   "bytes": 6484179,
-   "sha1": "af1c2f8a23b1"
+   "bytes": 4813067,
+   "sha1": "2b84d7cc4f13"
   },
   {
    "archivo": "u.json",
    "n": 4,
-   "bytes": 721516,
-   "sha1": "b5ecbd2450da"
+   "bytes": 555567,
+   "sha1": "f5ed261e31bb"
   },
   {
    "archivo": "v.json",
    "n": 35,
-   "bytes": 6956510,
-   "sha1": "90b5bf845d71"
+   "bytes": 3953790,
+   "sha1": "6b8bbc01cbe6"
   },
   {
    "archivo": "w.json",
@@ -152,6 +152,128 @@
    "n": 4,
    "bytes": 646633,
    "sha1": "0a0a16e657a4"
+  }
+ ],
+ "variantes": [
+  {
+   "archivo": "var_a.json",
+   "n": 35,
+   "bytes": 8136102,
+   "sha1": "1deb46daeaf4"
+  },
+  {
+   "archivo": "var_b.json",
+   "n": 9,
+   "bytes": 1851510,
+   "sha1": "7d6616dfb788"
+  },
+  {
+   "archivo": "var_c.json",
+   "n": 35,
+   "bytes": 6366392,
+   "sha1": "52cd28bc1f0c"
+  },
+  {
+   "archivo": "var_d.json",
+   "n": 20,
+   "bytes": 3453903,
+   "sha1": "e548496d6ff2"
+  },
+  {
+   "archivo": "var_e.json",
+   "n": 21,
+   "bytes": 3981625,
+   "sha1": "a3a8e6d94c57"
+  },
+  {
+   "archivo": "var_f.json",
+   "n": 4,
+   "bytes": 623130,
+   "sha1": "5eba8dc5021c"
+  },
+  {
+   "archivo": "var_g.json",
+   "n": 7,
+   "bytes": 1609441,
+   "sha1": "7fbb1f0c0851"
+  },
+  {
+   "archivo": "var_h.json",
+   "n": 12,
+   "bytes": 1911843,
+   "sha1": "c13fbb80b41f"
+  },
+  {
+   "archivo": "var_i.json",
+   "n": 7,
+   "bytes": 1346239,
+   "sha1": "106ca1a710e8"
+  },
+  {
+   "archivo": "var_l.json",
+   "n": 2,
+   "bytes": 641755,
+   "sha1": "4fb7453b3483"
+  },
+  {
+   "archivo": "var_m.json",
+   "n": 23,
+   "bytes": 3963458,
+   "sha1": "ad073072fedd"
+  },
+  {
+   "archivo": "var_n.json",
+   "n": 6,
+   "bytes": 1023960,
+   "sha1": "59e23230c6ee"
+  },
+  {
+   "archivo": "var_o.json",
+   "n": 6,
+   "bytes": 974935,
+   "sha1": "8fa6cbc94bb5"
+  },
+  {
+   "archivo": "var_p.json",
+   "n": 12,
+   "bytes": 2490877,
+   "sha1": "6db2579569c7"
+  },
+  {
+   "archivo": "var_q.json",
+   "n": 2,
+   "bytes": 322162,
+   "sha1": "220504836e98"
+  },
+  {
+   "archivo": "var_r.json",
+   "n": 11,
+   "bytes": 2984822,
+   "sha1": "8fa77c8aee52"
+  },
+  {
+   "archivo": "var_s.json",
+   "n": 12,
+   "bytes": 1988379,
+   "sha1": "59a9548e6791"
+  },
+  {
+   "archivo": "var_t.json",
+   "n": 9,
+   "bytes": 1671356,
+   "sha1": "521991444b0b"
+  },
+  {
+   "archivo": "var_u.json",
+   "n": 1,
+   "bytes": 165985,
+   "sha1": "12463178dde3"
+  },
+  {
+   "archivo": "var_v.json",
+   "n": 13,
+   "bytes": 3003107,
+   "sha1": "1f2dd4a5eb91"
   }
  ]
 }
