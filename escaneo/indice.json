@@ -1,0 +1,157 @@
+{
+ "version": "2026-11-26",
+ "formato": "palabras con puntos (pose, mano_izq, mano_der, cara, blendshapes) por fotograma, centrados entre hombros",
+ "n_palabras": 739,
+ "partes": [
+  {
+   "archivo": "0.json",
+   "n": 1,
+   "bytes": 82961,
+   "sha1": "68ced1f43382"
+  },
+  {
+   "archivo": "a.json",
+   "n": 87,
+   "bytes": 5293564,
+   "sha1": "84d9fa0b8fa9"
+  },
+  {
+   "archivo": "b.json",
+   "n": 39,
+   "bytes": 4240134,
+   "sha1": "363f8bdccab8"
+  },
+  {
+   "archivo": "c.json",
+   "n": 80,
+   "bytes": 6543770,
+   "sha1": "c8b39d14e54c"
+  },
+  {
+   "archivo": "d.json",
+   "n": 46,
+   "bytes": 4309046,
+   "sha1": "87f620dca738"
+  },
+  {
+   "archivo": "e.json",
+   "n": 43,
+   "bytes": 2939353,
+   "sha1": "e3573b92e619"
+  },
+  {
+   "archivo": "f.json",
+   "n": 17,
+   "bytes": 1679430,
+   "sha1": "539a701cb720"
+  },
+  {
+   "archivo": "g.json",
+   "n": 21,
+   "bytes": 1622621,
+   "sha1": "9777e6e478f0"
+  },
+  {
+   "archivo": "h.json",
+   "n": 32,
+   "bytes": 2693193,
+   "sha1": "c50ed52696f0"
+  },
+  {
+   "archivo": "i.json",
+   "n": 16,
+   "bytes": 1450126,
+   "sha1": "67599c170255"
+  },
+  {
+   "archivo": "j.json",
+   "n": 8,
+   "bytes": 1293114,
+   "sha1": "f158ce1e6205"
+  },
+  {
+   "archivo": "l.json",
+   "n": 15,
+   "bytes": 1784112,
+   "sha1": "92b6562612ab"
+  },
+  {
+   "archivo": "m.json",
+   "n": 52,
+   "bytes": 3843041,
+   "sha1": "2946bea8a2c3"
+  },
+  {
+   "archivo": "n.json",
+   "n": 26,
+   "bytes": 2575529,
+   "sha1": "c4571f274d17"
+  },
+  {
+   "archivo": "o.json",
+   "n": 19,
+   "bytes": 2147958,
+   "sha1": "462394ca4a7d"
+  },
+  {
+   "archivo": "p.json",
+   "n": 63,
+   "bytes": 6232250,
+   "sha1": "e63a988ca2bc"
+  },
+  {
+   "archivo": "q.json",
+   "n": 9,
+   "bytes": 859876,
+   "sha1": "dac59ff04f5e"
+  },
+  {
+   "archivo": "r.json",
+   "n": 33,
+   "bytes": 2511997,
+   "sha1": "43bfc43bf8be"
+  },
+  {
+   "archivo": "s.json",
+   "n": 46,
+   "bytes": 4742812,
+   "sha1": "e5e5f9de4a89"
+  },
+  {
+   "archivo": "t.json",
+   "n": 37,
+   "bytes": 3890427,
+   "sha1": "17580c3dcca0"
+  },
+  {
+   "archivo": "u.json",
+   "n": 4,
+   "bytes": 463163,
+   "sha1": "91843df71621"
+  },
+  {
+   "archivo": "v.json",
+   "n": 34,
+   "bytes": 2288886,
+   "sha1": "cab15c3593d2"
+  },
+  {
+   "archivo": "w.json",
+   "n": 1,
+   "bytes": 162539,
+   "sha1": "d95d61b78d99"
+  },
+  {
+   "archivo": "y.json",
+   "n": 6,
+   "bytes": 809713,
+   "sha1": "426db765108e"
+  },
+  {
+   "archivo": "z.json",
+   "n": 4,
+   "bytes": 646633,
+   "sha1": "0a0a16e657a4"
+  }
+ ]
+}
