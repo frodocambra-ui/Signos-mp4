@@ -1,7 +1,7 @@
 {
  "version": "2026-11-26",
  "formato": "palabras con puntos (pose, mano_izq, mano_der, cara, blendshapes) por fotograma, centrados entre hombros",
- "n_palabras": 739,
+ "n_palabras": 762,
  "partes": [
   {
    "archivo": "0.json",
@@ -11,57 +11,57 @@
   },
   {
    "archivo": "a.json",
-   "n": 87,
-   "bytes": 5293564,
-   "sha1": "84d9fa0b8fa9"
+   "n": 89,
+   "bytes": 9967222,
+   "sha1": "356e442c14b9"
   },
   {
    "archivo": "b.json",
-   "n": 39,
-   "bytes": 4240134,
-   "sha1": "363f8bdccab8"
+   "n": 40,
+   "bytes": 5253808,
+   "sha1": "bf2cbb7f6504"
   },
   {
    "archivo": "c.json",
-   "n": 80,
-   "bytes": 6543770,
-   "sha1": "c8b39d14e54c"
+   "n": 89,
+   "bytes": 10167806,
+   "sha1": "a4b9f165d19a"
   },
   {
    "archivo": "d.json",
-   "n": 46,
-   "bytes": 4309046,
-   "sha1": "87f620dca738"
+   "n": 47,
+   "bytes": 6381238,
+   "sha1": "4acdcc47e78d"
   },
   {
    "archivo": "e.json",
-   "n": 43,
-   "bytes": 2939353,
-   "sha1": "e3573b92e619"
+   "n": 47,
+   "bytes": 5182470,
+   "sha1": "03a25a2c476d"
   },
   {
    "archivo": "f.json",
    "n": 17,
-   "bytes": 1679430,
-   "sha1": "539a701cb720"
+   "bytes": 2056292,
+   "sha1": "48d135e09731"
   },
   {
    "archivo": "g.json",
-   "n": 21,
-   "bytes": 1622621,
-   "sha1": "9777e6e478f0"
+   "n": 22,
+   "bytes": 2547197,
+   "sha1": "9065c8ba2bbe"
   },
   {
    "archivo": "h.json",
    "n": 32,
-   "bytes": 2693193,
-   "sha1": "c50ed52696f0"
+   "bytes": 3804433,
+   "sha1": "0ea561d98a97"
   },
   {
    "archivo": "i.json",
    "n": 16,
-   "bytes": 1450126,
-   "sha1": "67599c170255"
+   "bytes": 2182259,
+   "sha1": "227137f4a388"
   },
   {
    "archivo": "j.json",
@@ -72,68 +72,68 @@
   {
    "archivo": "l.json",
    "n": 15,
-   "bytes": 1784112,
-   "sha1": "92b6562612ab"
+   "bytes": 2143007,
+   "sha1": "17aa0e17a48a"
   },
   {
    "archivo": "m.json",
-   "n": 52,
-   "bytes": 3843041,
-   "sha1": "2946bea8a2c3"
+   "n": 53,
+   "bytes": 6124446,
+   "sha1": "e99eaae609be"
   },
   {
    "archivo": "n.json",
    "n": 26,
-   "bytes": 2575529,
-   "sha1": "c4571f274d17"
+   "bytes": 3144549,
+   "sha1": "fdbc5627cff5"
   },
   {
    "archivo": "o.json",
-   "n": 19,
-   "bytes": 2147958,
-   "sha1": "462394ca4a7d"
+   "n": 20,
+   "bytes": 2716368,
+   "sha1": "2436bf822d59"
   },
   {
    "archivo": "p.json",
    "n": 63,
-   "bytes": 6232250,
-   "sha1": "e63a988ca2bc"
+   "bytes": 7759214,
+   "sha1": "9a461ff7aa3b"
   },
   {
    "archivo": "q.json",
    "n": 9,
-   "bytes": 859876,
-   "sha1": "dac59ff04f5e"
+   "bytes": 1051448,
+   "sha1": "9db5a5e5bc57"
   },
   {
    "archivo": "r.json",
    "n": 33,
-   "bytes": 2511997,
-   "sha1": "43bfc43bf8be"
+   "bytes": 4188651,
+   "sha1": "5573b835c468"
   },
   {
    "archivo": "s.json",
-   "n": 46,
-   "bytes": 4742812,
-   "sha1": "e5e5f9de4a89"
+   "n": 48,
+   "bytes": 5876857,
+   "sha1": "f3a05ab0320a"
   },
   {
    "archivo": "t.json",
    "n": 37,
-   "bytes": 3890427,
-   "sha1": "17580c3dcca0"
+   "bytes": 4813067,
+   "sha1": "2b84d7cc4f13"
   },
   {
    "archivo": "u.json",
    "n": 4,
-   "bytes": 463163,
-   "sha1": "91843df71621"
+   "bytes": 555567,
+   "sha1": "f5ed261e31bb"
   },
   {
    "archivo": "v.json",
-   "n": 34,
-   "bytes": 2288886,
-   "sha1": "cab15c3593d2"
+   "n": 35,
+   "bytes": 3953790,
+   "sha1": "6b8bbc01cbe6"
   },
   {
    "archivo": "w.json",
