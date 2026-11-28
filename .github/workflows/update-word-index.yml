@@ -1,0 +1,37 @@
+name: Actualizar índice de palabras
+
+on:
+  push:
+    paths:
+      - 'videos/nelson/palabras/**'
+      - 'videos/lse/palabras/**'
+      - 'scripts/update-word-index.py'
+      - '.github/workflows/update-word-index.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generar índice
+        run: python scripts/update-word-index.py
+      - name: Publicar índice
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add indexes/palabras.json
+          if git diff --cached --quiet; then
+            echo Sin cambios
+          else
+            git commit -m "Actualiza el índice de palabras de Nelson y LSE"
+            git push
+          fi
